@@ -1,5 +1,13 @@
 /home/wang/github/CPlusPlus/build/CMakeFiles/rebuild_cache.dir
 /home/wang/github/CPlusPlus/build/CMakeFiles/edit_cache.dir
 /home/wang/github/CPlusPlus/build/c01/CMakeFiles/rebuild_cache.dir
-/home/wang/github/CPlusPlus/build/c01/CMakeFiles/edit_cache.dir
 /home/wang/github/CPlusPlus/build/c01/CMakeFiles/main.dir
+/home/wang/github/CPlusPlus/build/c01/CMakeFiles/structtest.dir
+/home/wang/github/CPlusPlus/build/c01/CMakeFiles/helloworld.dir
+/home/wang/github/CPlusPlus/build/c01/CMakeFiles/usingnamespaces.dir
+/home/wang/github/CPlusPlus/build/c01/CMakeFiles/stdarray.dir
+/home/wang/github/CPlusPlus/build/c01/CMakeFiles/strongtypedenums.dir
+/home/wang/github/CPlusPlus/build/c01/CMakeFiles/typetest.dir
+/home/wang/github/CPlusPlus/build/c01/CMakeFiles/variables.dir
+/home/wang/github/CPlusPlus/build/c01/CMakeFiles/alternativefunctionsyntax.dir
+/home/wang/github/CPlusPlus/build/c01/CMakeFiles/edit_cache.dir

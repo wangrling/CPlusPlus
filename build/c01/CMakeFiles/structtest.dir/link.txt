@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/structtest.dir/structtest.cpp.o  -o structtest -rdynamic 

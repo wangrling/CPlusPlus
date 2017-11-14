@@ -44,4 +44,12 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "c01/CMakeFiles/main.dir/DependInfo.cmake"
+  "c01/CMakeFiles/structtest.dir/DependInfo.cmake"
+  "c01/CMakeFiles/helloworld.dir/DependInfo.cmake"
+  "c01/CMakeFiles/usingnamespaces.dir/DependInfo.cmake"
+  "c01/CMakeFiles/stdarray.dir/DependInfo.cmake"
+  "c01/CMakeFiles/strongtypedenums.dir/DependInfo.cmake"
+  "c01/CMakeFiles/typetest.dir/DependInfo.cmake"
+  "c01/CMakeFiles/variables.dir/DependInfo.cmake"
+  "c01/CMakeFiles/alternativefunctionsyntax.dir/DependInfo.cmake"
   )

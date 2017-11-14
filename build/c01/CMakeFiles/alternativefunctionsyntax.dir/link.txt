@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/alternativefunctionsyntax.dir/alternativefunctionsyntax.cpp.o  -o alternativefunctionsyntax -rdynamic 

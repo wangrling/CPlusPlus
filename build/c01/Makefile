@@ -125,6 +125,180 @@ main/fast:
 	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/main.dir/build.make c01/CMakeFiles/main.dir/build
 .PHONY : main/fast
 
+# Convenience name for target.
+c01/CMakeFiles/structtest.dir/rule:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f CMakeFiles/Makefile2 c01/CMakeFiles/structtest.dir/rule
+.PHONY : c01/CMakeFiles/structtest.dir/rule
+
+# Convenience name for target.
+structtest: c01/CMakeFiles/structtest.dir/rule
+
+.PHONY : structtest
+
+# fast build rule for target.
+structtest/fast:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/structtest.dir/build.make c01/CMakeFiles/structtest.dir/build
+.PHONY : structtest/fast
+
+# Convenience name for target.
+c01/CMakeFiles/helloworld.dir/rule:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f CMakeFiles/Makefile2 c01/CMakeFiles/helloworld.dir/rule
+.PHONY : c01/CMakeFiles/helloworld.dir/rule
+
+# Convenience name for target.
+helloworld: c01/CMakeFiles/helloworld.dir/rule
+
+.PHONY : helloworld
+
+# fast build rule for target.
+helloworld/fast:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/helloworld.dir/build.make c01/CMakeFiles/helloworld.dir/build
+.PHONY : helloworld/fast
+
+# Convenience name for target.
+c01/CMakeFiles/usingnamespaces.dir/rule:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f CMakeFiles/Makefile2 c01/CMakeFiles/usingnamespaces.dir/rule
+.PHONY : c01/CMakeFiles/usingnamespaces.dir/rule
+
+# Convenience name for target.
+usingnamespaces: c01/CMakeFiles/usingnamespaces.dir/rule
+
+.PHONY : usingnamespaces
+
+# fast build rule for target.
+usingnamespaces/fast:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/usingnamespaces.dir/build.make c01/CMakeFiles/usingnamespaces.dir/build
+.PHONY : usingnamespaces/fast
+
+# Convenience name for target.
+c01/CMakeFiles/stdarray.dir/rule:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f CMakeFiles/Makefile2 c01/CMakeFiles/stdarray.dir/rule
+.PHONY : c01/CMakeFiles/stdarray.dir/rule
+
+# Convenience name for target.
+stdarray: c01/CMakeFiles/stdarray.dir/rule
+
+.PHONY : stdarray
+
+# fast build rule for target.
+stdarray/fast:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/stdarray.dir/build.make c01/CMakeFiles/stdarray.dir/build
+.PHONY : stdarray/fast
+
+# Convenience name for target.
+c01/CMakeFiles/strongtypedenums.dir/rule:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f CMakeFiles/Makefile2 c01/CMakeFiles/strongtypedenums.dir/rule
+.PHONY : c01/CMakeFiles/strongtypedenums.dir/rule
+
+# Convenience name for target.
+strongtypedenums: c01/CMakeFiles/strongtypedenums.dir/rule
+
+.PHONY : strongtypedenums
+
+# fast build rule for target.
+strongtypedenums/fast:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/strongtypedenums.dir/build.make c01/CMakeFiles/strongtypedenums.dir/build
+.PHONY : strongtypedenums/fast
+
+# Convenience name for target.
+c01/CMakeFiles/typetest.dir/rule:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f CMakeFiles/Makefile2 c01/CMakeFiles/typetest.dir/rule
+.PHONY : c01/CMakeFiles/typetest.dir/rule
+
+# Convenience name for target.
+typetest: c01/CMakeFiles/typetest.dir/rule
+
+.PHONY : typetest
+
+# fast build rule for target.
+typetest/fast:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/typetest.dir/build.make c01/CMakeFiles/typetest.dir/build
+.PHONY : typetest/fast
+
+# Convenience name for target.
+c01/CMakeFiles/variables.dir/rule:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f CMakeFiles/Makefile2 c01/CMakeFiles/variables.dir/rule
+.PHONY : c01/CMakeFiles/variables.dir/rule
+
+# Convenience name for target.
+variables: c01/CMakeFiles/variables.dir/rule
+
+.PHONY : variables
+
+# fast build rule for target.
+variables/fast:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/variables.dir/build.make c01/CMakeFiles/variables.dir/build
+.PHONY : variables/fast
+
+# Convenience name for target.
+c01/CMakeFiles/alternativefunctionsyntax.dir/rule:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f CMakeFiles/Makefile2 c01/CMakeFiles/alternativefunctionsyntax.dir/rule
+.PHONY : c01/CMakeFiles/alternativefunctionsyntax.dir/rule
+
+# Convenience name for target.
+alternativefunctionsyntax: c01/CMakeFiles/alternativefunctionsyntax.dir/rule
+
+.PHONY : alternativefunctionsyntax
+
+# fast build rule for target.
+alternativefunctionsyntax/fast:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/alternativefunctionsyntax.dir/build.make c01/CMakeFiles/alternativefunctionsyntax.dir/build
+.PHONY : alternativefunctionsyntax/fast
+
+alternativefunctionsyntax.o: alternativefunctionsyntax.cpp.o
+
+.PHONY : alternativefunctionsyntax.o
+
+# target to build an object file
+alternativefunctionsyntax.cpp.o:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/alternativefunctionsyntax.dir/build.make c01/CMakeFiles/alternativefunctionsyntax.dir/alternativefunctionsyntax.cpp.o
+.PHONY : alternativefunctionsyntax.cpp.o
+
+alternativefunctionsyntax.i: alternativefunctionsyntax.cpp.i
+
+.PHONY : alternativefunctionsyntax.i
+
+# target to preprocess a source file
+alternativefunctionsyntax.cpp.i:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/alternativefunctionsyntax.dir/build.make c01/CMakeFiles/alternativefunctionsyntax.dir/alternativefunctionsyntax.cpp.i
+.PHONY : alternativefunctionsyntax.cpp.i
+
+alternativefunctionsyntax.s: alternativefunctionsyntax.cpp.s
+
+.PHONY : alternativefunctionsyntax.s
+
+# target to generate assembly for a file
+alternativefunctionsyntax.cpp.s:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/alternativefunctionsyntax.dir/build.make c01/CMakeFiles/alternativefunctionsyntax.dir/alternativefunctionsyntax.cpp.s
+.PHONY : alternativefunctionsyntax.cpp.s
+
+helloworld.o: helloworld.cpp.o
+
+.PHONY : helloworld.o
+
+# target to build an object file
+helloworld.cpp.o:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/helloworld.dir/build.make c01/CMakeFiles/helloworld.dir/helloworld.cpp.o
+.PHONY : helloworld.cpp.o
+
+helloworld.i: helloworld.cpp.i
+
+.PHONY : helloworld.i
+
+# target to preprocess a source file
+helloworld.cpp.i:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/helloworld.dir/build.make c01/CMakeFiles/helloworld.dir/helloworld.cpp.i
+.PHONY : helloworld.cpp.i
+
+helloworld.s: helloworld.cpp.s
+
+.PHONY : helloworld.s
+
+# target to generate assembly for a file
+helloworld.cpp.s:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/helloworld.dir/build.make c01/CMakeFiles/helloworld.dir/helloworld.cpp.s
+.PHONY : helloworld.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -152,6 +326,195 @@ main.cpp.s:
 	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/main.dir/build.make c01/CMakeFiles/main.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+namespaces.o: namespaces.cpp.o
+
+.PHONY : namespaces.o
+
+# target to build an object file
+namespaces.cpp.o:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/usingnamespaces.dir/build.make c01/CMakeFiles/usingnamespaces.dir/namespaces.cpp.o
+.PHONY : namespaces.cpp.o
+
+namespaces.i: namespaces.cpp.i
+
+.PHONY : namespaces.i
+
+# target to preprocess a source file
+namespaces.cpp.i:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/usingnamespaces.dir/build.make c01/CMakeFiles/usingnamespaces.dir/namespaces.cpp.i
+.PHONY : namespaces.cpp.i
+
+namespaces.s: namespaces.cpp.s
+
+.PHONY : namespaces.s
+
+# target to generate assembly for a file
+namespaces.cpp.s:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/usingnamespaces.dir/build.make c01/CMakeFiles/usingnamespaces.dir/namespaces.cpp.s
+.PHONY : namespaces.cpp.s
+
+stdarray.o: stdarray.cpp.o
+
+.PHONY : stdarray.o
+
+# target to build an object file
+stdarray.cpp.o:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/stdarray.dir/build.make c01/CMakeFiles/stdarray.dir/stdarray.cpp.o
+.PHONY : stdarray.cpp.o
+
+stdarray.i: stdarray.cpp.i
+
+.PHONY : stdarray.i
+
+# target to preprocess a source file
+stdarray.cpp.i:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/stdarray.dir/build.make c01/CMakeFiles/stdarray.dir/stdarray.cpp.i
+.PHONY : stdarray.cpp.i
+
+stdarray.s: stdarray.cpp.s
+
+.PHONY : stdarray.s
+
+# target to generate assembly for a file
+stdarray.cpp.s:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/stdarray.dir/build.make c01/CMakeFiles/stdarray.dir/stdarray.cpp.s
+.PHONY : stdarray.cpp.s
+
+strongtypedenums.o: strongtypedenums.cpp.o
+
+.PHONY : strongtypedenums.o
+
+# target to build an object file
+strongtypedenums.cpp.o:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/strongtypedenums.dir/build.make c01/CMakeFiles/strongtypedenums.dir/strongtypedenums.cpp.o
+.PHONY : strongtypedenums.cpp.o
+
+strongtypedenums.i: strongtypedenums.cpp.i
+
+.PHONY : strongtypedenums.i
+
+# target to preprocess a source file
+strongtypedenums.cpp.i:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/strongtypedenums.dir/build.make c01/CMakeFiles/strongtypedenums.dir/strongtypedenums.cpp.i
+.PHONY : strongtypedenums.cpp.i
+
+strongtypedenums.s: strongtypedenums.cpp.s
+
+.PHONY : strongtypedenums.s
+
+# target to generate assembly for a file
+strongtypedenums.cpp.s:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/strongtypedenums.dir/build.make c01/CMakeFiles/strongtypedenums.dir/strongtypedenums.cpp.s
+.PHONY : strongtypedenums.cpp.s
+
+structtest.o: structtest.cpp.o
+
+.PHONY : structtest.o
+
+# target to build an object file
+structtest.cpp.o:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/structtest.dir/build.make c01/CMakeFiles/structtest.dir/structtest.cpp.o
+.PHONY : structtest.cpp.o
+
+structtest.i: structtest.cpp.i
+
+.PHONY : structtest.i
+
+# target to preprocess a source file
+structtest.cpp.i:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/structtest.dir/build.make c01/CMakeFiles/structtest.dir/structtest.cpp.i
+.PHONY : structtest.cpp.i
+
+structtest.s: structtest.cpp.s
+
+.PHONY : structtest.s
+
+# target to generate assembly for a file
+structtest.cpp.s:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/structtest.dir/build.make c01/CMakeFiles/structtest.dir/structtest.cpp.s
+.PHONY : structtest.cpp.s
+
+typetest.o: typetest.cpp.o
+
+.PHONY : typetest.o
+
+# target to build an object file
+typetest.cpp.o:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/typetest.dir/build.make c01/CMakeFiles/typetest.dir/typetest.cpp.o
+.PHONY : typetest.cpp.o
+
+typetest.i: typetest.cpp.i
+
+.PHONY : typetest.i
+
+# target to preprocess a source file
+typetest.cpp.i:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/typetest.dir/build.make c01/CMakeFiles/typetest.dir/typetest.cpp.i
+.PHONY : typetest.cpp.i
+
+typetest.s: typetest.cpp.s
+
+.PHONY : typetest.s
+
+# target to generate assembly for a file
+typetest.cpp.s:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/typetest.dir/build.make c01/CMakeFiles/typetest.dir/typetest.cpp.s
+.PHONY : typetest.cpp.s
+
+usingnamespaces.o: usingnamespaces.cpp.o
+
+.PHONY : usingnamespaces.o
+
+# target to build an object file
+usingnamespaces.cpp.o:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/usingnamespaces.dir/build.make c01/CMakeFiles/usingnamespaces.dir/usingnamespaces.cpp.o
+.PHONY : usingnamespaces.cpp.o
+
+usingnamespaces.i: usingnamespaces.cpp.i
+
+.PHONY : usingnamespaces.i
+
+# target to preprocess a source file
+usingnamespaces.cpp.i:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/usingnamespaces.dir/build.make c01/CMakeFiles/usingnamespaces.dir/usingnamespaces.cpp.i
+.PHONY : usingnamespaces.cpp.i
+
+usingnamespaces.s: usingnamespaces.cpp.s
+
+.PHONY : usingnamespaces.s
+
+# target to generate assembly for a file
+usingnamespaces.cpp.s:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/usingnamespaces.dir/build.make c01/CMakeFiles/usingnamespaces.dir/usingnamespaces.cpp.s
+.PHONY : usingnamespaces.cpp.s
+
+variables.o: variables.cpp.o
+
+.PHONY : variables.o
+
+# target to build an object file
+variables.cpp.o:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/variables.dir/build.make c01/CMakeFiles/variables.dir/variables.cpp.o
+.PHONY : variables.cpp.o
+
+variables.i: variables.cpp.i
+
+.PHONY : variables.i
+
+# target to preprocess a source file
+variables.cpp.i:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/variables.dir/build.make c01/CMakeFiles/variables.dir/variables.cpp.i
+.PHONY : variables.cpp.i
+
+variables.s: variables.cpp.s
+
+.PHONY : variables.s
+
+# target to generate assembly for a file
+variables.cpp.s:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/variables.dir/build.make c01/CMakeFiles/variables.dir/variables.cpp.s
+.PHONY : variables.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -159,11 +522,46 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... edit_cache"
 	@echo "... main"
+	@echo "... structtest"
+	@echo "... helloworld"
+	@echo "... usingnamespaces"
+	@echo "... stdarray"
+	@echo "... strongtypedenums"
+	@echo "... typetest"
+	@echo "... variables"
+	@echo "... alternativefunctionsyntax"
+	@echo "... edit_cache"
+	@echo "... alternativefunctionsyntax.o"
+	@echo "... alternativefunctionsyntax.i"
+	@echo "... alternativefunctionsyntax.s"
+	@echo "... helloworld.o"
+	@echo "... helloworld.i"
+	@echo "... helloworld.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... namespaces.o"
+	@echo "... namespaces.i"
+	@echo "... namespaces.s"
+	@echo "... stdarray.o"
+	@echo "... stdarray.i"
+	@echo "... stdarray.s"
+	@echo "... strongtypedenums.o"
+	@echo "... strongtypedenums.i"
+	@echo "... strongtypedenums.s"
+	@echo "... structtest.o"
+	@echo "... structtest.i"
+	@echo "... structtest.s"
+	@echo "... typetest.o"
+	@echo "... typetest.i"
+	@echo "... typetest.s"
+	@echo "... usingnamespaces.o"
+	@echo "... usingnamespaces.i"
+	@echo "... usingnamespaces.s"
+	@echo "... variables.o"
+	@echo "... variables.i"
+	@echo "... variables.s"
 .PHONY : help
 
 

@@ -123,6 +123,110 @@ main/fast:
 	$(MAKE) -f c01/CMakeFiles/main.dir/build.make c01/CMakeFiles/main.dir/build
 .PHONY : main/fast
 
+#=============================================================================
+# Target rules for targets named structtest
+
+# Build rule for target.
+structtest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 structtest
+.PHONY : structtest
+
+# fast build rule for target.
+structtest/fast:
+	$(MAKE) -f c01/CMakeFiles/structtest.dir/build.make c01/CMakeFiles/structtest.dir/build
+.PHONY : structtest/fast
+
+#=============================================================================
+# Target rules for targets named helloworld
+
+# Build rule for target.
+helloworld: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 helloworld
+.PHONY : helloworld
+
+# fast build rule for target.
+helloworld/fast:
+	$(MAKE) -f c01/CMakeFiles/helloworld.dir/build.make c01/CMakeFiles/helloworld.dir/build
+.PHONY : helloworld/fast
+
+#=============================================================================
+# Target rules for targets named usingnamespaces
+
+# Build rule for target.
+usingnamespaces: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 usingnamespaces
+.PHONY : usingnamespaces
+
+# fast build rule for target.
+usingnamespaces/fast:
+	$(MAKE) -f c01/CMakeFiles/usingnamespaces.dir/build.make c01/CMakeFiles/usingnamespaces.dir/build
+.PHONY : usingnamespaces/fast
+
+#=============================================================================
+# Target rules for targets named stdarray
+
+# Build rule for target.
+stdarray: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 stdarray
+.PHONY : stdarray
+
+# fast build rule for target.
+stdarray/fast:
+	$(MAKE) -f c01/CMakeFiles/stdarray.dir/build.make c01/CMakeFiles/stdarray.dir/build
+.PHONY : stdarray/fast
+
+#=============================================================================
+# Target rules for targets named strongtypedenums
+
+# Build rule for target.
+strongtypedenums: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 strongtypedenums
+.PHONY : strongtypedenums
+
+# fast build rule for target.
+strongtypedenums/fast:
+	$(MAKE) -f c01/CMakeFiles/strongtypedenums.dir/build.make c01/CMakeFiles/strongtypedenums.dir/build
+.PHONY : strongtypedenums/fast
+
+#=============================================================================
+# Target rules for targets named typetest
+
+# Build rule for target.
+typetest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 typetest
+.PHONY : typetest
+
+# fast build rule for target.
+typetest/fast:
+	$(MAKE) -f c01/CMakeFiles/typetest.dir/build.make c01/CMakeFiles/typetest.dir/build
+.PHONY : typetest/fast
+
+#=============================================================================
+# Target rules for targets named variables
+
+# Build rule for target.
+variables: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 variables
+.PHONY : variables
+
+# fast build rule for target.
+variables/fast:
+	$(MAKE) -f c01/CMakeFiles/variables.dir/build.make c01/CMakeFiles/variables.dir/build
+.PHONY : variables/fast
+
+#=============================================================================
+# Target rules for targets named alternativefunctionsyntax
+
+# Build rule for target.
+alternativefunctionsyntax: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 alternativefunctionsyntax
+.PHONY : alternativefunctionsyntax
+
+# fast build rule for target.
+alternativefunctionsyntax/fast:
+	$(MAKE) -f c01/CMakeFiles/alternativefunctionsyntax.dir/build.make c01/CMakeFiles/alternativefunctionsyntax.dir/build
+.PHONY : alternativefunctionsyntax/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -132,6 +236,14 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... main"
+	@echo "... structtest"
+	@echo "... helloworld"
+	@echo "... usingnamespaces"
+	@echo "... stdarray"
+	@echo "... strongtypedenums"
+	@echo "... typetest"
+	@echo "... variables"
+	@echo "... alternativefunctionsyntax"
 .PHONY : help
 
 
