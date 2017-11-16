@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/wang/github/CPlusPlus/c01/Employee.cpp
+iostream
+-
+Employee.h
+/home/wang/github/CPlusPlus/c01/Employee.h
+
+/home/wang/github/CPlusPlus/c01/Employee.h
+string
+-
+
+/home/wang/github/CPlusPlus/c01/EmployeeTest.cpp
+iostream
+-
+Employee.h
+/home/wang/github/CPlusPlus/c01/Employee.h
+

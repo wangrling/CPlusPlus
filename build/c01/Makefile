@@ -111,6 +111,111 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+c01/CMakeFiles/UserInterface.dir/rule:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f CMakeFiles/Makefile2 c01/CMakeFiles/UserInterface.dir/rule
+.PHONY : c01/CMakeFiles/UserInterface.dir/rule
+
+# Convenience name for target.
+UserInterface: c01/CMakeFiles/UserInterface.dir/rule
+
+.PHONY : UserInterface
+
+# fast build rule for target.
+UserInterface/fast:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/UserInterface.dir/build.make c01/CMakeFiles/UserInterface.dir/build
+.PHONY : UserInterface/fast
+
+# Convenience name for target.
+c01/CMakeFiles/DatabaseTest.dir/rule:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f CMakeFiles/Makefile2 c01/CMakeFiles/DatabaseTest.dir/rule
+.PHONY : c01/CMakeFiles/DatabaseTest.dir/rule
+
+# Convenience name for target.
+DatabaseTest: c01/CMakeFiles/DatabaseTest.dir/rule
+
+.PHONY : DatabaseTest
+
+# fast build rule for target.
+DatabaseTest/fast:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/DatabaseTest.dir/build.make c01/CMakeFiles/DatabaseTest.dir/build
+.PHONY : DatabaseTest/fast
+
+# Convenience name for target.
+c01/CMakeFiles/EmployeeTest.dir/rule:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f CMakeFiles/Makefile2 c01/CMakeFiles/EmployeeTest.dir/rule
+.PHONY : c01/CMakeFiles/EmployeeTest.dir/rule
+
+# Convenience name for target.
+EmployeeTest: c01/CMakeFiles/EmployeeTest.dir/rule
+
+.PHONY : EmployeeTest
+
+# fast build rule for target.
+EmployeeTest/fast:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/EmployeeTest.dir/build.make c01/CMakeFiles/EmployeeTest.dir/build
+.PHONY : EmployeeTest/fast
+
+# Convenience name for target.
+c01/CMakeFiles/VectorTest.dir/rule:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f CMakeFiles/Makefile2 c01/CMakeFiles/VectorTest.dir/rule
+.PHONY : c01/CMakeFiles/VectorTest.dir/rule
+
+# Convenience name for target.
+VectorTest: c01/CMakeFiles/VectorTest.dir/rule
+
+.PHONY : VectorTest
+
+# fast build rule for target.
+VectorTest/fast:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/VectorTest.dir/build.make c01/CMakeFiles/VectorTest.dir/build
+.PHONY : VectorTest/fast
+
+# Convenience name for target.
+c01/CMakeFiles/constarg.dir/rule:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f CMakeFiles/Makefile2 c01/CMakeFiles/constarg.dir/rule
+.PHONY : c01/CMakeFiles/constarg.dir/rule
+
+# Convenience name for target.
+constarg: c01/CMakeFiles/constarg.dir/rule
+
+.PHONY : constarg
+
+# fast build rule for target.
+constarg/fast:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/constarg.dir/build.make c01/CMakeFiles/constarg.dir/build
+.PHONY : constarg/fast
+
+# Convenience name for target.
+c01/CMakeFiles/exceptions.dir/rule:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f CMakeFiles/Makefile2 c01/CMakeFiles/exceptions.dir/rule
+.PHONY : c01/CMakeFiles/exceptions.dir/rule
+
+# Convenience name for target.
+exceptions: c01/CMakeFiles/exceptions.dir/rule
+
+.PHONY : exceptions
+
+# fast build rule for target.
+exceptions/fast:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/exceptions.dir/build.make c01/CMakeFiles/exceptions.dir/build
+.PHONY : exceptions/fast
+
+# Convenience name for target.
+c01/CMakeFiles/stringtest.dir/rule:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f CMakeFiles/Makefile2 c01/CMakeFiles/stringtest.dir/rule
+.PHONY : c01/CMakeFiles/stringtest.dir/rule
+
+# Convenience name for target.
+stringtest: c01/CMakeFiles/stringtest.dir/rule
+
+.PHONY : stringtest
+
+# fast build rule for target.
+stringtest/fast:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/stringtest.dir/build.make c01/CMakeFiles/stringtest.dir/build
+.PHONY : stringtest/fast
+
+# Convenience name for target.
 c01/CMakeFiles/main.dir/rule:
 	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f CMakeFiles/Makefile2 c01/CMakeFiles/main.dir/rule
 .PHONY : c01/CMakeFiles/main.dir/rule
@@ -169,6 +274,21 @@ usingnamespaces: c01/CMakeFiles/usingnamespaces.dir/rule
 usingnamespaces/fast:
 	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/usingnamespaces.dir/build.make c01/CMakeFiles/usingnamespaces.dir/build
 .PHONY : usingnamespaces/fast
+
+# Convenience name for target.
+c01/CMakeFiles/AirlineTicketTest.dir/rule:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f CMakeFiles/Makefile2 c01/CMakeFiles/AirlineTicketTest.dir/rule
+.PHONY : c01/CMakeFiles/AirlineTicketTest.dir/rule
+
+# Convenience name for target.
+AirlineTicketTest: c01/CMakeFiles/AirlineTicketTest.dir/rule
+
+.PHONY : AirlineTicketTest
+
+# fast build rule for target.
+AirlineTicketTest/fast:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/AirlineTicketTest.dir/build.make c01/CMakeFiles/AirlineTicketTest.dir/build
+.PHONY : AirlineTicketTest/fast
 
 # Convenience name for target.
 c01/CMakeFiles/stdarray.dir/rule:
@@ -245,6 +365,246 @@ alternativefunctionsyntax/fast:
 	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/alternativefunctionsyntax.dir/build.make c01/CMakeFiles/alternativefunctionsyntax.dir/build
 .PHONY : alternativefunctionsyntax/fast
 
+# Convenience name for target.
+c01/CMakeFiles/nullpointerconstant.dir/rule:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f CMakeFiles/Makefile2 c01/CMakeFiles/nullpointerconstant.dir/rule
+.PHONY : c01/CMakeFiles/nullpointerconstant.dir/rule
+
+# Convenience name for target.
+nullpointerconstant: c01/CMakeFiles/nullpointerconstant.dir/rule
+
+.PHONY : nullpointerconstant
+
+# fast build rule for target.
+nullpointerconstant/fast:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/nullpointerconstant.dir/build.make c01/CMakeFiles/nullpointerconstant.dir/build
+.PHONY : nullpointerconstant/fast
+
+AirlineTicket.o: AirlineTicket.cpp.o
+
+.PHONY : AirlineTicket.o
+
+# target to build an object file
+AirlineTicket.cpp.o:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/AirlineTicketTest.dir/build.make c01/CMakeFiles/AirlineTicketTest.dir/AirlineTicket.cpp.o
+.PHONY : AirlineTicket.cpp.o
+
+AirlineTicket.i: AirlineTicket.cpp.i
+
+.PHONY : AirlineTicket.i
+
+# target to preprocess a source file
+AirlineTicket.cpp.i:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/AirlineTicketTest.dir/build.make c01/CMakeFiles/AirlineTicketTest.dir/AirlineTicket.cpp.i
+.PHONY : AirlineTicket.cpp.i
+
+AirlineTicket.s: AirlineTicket.cpp.s
+
+.PHONY : AirlineTicket.s
+
+# target to generate assembly for a file
+AirlineTicket.cpp.s:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/AirlineTicketTest.dir/build.make c01/CMakeFiles/AirlineTicketTest.dir/AirlineTicket.cpp.s
+.PHONY : AirlineTicket.cpp.s
+
+AirlineTicketTest.o: AirlineTicketTest.cpp.o
+
+.PHONY : AirlineTicketTest.o
+
+# target to build an object file
+AirlineTicketTest.cpp.o:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/AirlineTicketTest.dir/build.make c01/CMakeFiles/AirlineTicketTest.dir/AirlineTicketTest.cpp.o
+.PHONY : AirlineTicketTest.cpp.o
+
+AirlineTicketTest.i: AirlineTicketTest.cpp.i
+
+.PHONY : AirlineTicketTest.i
+
+# target to preprocess a source file
+AirlineTicketTest.cpp.i:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/AirlineTicketTest.dir/build.make c01/CMakeFiles/AirlineTicketTest.dir/AirlineTicketTest.cpp.i
+.PHONY : AirlineTicketTest.cpp.i
+
+AirlineTicketTest.s: AirlineTicketTest.cpp.s
+
+.PHONY : AirlineTicketTest.s
+
+# target to generate assembly for a file
+AirlineTicketTest.cpp.s:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/AirlineTicketTest.dir/build.make c01/CMakeFiles/AirlineTicketTest.dir/AirlineTicketTest.cpp.s
+.PHONY : AirlineTicketTest.cpp.s
+
+Database.o: Database.cpp.o
+
+.PHONY : Database.o
+
+# target to build an object file
+Database.cpp.o:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/UserInterface.dir/build.make c01/CMakeFiles/UserInterface.dir/Database.cpp.o
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/DatabaseTest.dir/build.make c01/CMakeFiles/DatabaseTest.dir/Database.cpp.o
+.PHONY : Database.cpp.o
+
+Database.i: Database.cpp.i
+
+.PHONY : Database.i
+
+# target to preprocess a source file
+Database.cpp.i:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/UserInterface.dir/build.make c01/CMakeFiles/UserInterface.dir/Database.cpp.i
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/DatabaseTest.dir/build.make c01/CMakeFiles/DatabaseTest.dir/Database.cpp.i
+.PHONY : Database.cpp.i
+
+Database.s: Database.cpp.s
+
+.PHONY : Database.s
+
+# target to generate assembly for a file
+Database.cpp.s:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/UserInterface.dir/build.make c01/CMakeFiles/UserInterface.dir/Database.cpp.s
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/DatabaseTest.dir/build.make c01/CMakeFiles/DatabaseTest.dir/Database.cpp.s
+.PHONY : Database.cpp.s
+
+DatabaseTest.o: DatabaseTest.cpp.o
+
+.PHONY : DatabaseTest.o
+
+# target to build an object file
+DatabaseTest.cpp.o:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/DatabaseTest.dir/build.make c01/CMakeFiles/DatabaseTest.dir/DatabaseTest.cpp.o
+.PHONY : DatabaseTest.cpp.o
+
+DatabaseTest.i: DatabaseTest.cpp.i
+
+.PHONY : DatabaseTest.i
+
+# target to preprocess a source file
+DatabaseTest.cpp.i:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/DatabaseTest.dir/build.make c01/CMakeFiles/DatabaseTest.dir/DatabaseTest.cpp.i
+.PHONY : DatabaseTest.cpp.i
+
+DatabaseTest.s: DatabaseTest.cpp.s
+
+.PHONY : DatabaseTest.s
+
+# target to generate assembly for a file
+DatabaseTest.cpp.s:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/DatabaseTest.dir/build.make c01/CMakeFiles/DatabaseTest.dir/DatabaseTest.cpp.s
+.PHONY : DatabaseTest.cpp.s
+
+Employee.o: Employee.cpp.o
+
+.PHONY : Employee.o
+
+# target to build an object file
+Employee.cpp.o:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/UserInterface.dir/build.make c01/CMakeFiles/UserInterface.dir/Employee.cpp.o
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/DatabaseTest.dir/build.make c01/CMakeFiles/DatabaseTest.dir/Employee.cpp.o
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/EmployeeTest.dir/build.make c01/CMakeFiles/EmployeeTest.dir/Employee.cpp.o
+.PHONY : Employee.cpp.o
+
+Employee.i: Employee.cpp.i
+
+.PHONY : Employee.i
+
+# target to preprocess a source file
+Employee.cpp.i:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/UserInterface.dir/build.make c01/CMakeFiles/UserInterface.dir/Employee.cpp.i
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/DatabaseTest.dir/build.make c01/CMakeFiles/DatabaseTest.dir/Employee.cpp.i
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/EmployeeTest.dir/build.make c01/CMakeFiles/EmployeeTest.dir/Employee.cpp.i
+.PHONY : Employee.cpp.i
+
+Employee.s: Employee.cpp.s
+
+.PHONY : Employee.s
+
+# target to generate assembly for a file
+Employee.cpp.s:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/UserInterface.dir/build.make c01/CMakeFiles/UserInterface.dir/Employee.cpp.s
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/DatabaseTest.dir/build.make c01/CMakeFiles/DatabaseTest.dir/Employee.cpp.s
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/EmployeeTest.dir/build.make c01/CMakeFiles/EmployeeTest.dir/Employee.cpp.s
+.PHONY : Employee.cpp.s
+
+EmployeeTest.o: EmployeeTest.cpp.o
+
+.PHONY : EmployeeTest.o
+
+# target to build an object file
+EmployeeTest.cpp.o:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/EmployeeTest.dir/build.make c01/CMakeFiles/EmployeeTest.dir/EmployeeTest.cpp.o
+.PHONY : EmployeeTest.cpp.o
+
+EmployeeTest.i: EmployeeTest.cpp.i
+
+.PHONY : EmployeeTest.i
+
+# target to preprocess a source file
+EmployeeTest.cpp.i:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/EmployeeTest.dir/build.make c01/CMakeFiles/EmployeeTest.dir/EmployeeTest.cpp.i
+.PHONY : EmployeeTest.cpp.i
+
+EmployeeTest.s: EmployeeTest.cpp.s
+
+.PHONY : EmployeeTest.s
+
+# target to generate assembly for a file
+EmployeeTest.cpp.s:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/EmployeeTest.dir/build.make c01/CMakeFiles/EmployeeTest.dir/EmployeeTest.cpp.s
+.PHONY : EmployeeTest.cpp.s
+
+UserInterface.o: UserInterface.cpp.o
+
+.PHONY : UserInterface.o
+
+# target to build an object file
+UserInterface.cpp.o:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/UserInterface.dir/build.make c01/CMakeFiles/UserInterface.dir/UserInterface.cpp.o
+.PHONY : UserInterface.cpp.o
+
+UserInterface.i: UserInterface.cpp.i
+
+.PHONY : UserInterface.i
+
+# target to preprocess a source file
+UserInterface.cpp.i:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/UserInterface.dir/build.make c01/CMakeFiles/UserInterface.dir/UserInterface.cpp.i
+.PHONY : UserInterface.cpp.i
+
+UserInterface.s: UserInterface.cpp.s
+
+.PHONY : UserInterface.s
+
+# target to generate assembly for a file
+UserInterface.cpp.s:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/UserInterface.dir/build.make c01/CMakeFiles/UserInterface.dir/UserInterface.cpp.s
+.PHONY : UserInterface.cpp.s
+
+VectorTest.o: VectorTest.cpp.o
+
+.PHONY : VectorTest.o
+
+# target to build an object file
+VectorTest.cpp.o:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/VectorTest.dir/build.make c01/CMakeFiles/VectorTest.dir/VectorTest.cpp.o
+.PHONY : VectorTest.cpp.o
+
+VectorTest.i: VectorTest.cpp.i
+
+.PHONY : VectorTest.i
+
+# target to preprocess a source file
+VectorTest.cpp.i:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/VectorTest.dir/build.make c01/CMakeFiles/VectorTest.dir/VectorTest.cpp.i
+.PHONY : VectorTest.cpp.i
+
+VectorTest.s: VectorTest.cpp.s
+
+.PHONY : VectorTest.s
+
+# target to generate assembly for a file
+VectorTest.cpp.s:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/VectorTest.dir/build.make c01/CMakeFiles/VectorTest.dir/VectorTest.cpp.s
+.PHONY : VectorTest.cpp.s
+
 alternativefunctionsyntax.o: alternativefunctionsyntax.cpp.o
 
 .PHONY : alternativefunctionsyntax.o
@@ -271,6 +631,60 @@ alternativefunctionsyntax.s: alternativefunctionsyntax.cpp.s
 alternativefunctionsyntax.cpp.s:
 	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/alternativefunctionsyntax.dir/build.make c01/CMakeFiles/alternativefunctionsyntax.dir/alternativefunctionsyntax.cpp.s
 .PHONY : alternativefunctionsyntax.cpp.s
+
+constarg.o: constarg.cpp.o
+
+.PHONY : constarg.o
+
+# target to build an object file
+constarg.cpp.o:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/constarg.dir/build.make c01/CMakeFiles/constarg.dir/constarg.cpp.o
+.PHONY : constarg.cpp.o
+
+constarg.i: constarg.cpp.i
+
+.PHONY : constarg.i
+
+# target to preprocess a source file
+constarg.cpp.i:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/constarg.dir/build.make c01/CMakeFiles/constarg.dir/constarg.cpp.i
+.PHONY : constarg.cpp.i
+
+constarg.s: constarg.cpp.s
+
+.PHONY : constarg.s
+
+# target to generate assembly for a file
+constarg.cpp.s:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/constarg.dir/build.make c01/CMakeFiles/constarg.dir/constarg.cpp.s
+.PHONY : constarg.cpp.s
+
+exceptions.o: exceptions.cpp.o
+
+.PHONY : exceptions.o
+
+# target to build an object file
+exceptions.cpp.o:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/exceptions.dir/build.make c01/CMakeFiles/exceptions.dir/exceptions.cpp.o
+.PHONY : exceptions.cpp.o
+
+exceptions.i: exceptions.cpp.i
+
+.PHONY : exceptions.i
+
+# target to preprocess a source file
+exceptions.cpp.i:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/exceptions.dir/build.make c01/CMakeFiles/exceptions.dir/exceptions.cpp.i
+.PHONY : exceptions.cpp.i
+
+exceptions.s: exceptions.cpp.s
+
+.PHONY : exceptions.s
+
+# target to generate assembly for a file
+exceptions.cpp.s:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/exceptions.dir/build.make c01/CMakeFiles/exceptions.dir/exceptions.cpp.s
+.PHONY : exceptions.cpp.s
 
 helloworld.o: helloworld.cpp.o
 
@@ -353,6 +767,33 @@ namespaces.cpp.s:
 	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/usingnamespaces.dir/build.make c01/CMakeFiles/usingnamespaces.dir/namespaces.cpp.s
 .PHONY : namespaces.cpp.s
 
+nullpointerconstant.o: nullpointerconstant.cpp.o
+
+.PHONY : nullpointerconstant.o
+
+# target to build an object file
+nullpointerconstant.cpp.o:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/nullpointerconstant.dir/build.make c01/CMakeFiles/nullpointerconstant.dir/nullpointerconstant.cpp.o
+.PHONY : nullpointerconstant.cpp.o
+
+nullpointerconstant.i: nullpointerconstant.cpp.i
+
+.PHONY : nullpointerconstant.i
+
+# target to preprocess a source file
+nullpointerconstant.cpp.i:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/nullpointerconstant.dir/build.make c01/CMakeFiles/nullpointerconstant.dir/nullpointerconstant.cpp.i
+.PHONY : nullpointerconstant.cpp.i
+
+nullpointerconstant.s: nullpointerconstant.cpp.s
+
+.PHONY : nullpointerconstant.s
+
+# target to generate assembly for a file
+nullpointerconstant.cpp.s:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/nullpointerconstant.dir/build.make c01/CMakeFiles/nullpointerconstant.dir/nullpointerconstant.cpp.s
+.PHONY : nullpointerconstant.cpp.s
+
 stdarray.o: stdarray.cpp.o
 
 .PHONY : stdarray.o
@@ -379,6 +820,33 @@ stdarray.s: stdarray.cpp.s
 stdarray.cpp.s:
 	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/stdarray.dir/build.make c01/CMakeFiles/stdarray.dir/stdarray.cpp.s
 .PHONY : stdarray.cpp.s
+
+stringtest.o: stringtest.cpp.o
+
+.PHONY : stringtest.o
+
+# target to build an object file
+stringtest.cpp.o:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/stringtest.dir/build.make c01/CMakeFiles/stringtest.dir/stringtest.cpp.o
+.PHONY : stringtest.cpp.o
+
+stringtest.i: stringtest.cpp.i
+
+.PHONY : stringtest.i
+
+# target to preprocess a source file
+stringtest.cpp.i:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/stringtest.dir/build.make c01/CMakeFiles/stringtest.dir/stringtest.cpp.i
+.PHONY : stringtest.cpp.i
+
+stringtest.s: stringtest.cpp.s
+
+.PHONY : stringtest.s
+
+# target to generate assembly for a file
+stringtest.cpp.s:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f c01/CMakeFiles/stringtest.dir/build.make c01/CMakeFiles/stringtest.dir/stringtest.cpp.s
+.PHONY : stringtest.cpp.s
 
 strongtypedenums.o: strongtypedenums.cpp.o
 
@@ -522,19 +990,58 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... UserInterface"
+	@echo "... DatabaseTest"
+	@echo "... EmployeeTest"
+	@echo "... VectorTest"
+	@echo "... constarg"
+	@echo "... exceptions"
+	@echo "... stringtest"
 	@echo "... main"
 	@echo "... structtest"
 	@echo "... helloworld"
 	@echo "... usingnamespaces"
+	@echo "... AirlineTicketTest"
 	@echo "... stdarray"
 	@echo "... strongtypedenums"
 	@echo "... typetest"
 	@echo "... variables"
 	@echo "... alternativefunctionsyntax"
 	@echo "... edit_cache"
+	@echo "... nullpointerconstant"
+	@echo "... AirlineTicket.o"
+	@echo "... AirlineTicket.i"
+	@echo "... AirlineTicket.s"
+	@echo "... AirlineTicketTest.o"
+	@echo "... AirlineTicketTest.i"
+	@echo "... AirlineTicketTest.s"
+	@echo "... Database.o"
+	@echo "... Database.i"
+	@echo "... Database.s"
+	@echo "... DatabaseTest.o"
+	@echo "... DatabaseTest.i"
+	@echo "... DatabaseTest.s"
+	@echo "... Employee.o"
+	@echo "... Employee.i"
+	@echo "... Employee.s"
+	@echo "... EmployeeTest.o"
+	@echo "... EmployeeTest.i"
+	@echo "... EmployeeTest.s"
+	@echo "... UserInterface.o"
+	@echo "... UserInterface.i"
+	@echo "... UserInterface.s"
+	@echo "... VectorTest.o"
+	@echo "... VectorTest.i"
+	@echo "... VectorTest.s"
 	@echo "... alternativefunctionsyntax.o"
 	@echo "... alternativefunctionsyntax.i"
 	@echo "... alternativefunctionsyntax.s"
+	@echo "... constarg.o"
+	@echo "... constarg.i"
+	@echo "... constarg.s"
+	@echo "... exceptions.o"
+	@echo "... exceptions.i"
+	@echo "... exceptions.s"
 	@echo "... helloworld.o"
 	@echo "... helloworld.i"
 	@echo "... helloworld.s"
@@ -544,9 +1051,15 @@ help:
 	@echo "... namespaces.o"
 	@echo "... namespaces.i"
 	@echo "... namespaces.s"
+	@echo "... nullpointerconstant.o"
+	@echo "... nullpointerconstant.i"
+	@echo "... nullpointerconstant.s"
 	@echo "... stdarray.o"
 	@echo "... stdarray.i"
 	@echo "... stdarray.s"
+	@echo "... stringtest.o"
+	@echo "... stringtest.i"
+	@echo "... stringtest.s"
 	@echo "... strongtypedenums.o"
 	@echo "... strongtypedenums.i"
 	@echo "... strongtypedenums.s"

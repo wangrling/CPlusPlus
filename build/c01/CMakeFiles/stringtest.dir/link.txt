@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/stringtest.dir/stringtest.cpp.o  -o stringtest -rdynamic 

@@ -111,6 +111,97 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named UserInterface
+
+# Build rule for target.
+UserInterface: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 UserInterface
+.PHONY : UserInterface
+
+# fast build rule for target.
+UserInterface/fast:
+	$(MAKE) -f c01/CMakeFiles/UserInterface.dir/build.make c01/CMakeFiles/UserInterface.dir/build
+.PHONY : UserInterface/fast
+
+#=============================================================================
+# Target rules for targets named DatabaseTest
+
+# Build rule for target.
+DatabaseTest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 DatabaseTest
+.PHONY : DatabaseTest
+
+# fast build rule for target.
+DatabaseTest/fast:
+	$(MAKE) -f c01/CMakeFiles/DatabaseTest.dir/build.make c01/CMakeFiles/DatabaseTest.dir/build
+.PHONY : DatabaseTest/fast
+
+#=============================================================================
+# Target rules for targets named EmployeeTest
+
+# Build rule for target.
+EmployeeTest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 EmployeeTest
+.PHONY : EmployeeTest
+
+# fast build rule for target.
+EmployeeTest/fast:
+	$(MAKE) -f c01/CMakeFiles/EmployeeTest.dir/build.make c01/CMakeFiles/EmployeeTest.dir/build
+.PHONY : EmployeeTest/fast
+
+#=============================================================================
+# Target rules for targets named VectorTest
+
+# Build rule for target.
+VectorTest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 VectorTest
+.PHONY : VectorTest
+
+# fast build rule for target.
+VectorTest/fast:
+	$(MAKE) -f c01/CMakeFiles/VectorTest.dir/build.make c01/CMakeFiles/VectorTest.dir/build
+.PHONY : VectorTest/fast
+
+#=============================================================================
+# Target rules for targets named constarg
+
+# Build rule for target.
+constarg: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 constarg
+.PHONY : constarg
+
+# fast build rule for target.
+constarg/fast:
+	$(MAKE) -f c01/CMakeFiles/constarg.dir/build.make c01/CMakeFiles/constarg.dir/build
+.PHONY : constarg/fast
+
+#=============================================================================
+# Target rules for targets named exceptions
+
+# Build rule for target.
+exceptions: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 exceptions
+.PHONY : exceptions
+
+# fast build rule for target.
+exceptions/fast:
+	$(MAKE) -f c01/CMakeFiles/exceptions.dir/build.make c01/CMakeFiles/exceptions.dir/build
+.PHONY : exceptions/fast
+
+#=============================================================================
+# Target rules for targets named stringtest
+
+# Build rule for target.
+stringtest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 stringtest
+.PHONY : stringtest
+
+# fast build rule for target.
+stringtest/fast:
+	$(MAKE) -f c01/CMakeFiles/stringtest.dir/build.make c01/CMakeFiles/stringtest.dir/build
+.PHONY : stringtest/fast
+
+#=============================================================================
 # Target rules for targets named main
 
 # Build rule for target.
@@ -161,6 +252,19 @@ usingnamespaces: cmake_check_build_system
 usingnamespaces/fast:
 	$(MAKE) -f c01/CMakeFiles/usingnamespaces.dir/build.make c01/CMakeFiles/usingnamespaces.dir/build
 .PHONY : usingnamespaces/fast
+
+#=============================================================================
+# Target rules for targets named AirlineTicketTest
+
+# Build rule for target.
+AirlineTicketTest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 AirlineTicketTest
+.PHONY : AirlineTicketTest
+
+# fast build rule for target.
+AirlineTicketTest/fast:
+	$(MAKE) -f c01/CMakeFiles/AirlineTicketTest.dir/build.make c01/CMakeFiles/AirlineTicketTest.dir/build
+.PHONY : AirlineTicketTest/fast
 
 #=============================================================================
 # Target rules for targets named stdarray
@@ -227,6 +331,71 @@ alternativefunctionsyntax/fast:
 	$(MAKE) -f c01/CMakeFiles/alternativefunctionsyntax.dir/build.make c01/CMakeFiles/alternativefunctionsyntax.dir/build
 .PHONY : alternativefunctionsyntax/fast
 
+#=============================================================================
+# Target rules for targets named nullpointerconstant
+
+# Build rule for target.
+nullpointerconstant: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 nullpointerconstant
+.PHONY : nullpointerconstant
+
+# fast build rule for target.
+nullpointerconstant/fast:
+	$(MAKE) -f c01/CMakeFiles/nullpointerconstant.dir/build.make c01/CMakeFiles/nullpointerconstant.dir/build
+.PHONY : nullpointerconstant/fast
+
+#=============================================================================
+# Target rules for targets named RawStringLiteral
+
+# Build rule for target.
+RawStringLiteral: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 RawStringLiteral
+.PHONY : RawStringLiteral
+
+# fast build rule for target.
+RawStringLiteral/fast:
+	$(MAKE) -f c02/CMakeFiles/RawStringLiteral.dir/build.make c02/CMakeFiles/RawStringLiteral.dir/build
+.PHONY : RawStringLiteral/fast
+
+#=============================================================================
+# Target rules for targets named CppStrings
+
+# Build rule for target.
+CppStrings: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 CppStrings
+.PHONY : CppStrings
+
+# fast build rule for target.
+CppStrings/fast:
+	$(MAKE) -f c02/CMakeFiles/CppStrings.dir/build.make c02/CMakeFiles/CppStrings.dir/build
+.PHONY : CppStrings/fast
+
+#=============================================================================
+# Target rules for targets named strlen
+
+# Build rule for target.
+strlen: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 strlen
+.PHONY : strlen
+
+# fast build rule for target.
+strlen/fast:
+	$(MAKE) -f c02/CMakeFiles/strlen.dir/build.make c02/CMakeFiles/strlen.dir/build
+.PHONY : strlen/fast
+
+#=============================================================================
+# Target rules for targets named strcpy
+
+# Build rule for target.
+strcpy: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 strcpy
+.PHONY : strcpy
+
+# fast build rule for target.
+strcpy/fast:
+	$(MAKE) -f c02/CMakeFiles/strcpy.dir/build.make c02/CMakeFiles/strcpy.dir/build
+.PHONY : strcpy/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -235,15 +404,28 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... UserInterface"
+	@echo "... DatabaseTest"
+	@echo "... EmployeeTest"
+	@echo "... VectorTest"
+	@echo "... constarg"
+	@echo "... exceptions"
+	@echo "... stringtest"
 	@echo "... main"
 	@echo "... structtest"
 	@echo "... helloworld"
 	@echo "... usingnamespaces"
+	@echo "... AirlineTicketTest"
 	@echo "... stdarray"
 	@echo "... strongtypedenums"
 	@echo "... typetest"
 	@echo "... variables"
 	@echo "... alternativefunctionsyntax"
+	@echo "... nullpointerconstant"
+	@echo "... RawStringLiteral"
+	@echo "... CppStrings"
+	@echo "... strlen"
+	@echo "... strcpy"
 .PHONY : help
 
 

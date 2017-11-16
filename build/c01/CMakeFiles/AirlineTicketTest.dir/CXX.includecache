@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/wang/github/CPlusPlus/c01/AirlineTicket.cpp
+AirlineTicket.h
+/home/wang/github/CPlusPlus/c01/AirlineTicket.h
+
+/home/wang/github/CPlusPlus/c01/AirlineTicket.h
+string
+-
+
+/home/wang/github/CPlusPlus/c01/AirlineTicketTest.cpp
+iostream
+-
+memory
+-
+AirlineTicket.h
+/home/wang/github/CPlusPlus/c01/AirlineTicket.h
+

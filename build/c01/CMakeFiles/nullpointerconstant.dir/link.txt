@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/nullpointerconstant.dir/nullpointerconstant.cpp.o  -o nullpointerconstant -rdynamic 
