@@ -1,0 +1,2 @@
+/usr/bin/ar qc libdirection.a  CMakeFiles/direction.dir/util/direction.cpp.o CMakeFiles/direction.dir/io/tokenscanner.cpp.o CMakeFiles/direction.dir/util/strlib.cpp.o CMakeFiles/direction.dir/system/error.cpp.o CMakeFiles/direction.dir/private/platform.cpp.o
+/usr/bin/ranlib libdirection.a

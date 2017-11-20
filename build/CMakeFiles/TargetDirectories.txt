@@ -1,5 +1,8 @@
 /home/wang/github/CPlusPlus/build/CMakeFiles/rebuild_cache.dir
 /home/wang/github/CPlusPlus/build/CMakeFiles/edit_cache.dir
+/home/wang/github/CPlusPlus/build/STFlib/CMakeFiles/rebuild_cache.dir
+/home/wang/github/CPlusPlus/build/STFlib/CMakeFiles/edit_cache.dir
+/home/wang/github/CPlusPlus/build/STFlib/CMakeFiles/STFlib.dir
 /home/wang/github/CPlusPlus/build/c01/CMakeFiles/rebuild_cache.dir
 /home/wang/github/CPlusPlus/build/c01/CMakeFiles/UserInterface.dir
 /home/wang/github/CPlusPlus/build/c01/CMakeFiles/DatabaseTest.dir
@@ -26,3 +29,16 @@
 /home/wang/github/CPlusPlus/build/c02/CMakeFiles/CppStrings.dir
 /home/wang/github/CPlusPlus/build/c02/CMakeFiles/strlen.dir
 /home/wang/github/CPlusPlus/build/c02/CMakeFiles/strcpy.dir
+/home/wang/github/CPlusPlus/build/ProgrammingAbstractionsInC++/CMakeFiles/rebuild_cache.dir
+/home/wang/github/CPlusPlus/build/ProgrammingAbstractionsInC++/CMakeFiles/edit_cache.dir
+/home/wang/github/CPlusPlus/build/ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/rebuild_cache.dir
+/home/wang/github/CPlusPlus/build/ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/AddThreeNumbers.dir
+/home/wang/github/CPlusPlus/build/ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/Countdown.dir
+/home/wang/github/CPlusPlus/build/ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/AddIntegerList.dir
+/home/wang/github/CPlusPlus/build/ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/DigitSum.dir
+/home/wang/github/CPlusPlus/build/ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/DirectionTest.dir
+/home/wang/github/CPlusPlus/build/ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/Enumerations.dir
+/home/wang/github/CPlusPlus/build/ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/HelloWorld.dir
+/home/wang/github/CPlusPlus/build/ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/Average3.dir
+/home/wang/github/CPlusPlus/build/ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/PowersOfTwo.dir
+/home/wang/github/CPlusPlus/build/ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/edit_cache.dir

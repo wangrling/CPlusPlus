@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/DirectionTest.dir/DirectionTest.cpp.o  -o DirectionTest -rdynamic ../../STFlib/libSTFlib.a -ldl 

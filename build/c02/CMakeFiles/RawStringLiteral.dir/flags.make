@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=c++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -I/home/wang/github/CPlusPlus/STFlib -I/home/wang/github/CPlusPlus/STFlib/collections -I/home/wang/github/CPlusPlus/STFlib/graphics -I/home/wang/github/CPlusPlus/STFlib/io -I/home/wang/github/CPlusPlus/STFlib/private -I/home/wang/github/CPlusPlus/STFlib/system -I/home/wang/github/CPlusPlus/STFlib/util 
 

@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/DigitSum.dir/DigitSum.cpp.o  -o DigitSum -rdynamic 

@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named STFlib
+
+# Build rule for target.
+STFlib: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 STFlib
+.PHONY : STFlib
+
+# fast build rule for target.
+STFlib/fast:
+	$(MAKE) -f STFlib/CMakeFiles/STFlib.dir/build.make STFlib/CMakeFiles/STFlib.dir/build
+.PHONY : STFlib/fast
+
+#=============================================================================
 # Target rules for targets named UserInterface
 
 # Build rule for target.
@@ -396,6 +409,123 @@ strcpy/fast:
 	$(MAKE) -f c02/CMakeFiles/strcpy.dir/build.make c02/CMakeFiles/strcpy.dir/build
 .PHONY : strcpy/fast
 
+#=============================================================================
+# Target rules for targets named AddThreeNumbers
+
+# Build rule for target.
+AddThreeNumbers: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 AddThreeNumbers
+.PHONY : AddThreeNumbers
+
+# fast build rule for target.
+AddThreeNumbers/fast:
+	$(MAKE) -f ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/AddThreeNumbers.dir/build.make ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/AddThreeNumbers.dir/build
+.PHONY : AddThreeNumbers/fast
+
+#=============================================================================
+# Target rules for targets named Countdown
+
+# Build rule for target.
+Countdown: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Countdown
+.PHONY : Countdown
+
+# fast build rule for target.
+Countdown/fast:
+	$(MAKE) -f ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/Countdown.dir/build.make ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/Countdown.dir/build
+.PHONY : Countdown/fast
+
+#=============================================================================
+# Target rules for targets named AddIntegerList
+
+# Build rule for target.
+AddIntegerList: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 AddIntegerList
+.PHONY : AddIntegerList
+
+# fast build rule for target.
+AddIntegerList/fast:
+	$(MAKE) -f ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/AddIntegerList.dir/build.make ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/AddIntegerList.dir/build
+.PHONY : AddIntegerList/fast
+
+#=============================================================================
+# Target rules for targets named DigitSum
+
+# Build rule for target.
+DigitSum: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 DigitSum
+.PHONY : DigitSum
+
+# fast build rule for target.
+DigitSum/fast:
+	$(MAKE) -f ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/DigitSum.dir/build.make ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/DigitSum.dir/build
+.PHONY : DigitSum/fast
+
+#=============================================================================
+# Target rules for targets named DirectionTest
+
+# Build rule for target.
+DirectionTest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 DirectionTest
+.PHONY : DirectionTest
+
+# fast build rule for target.
+DirectionTest/fast:
+	$(MAKE) -f ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/DirectionTest.dir/build.make ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/DirectionTest.dir/build
+.PHONY : DirectionTest/fast
+
+#=============================================================================
+# Target rules for targets named Enumerations
+
+# Build rule for target.
+Enumerations: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Enumerations
+.PHONY : Enumerations
+
+# fast build rule for target.
+Enumerations/fast:
+	$(MAKE) -f ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/Enumerations.dir/build.make ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/Enumerations.dir/build
+.PHONY : Enumerations/fast
+
+#=============================================================================
+# Target rules for targets named HelloWorld
+
+# Build rule for target.
+HelloWorld: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 HelloWorld
+.PHONY : HelloWorld
+
+# fast build rule for target.
+HelloWorld/fast:
+	$(MAKE) -f ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/HelloWorld.dir/build.make ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/HelloWorld.dir/build
+.PHONY : HelloWorld/fast
+
+#=============================================================================
+# Target rules for targets named Average3
+
+# Build rule for target.
+Average3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Average3
+.PHONY : Average3
+
+# fast build rule for target.
+Average3/fast:
+	$(MAKE) -f ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/Average3.dir/build.make ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/Average3.dir/build
+.PHONY : Average3/fast
+
+#=============================================================================
+# Target rules for targets named PowersOfTwo
+
+# Build rule for target.
+PowersOfTwo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 PowersOfTwo
+.PHONY : PowersOfTwo
+
+# fast build rule for target.
+PowersOfTwo/fast:
+	$(MAKE) -f ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/PowersOfTwo.dir/build.make ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/PowersOfTwo.dir/build
+.PHONY : PowersOfTwo/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -404,6 +534,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... STFlib"
 	@echo "... UserInterface"
 	@echo "... DatabaseTest"
 	@echo "... EmployeeTest"
@@ -426,6 +557,15 @@ help:
 	@echo "... CppStrings"
 	@echo "... strlen"
 	@echo "... strcpy"
+	@echo "... AddThreeNumbers"
+	@echo "... Countdown"
+	@echo "... AddIntegerList"
+	@echo "... DigitSum"
+	@echo "... DirectionTest"
+	@echo "... Enumerations"
+	@echo "... HelloWorld"
+	@echo "... Average3"
+	@echo "... PowersOfTwo"
 .PHONY : help
 
 

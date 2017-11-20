@@ -8,6 +8,9 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "../CMakeLists.txt"
+  "../ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeLists.txt"
+  "../ProgrammingAbstractionsInC++/CMakeLists.txt"
+  "../STFlib/CMakeLists.txt"
   "CMakeFiles/3.7.0-rc3/CMakeCCompiler.cmake"
   "CMakeFiles/3.7.0-rc3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.7.0-rc3/CMakeSystem.cmake"
@@ -39,12 +42,16 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "STFlib/CMakeFiles/CMakeDirectoryInformation.cmake"
   "c01/CMakeFiles/CMakeDirectoryInformation.cmake"
   "c02/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "ProgrammingAbstractionsInC++/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "STFlib/CMakeFiles/STFlib.dir/DependInfo.cmake"
   "c01/CMakeFiles/UserInterface.dir/DependInfo.cmake"
   "c01/CMakeFiles/DatabaseTest.dir/DependInfo.cmake"
   "c01/CMakeFiles/EmployeeTest.dir/DependInfo.cmake"
@@ -67,4 +74,13 @@ set(CMAKE_DEPEND_INFO_FILES
   "c02/CMakeFiles/CppStrings.dir/DependInfo.cmake"
   "c02/CMakeFiles/strlen.dir/DependInfo.cmake"
   "c02/CMakeFiles/strcpy.dir/DependInfo.cmake"
+  "ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/AddThreeNumbers.dir/DependInfo.cmake"
+  "ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/Countdown.dir/DependInfo.cmake"
+  "ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/AddIntegerList.dir/DependInfo.cmake"
+  "ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/DigitSum.dir/DependInfo.cmake"
+  "ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/DirectionTest.dir/DependInfo.cmake"
+  "ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/Enumerations.dir/DependInfo.cmake"
+  "ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/HelloWorld.dir/DependInfo.cmake"
+  "ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/Average3.dir/DependInfo.cmake"
+  "ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/PowersOfTwo.dir/DependInfo.cmake"
   )

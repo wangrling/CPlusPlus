@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/PowersOfTwo.dir/PowersOfTwo.cpp.o  -o PowersOfTwo -rdynamic 
