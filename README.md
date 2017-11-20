@@ -58,4 +58,62 @@
 15. Spaces and Tabs
 16. Stylistic Challenges
 
+第四章 Designing Professional C++ Programs
+
+01. What Is Programming Design?
+02. The Importance of Programming Design
+03. Designing for C++
+04. Abstraction
+05. Reuse
+06. A Note on Terminology
+07. Deciding Whether or Not to Reuse Code
+08. Strategies for Reusing Code
+09. Bunding Third-Party Application
+10. Open-Source Libraries
+11. The C++ Standard Library
+12. Designing with Patterns and Techniques
+13. Requirements
+14. Design Steps
+
+第五章 Designing with Objects
+
+01. Am I Thinking Procedurally?
+02. Classes
+03. Components
+04. Properties
+05. Behaviors
+06. Bringing It All Together
+07. Living in a World of Objects
+08. The Has-A Relationship
+09. The Is-A Relationship (Inheritance)
+10. The Fine Line between Has-A and Is-A
+11. The Not-A Relationship
+12. Hierarchies
+13. Multiple Inheritance
+14. Minin Classes
+15. Interface versus Implementation
+16. Deciding on an Exposed Interface
+17. Designing a Successful Abstraction
+
+第六章 Design for Reuse
+
+01. The Reuse Phiosopy
+02. Use Abstraction
+03. Structure Your Code for Optimal Reuse
+04. Design Usable Interfaces
+05. Reconciling Generality and Ease of Use
+
+第七章 Gain Proficiency with Classes and Objects
+
+01. Introducing the Spreadsheet Example
+02. Class Definitions
+03. Defining Methods
+04. Using Objects
+06. Object Creation
+07. Object Destrction
+08. Assigning to Objects
+09. Distinguishing Copying from Assignment
+
+
+
 
