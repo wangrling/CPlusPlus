@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../STFlib/io/simpio.h
+iostream
+-
+string
+-
+private/init.h
+../STFlib/io/private/init.h
+
+../STFlib/private/init.h
+cstdlib
+-
+stdio.h
+-
+
+/home/wang/github/CPlusPlus/ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/SimpioExample.cpp
+iostream
+/home/wang/github/CPlusPlus/ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/iostream
+simpio.h
+/home/wang/github/CPlusPlus/ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/simpio.h
+

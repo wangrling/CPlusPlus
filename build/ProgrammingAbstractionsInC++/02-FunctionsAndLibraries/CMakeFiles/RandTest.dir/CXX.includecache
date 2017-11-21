@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../STFlib/private/randompatch.h
+windows.h
+-
+cstdlib
+-
+
+/home/wang/github/CPlusPlus/ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/RandTest.cpp
+iostream
+-
+iomanip
+-
+cstdlib
+-
+private/randompatch.h
+/home/wang/github/CPlusPlus/ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/private/randompatch.h
+

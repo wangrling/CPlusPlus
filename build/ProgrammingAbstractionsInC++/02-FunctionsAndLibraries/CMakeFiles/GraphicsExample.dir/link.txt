@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/GraphicsExample.dir/GraphicsExample.cpp.o  -o GraphicsExample -rdynamic ../../STFlib/libSTFlib.a -ldl 

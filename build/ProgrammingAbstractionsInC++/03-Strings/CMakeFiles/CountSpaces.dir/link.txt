@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/CountSpaces.dir/CountSpaces.cpp.o  -o CountSpaces -rdynamic 

@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/wang/github/CPlusPlus/ProfessionalC++/01-ACrashCourse/employeestruct.h
+
+/home/wang/github/CPlusPlus/ProfessionalC++/01-ACrashCourse/structtest.cpp
+iostream
+-
+employeestruct.h
+/home/wang/github/CPlusPlus/ProfessionalC++/01-ACrashCourse/employeestruct.h
+

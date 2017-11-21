@@ -8,7 +8,5 @@ STFlib/io STFlib/private STFlib/system STFlib/util)
 
 ADD_SUBDIRECTORY(STFlib)
 
-ADD_SUBDIRECTORY(c01)
-ADD_SUBDIRECTORY(c02)
-
+ADD_SUBDIRECTORY(ProfessionalC++)
 ADD_SUBDIRECTORY(ProgrammingAbstractionsInC++)

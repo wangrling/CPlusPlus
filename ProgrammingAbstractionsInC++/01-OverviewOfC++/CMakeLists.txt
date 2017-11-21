@@ -6,6 +6,7 @@ add_executable(AddThreeNumbers AddThreeNumbers.cpp)
 add_executable(Average3 Average3.cpp)
 add_executable(Countdown Countdown.cpp)
 add_executable(DigitSum DigitSum.cpp)
+
 add_executable(DirectionTest DirectionTest.cpp)
 target_link_libraries(DirectionTest STFlib dl)
 

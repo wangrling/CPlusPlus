@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../STFlib/private/init.h
+cstdlib
+-
+stdio.h
+-
+
+../STFlib/util/random.h
+string
+-
+private/init.h
+../STFlib/util/private/init.h
+
+/home/wang/github/CPlusPlus/ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/FlipCoin.cpp
+iostream
+-
+random.h
+/home/wang/github/CPlusPlus/ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/random.h
+string
+-
+

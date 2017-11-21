@@ -133,7 +133,7 @@ UserInterface: cmake_check_build_system
 
 # fast build rule for target.
 UserInterface/fast:
-	$(MAKE) -f c01/CMakeFiles/UserInterface.dir/build.make c01/CMakeFiles/UserInterface.dir/build
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/UserInterface.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/UserInterface.dir/build
 .PHONY : UserInterface/fast
 
 #=============================================================================
@@ -146,7 +146,7 @@ DatabaseTest: cmake_check_build_system
 
 # fast build rule for target.
 DatabaseTest/fast:
-	$(MAKE) -f c01/CMakeFiles/DatabaseTest.dir/build.make c01/CMakeFiles/DatabaseTest.dir/build
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/DatabaseTest.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/DatabaseTest.dir/build
 .PHONY : DatabaseTest/fast
 
 #=============================================================================
@@ -159,7 +159,7 @@ EmployeeTest: cmake_check_build_system
 
 # fast build rule for target.
 EmployeeTest/fast:
-	$(MAKE) -f c01/CMakeFiles/EmployeeTest.dir/build.make c01/CMakeFiles/EmployeeTest.dir/build
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/EmployeeTest.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/EmployeeTest.dir/build
 .PHONY : EmployeeTest/fast
 
 #=============================================================================
@@ -172,7 +172,7 @@ VectorTest: cmake_check_build_system
 
 # fast build rule for target.
 VectorTest/fast:
-	$(MAKE) -f c01/CMakeFiles/VectorTest.dir/build.make c01/CMakeFiles/VectorTest.dir/build
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/VectorTest.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/VectorTest.dir/build
 .PHONY : VectorTest/fast
 
 #=============================================================================
@@ -185,7 +185,7 @@ constarg: cmake_check_build_system
 
 # fast build rule for target.
 constarg/fast:
-	$(MAKE) -f c01/CMakeFiles/constarg.dir/build.make c01/CMakeFiles/constarg.dir/build
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/constarg.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/constarg.dir/build
 .PHONY : constarg/fast
 
 #=============================================================================
@@ -198,7 +198,7 @@ exceptions: cmake_check_build_system
 
 # fast build rule for target.
 exceptions/fast:
-	$(MAKE) -f c01/CMakeFiles/exceptions.dir/build.make c01/CMakeFiles/exceptions.dir/build
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/exceptions.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/exceptions.dir/build
 .PHONY : exceptions/fast
 
 #=============================================================================
@@ -211,7 +211,7 @@ stringtest: cmake_check_build_system
 
 # fast build rule for target.
 stringtest/fast:
-	$(MAKE) -f c01/CMakeFiles/stringtest.dir/build.make c01/CMakeFiles/stringtest.dir/build
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/stringtest.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/stringtest.dir/build
 .PHONY : stringtest/fast
 
 #=============================================================================
@@ -224,7 +224,7 @@ main: cmake_check_build_system
 
 # fast build rule for target.
 main/fast:
-	$(MAKE) -f c01/CMakeFiles/main.dir/build.make c01/CMakeFiles/main.dir/build
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/main.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/main.dir/build
 .PHONY : main/fast
 
 #=============================================================================
@@ -237,7 +237,7 @@ structtest: cmake_check_build_system
 
 # fast build rule for target.
 structtest/fast:
-	$(MAKE) -f c01/CMakeFiles/structtest.dir/build.make c01/CMakeFiles/structtest.dir/build
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/structtest.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/structtest.dir/build
 .PHONY : structtest/fast
 
 #=============================================================================
@@ -250,7 +250,7 @@ helloworld: cmake_check_build_system
 
 # fast build rule for target.
 helloworld/fast:
-	$(MAKE) -f c01/CMakeFiles/helloworld.dir/build.make c01/CMakeFiles/helloworld.dir/build
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/helloworld.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/helloworld.dir/build
 .PHONY : helloworld/fast
 
 #=============================================================================
@@ -263,7 +263,7 @@ usingnamespaces: cmake_check_build_system
 
 # fast build rule for target.
 usingnamespaces/fast:
-	$(MAKE) -f c01/CMakeFiles/usingnamespaces.dir/build.make c01/CMakeFiles/usingnamespaces.dir/build
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/usingnamespaces.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/usingnamespaces.dir/build
 .PHONY : usingnamespaces/fast
 
 #=============================================================================
@@ -276,7 +276,7 @@ AirlineTicketTest: cmake_check_build_system
 
 # fast build rule for target.
 AirlineTicketTest/fast:
-	$(MAKE) -f c01/CMakeFiles/AirlineTicketTest.dir/build.make c01/CMakeFiles/AirlineTicketTest.dir/build
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/AirlineTicketTest.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/AirlineTicketTest.dir/build
 .PHONY : AirlineTicketTest/fast
 
 #=============================================================================
@@ -289,7 +289,7 @@ stdarray: cmake_check_build_system
 
 # fast build rule for target.
 stdarray/fast:
-	$(MAKE) -f c01/CMakeFiles/stdarray.dir/build.make c01/CMakeFiles/stdarray.dir/build
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/stdarray.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/stdarray.dir/build
 .PHONY : stdarray/fast
 
 #=============================================================================
@@ -302,7 +302,7 @@ strongtypedenums: cmake_check_build_system
 
 # fast build rule for target.
 strongtypedenums/fast:
-	$(MAKE) -f c01/CMakeFiles/strongtypedenums.dir/build.make c01/CMakeFiles/strongtypedenums.dir/build
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/strongtypedenums.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/strongtypedenums.dir/build
 .PHONY : strongtypedenums/fast
 
 #=============================================================================
@@ -315,7 +315,7 @@ typetest: cmake_check_build_system
 
 # fast build rule for target.
 typetest/fast:
-	$(MAKE) -f c01/CMakeFiles/typetest.dir/build.make c01/CMakeFiles/typetest.dir/build
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/typetest.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/typetest.dir/build
 .PHONY : typetest/fast
 
 #=============================================================================
@@ -328,7 +328,7 @@ variables: cmake_check_build_system
 
 # fast build rule for target.
 variables/fast:
-	$(MAKE) -f c01/CMakeFiles/variables.dir/build.make c01/CMakeFiles/variables.dir/build
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/variables.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/variables.dir/build
 .PHONY : variables/fast
 
 #=============================================================================
@@ -341,7 +341,7 @@ alternativefunctionsyntax: cmake_check_build_system
 
 # fast build rule for target.
 alternativefunctionsyntax/fast:
-	$(MAKE) -f c01/CMakeFiles/alternativefunctionsyntax.dir/build.make c01/CMakeFiles/alternativefunctionsyntax.dir/build
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/alternativefunctionsyntax.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/alternativefunctionsyntax.dir/build
 .PHONY : alternativefunctionsyntax/fast
 
 #=============================================================================
@@ -354,7 +354,7 @@ nullpointerconstant: cmake_check_build_system
 
 # fast build rule for target.
 nullpointerconstant/fast:
-	$(MAKE) -f c01/CMakeFiles/nullpointerconstant.dir/build.make c01/CMakeFiles/nullpointerconstant.dir/build
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/nullpointerconstant.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/nullpointerconstant.dir/build
 .PHONY : nullpointerconstant/fast
 
 #=============================================================================
@@ -367,7 +367,7 @@ RawStringLiteral: cmake_check_build_system
 
 # fast build rule for target.
 RawStringLiteral/fast:
-	$(MAKE) -f c02/CMakeFiles/RawStringLiteral.dir/build.make c02/CMakeFiles/RawStringLiteral.dir/build
+	$(MAKE) -f ProfessionalC++/02-WorkingWithStrings/CMakeFiles/RawStringLiteral.dir/build.make ProfessionalC++/02-WorkingWithStrings/CMakeFiles/RawStringLiteral.dir/build
 .PHONY : RawStringLiteral/fast
 
 #=============================================================================
@@ -380,7 +380,7 @@ CppStrings: cmake_check_build_system
 
 # fast build rule for target.
 CppStrings/fast:
-	$(MAKE) -f c02/CMakeFiles/CppStrings.dir/build.make c02/CMakeFiles/CppStrings.dir/build
+	$(MAKE) -f ProfessionalC++/02-WorkingWithStrings/CMakeFiles/CppStrings.dir/build.make ProfessionalC++/02-WorkingWithStrings/CMakeFiles/CppStrings.dir/build
 .PHONY : CppStrings/fast
 
 #=============================================================================
@@ -393,7 +393,7 @@ strlen: cmake_check_build_system
 
 # fast build rule for target.
 strlen/fast:
-	$(MAKE) -f c02/CMakeFiles/strlen.dir/build.make c02/CMakeFiles/strlen.dir/build
+	$(MAKE) -f ProfessionalC++/02-WorkingWithStrings/CMakeFiles/strlen.dir/build.make ProfessionalC++/02-WorkingWithStrings/CMakeFiles/strlen.dir/build
 .PHONY : strlen/fast
 
 #=============================================================================
@@ -406,7 +406,7 @@ strcpy: cmake_check_build_system
 
 # fast build rule for target.
 strcpy/fast:
-	$(MAKE) -f c02/CMakeFiles/strcpy.dir/build.make c02/CMakeFiles/strcpy.dir/build
+	$(MAKE) -f ProfessionalC++/02-WorkingWithStrings/CMakeFiles/strcpy.dir/build.make ProfessionalC++/02-WorkingWithStrings/CMakeFiles/strcpy.dir/build
 .PHONY : strcpy/fast
 
 #=============================================================================
@@ -526,6 +526,162 @@ PowersOfTwo/fast:
 	$(MAKE) -f ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/PowersOfTwo.dir/build.make ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/PowersOfTwo.dir/build
 .PHONY : PowersOfTwo/fast
 
+#=============================================================================
+# Target rules for targets named OddEven
+
+# Build rule for target.
+OddEven: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 OddEven
+.PHONY : OddEven
+
+# fast build rule for target.
+OddEven/fast:
+	$(MAKE) -f ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/OddEven.dir/build.make ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/OddEven.dir/build
+.PHONY : OddEven/fast
+
+#=============================================================================
+# Target rules for targets named Combinations
+
+# Build rule for target.
+Combinations: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Combinations
+.PHONY : Combinations
+
+# fast build rule for target.
+Combinations/fast:
+	$(MAKE) -f ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/Combinations.dir/build.make ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/Combinations.dir/build
+.PHONY : Combinations/fast
+
+#=============================================================================
+# Target rules for targets named FlipCoin
+
+# Build rule for target.
+FlipCoin: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 FlipCoin
+.PHONY : FlipCoin
+
+# fast build rule for target.
+FlipCoin/fast:
+	$(MAKE) -f ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/FlipCoin.dir/build.make ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/FlipCoin.dir/build
+.PHONY : FlipCoin/fast
+
+#=============================================================================
+# Target rules for targets named Craps
+
+# Build rule for target.
+Craps: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Craps
+.PHONY : Craps
+
+# fast build rule for target.
+Craps/fast:
+	$(MAKE) -f ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/Craps.dir/build.make ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/Craps.dir/build
+.PHONY : Craps/fast
+
+#=============================================================================
+# Target rules for targets named OverloadRaiseToPower
+
+# Build rule for target.
+OverloadRaiseToPower: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 OverloadRaiseToPower
+.PHONY : OverloadRaiseToPower
+
+# fast build rule for target.
+OverloadRaiseToPower/fast:
+	$(MAKE) -f ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/OverloadRaiseToPower.dir/build.make ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/OverloadRaiseToPower.dir/build
+.PHONY : OverloadRaiseToPower/fast
+
+#=============================================================================
+# Target rules for targets named Quadratic
+
+# Build rule for target.
+Quadratic: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Quadratic
+.PHONY : Quadratic
+
+# fast build rule for target.
+Quadratic/fast:
+	$(MAKE) -f ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/Quadratic.dir/build.make ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/Quadratic.dir/build
+.PHONY : Quadratic/fast
+
+#=============================================================================
+# Target rules for targets named RandTest
+
+# Build rule for target.
+RandTest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 RandTest
+.PHONY : RandTest
+
+# fast build rule for target.
+RandTest/fast:
+	$(MAKE) -f ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/RandTest.dir/build.make ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/RandTest.dir/build
+.PHONY : RandTest/fast
+
+#=============================================================================
+# Target rules for targets named GraphicsExample
+
+# Build rule for target.
+GraphicsExample: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 GraphicsExample
+.PHONY : GraphicsExample
+
+# fast build rule for target.
+GraphicsExample/fast:
+	$(MAKE) -f ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/GraphicsExample.dir/build.make ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/GraphicsExample.dir/build
+.PHONY : GraphicsExample/fast
+
+#=============================================================================
+# Target rules for targets named CircleArea
+
+# Build rule for target.
+CircleArea: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 CircleArea
+.PHONY : CircleArea
+
+# fast build rule for target.
+CircleArea/fast:
+	$(MAKE) -f ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/CircleArea.dir/build.make ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/CircleArea.dir/build
+.PHONY : CircleArea/fast
+
+#=============================================================================
+# Target rules for targets named SimpioExample
+
+# Build rule for target.
+SimpioExample: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 SimpioExample
+.PHONY : SimpioExample
+
+# fast build rule for target.
+SimpioExample/fast:
+	$(MAKE) -f ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/SimpioExample.dir/build.make ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/SimpioExample.dir/build
+.PHONY : SimpioExample/fast
+
+#=============================================================================
+# Target rules for targets named CountSpaces
+
+# Build rule for target.
+CountSpaces: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 CountSpaces
+.PHONY : CountSpaces
+
+# fast build rule for target.
+CountSpaces/fast:
+	$(MAKE) -f ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/CountSpaces.dir/build.make ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/CountSpaces.dir/build
+.PHONY : CountSpaces/fast
+
+#=============================================================================
+# Target rules for targets named CaseConversion
+
+# Build rule for target.
+CaseConversion: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 CaseConversion
+.PHONY : CaseConversion
+
+# fast build rule for target.
+CaseConversion/fast:
+	$(MAKE) -f ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/CaseConversion.dir/build.make ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/CaseConversion.dir/build
+.PHONY : CaseConversion/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -566,6 +722,18 @@ help:
 	@echo "... HelloWorld"
 	@echo "... Average3"
 	@echo "... PowersOfTwo"
+	@echo "... OddEven"
+	@echo "... Combinations"
+	@echo "... FlipCoin"
+	@echo "... Craps"
+	@echo "... OverloadRaiseToPower"
+	@echo "... Quadratic"
+	@echo "... RandTest"
+	@echo "... GraphicsExample"
+	@echo "... CircleArea"
+	@echo "... SimpioExample"
+	@echo "... CountSpaces"
+	@echo "... CaseConversion"
 .PHONY : help
 
 

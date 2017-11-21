@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/wang/github/CPlusPlus/ProfessionalC++/01-ACrashCourse/Database.cpp
+iostream
+-
+stdexcept
+-
+Database.h
+/home/wang/github/CPlusPlus/ProfessionalC++/01-ACrashCourse/Database.h
+
+/home/wang/github/CPlusPlus/ProfessionalC++/01-ACrashCourse/Database.h
+iostream
+-
+vector
+-
+Employee.h
+/home/wang/github/CPlusPlus/ProfessionalC++/01-ACrashCourse/Employee.h
+
+/home/wang/github/CPlusPlus/ProfessionalC++/01-ACrashCourse/DatabaseTest.cpp
+iostream
+-
+Database.h
+/home/wang/github/CPlusPlus/ProfessionalC++/01-ACrashCourse/Database.h
+
+/home/wang/github/CPlusPlus/ProfessionalC++/01-ACrashCourse/Employee.cpp
+iostream
+-
+Employee.h
+/home/wang/github/CPlusPlus/ProfessionalC++/01-ACrashCourse/Employee.h
+
+/home/wang/github/CPlusPlus/ProfessionalC++/01-ACrashCourse/Employee.h
+string
+-
+

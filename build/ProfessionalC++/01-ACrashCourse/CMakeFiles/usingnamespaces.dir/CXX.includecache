@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/wang/github/CPlusPlus/ProfessionalC++/01-ACrashCourse/namespaces.cpp
+iostream
+-
+namespaces.h
+/home/wang/github/CPlusPlus/ProfessionalC++/01-ACrashCourse/namespaces.h
+
+/home/wang/github/CPlusPlus/ProfessionalC++/01-ACrashCourse/namespaces.h
+
+/home/wang/github/CPlusPlus/ProfessionalC++/01-ACrashCourse/usingnamespaces.cpp
+namespaces.h
+/home/wang/github/CPlusPlus/ProfessionalC++/01-ACrashCourse/namespaces.h
+

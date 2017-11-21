@@ -84,7 +84,7 @@ STFlib/preinstall:
 STFlib/CMakeFiles/STFlib.dir/all:
 	$(MAKE) -f STFlib/CMakeFiles/STFlib.dir/build.make STFlib/CMakeFiles/STFlib.dir/depend
 	$(MAKE) -f STFlib/CMakeFiles/STFlib.dir/build.make STFlib/CMakeFiles/STFlib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wang/github/CPlusPlus/build/CMakeFiles --progress-num=29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66 "Built target STFlib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wang/github/CPlusPlus/build/CMakeFiles --progress-num=41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71 "Built target STFlib"
 .PHONY : STFlib/CMakeFiles/STFlib.dir/all
 
 # Include target in all.
@@ -94,7 +94,7 @@ all: STFlib/CMakeFiles/STFlib.dir/all
 
 # Build rule for subdir invocation for target.
 STFlib/CMakeFiles/STFlib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 38
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 31
 	$(MAKE) -f CMakeFiles/Makefile2 STFlib/CMakeFiles/STFlib.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 0
 .PHONY : STFlib/CMakeFiles/STFlib.dir/rule
@@ -115,910 +115,958 @@ clean: STFlib/CMakeFiles/STFlib.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory c01
+# Directory level rules for directory ProfessionalC++
 
 # Convenience name for "all" pass in the directory.
-c01/all: c01/CMakeFiles/UserInterface.dir/all
-c01/all: c01/CMakeFiles/DatabaseTest.dir/all
-c01/all: c01/CMakeFiles/EmployeeTest.dir/all
-c01/all: c01/CMakeFiles/VectorTest.dir/all
-c01/all: c01/CMakeFiles/constarg.dir/all
-c01/all: c01/CMakeFiles/exceptions.dir/all
-c01/all: c01/CMakeFiles/stringtest.dir/all
-c01/all: c01/CMakeFiles/main.dir/all
-c01/all: c01/CMakeFiles/structtest.dir/all
-c01/all: c01/CMakeFiles/helloworld.dir/all
-c01/all: c01/CMakeFiles/usingnamespaces.dir/all
-c01/all: c01/CMakeFiles/AirlineTicketTest.dir/all
-c01/all: c01/CMakeFiles/stdarray.dir/all
-c01/all: c01/CMakeFiles/strongtypedenums.dir/all
-c01/all: c01/CMakeFiles/typetest.dir/all
-c01/all: c01/CMakeFiles/variables.dir/all
-c01/all: c01/CMakeFiles/alternativefunctionsyntax.dir/all
-c01/all: c01/CMakeFiles/nullpointerconstant.dir/all
+ProfessionalC++/all: ProfessionalC++/01-ACrashCourse/all
+ProfessionalC++/all: ProfessionalC++/02-WorkingWithStrings/all
+ProfessionalC++/all: ProfessionalC++/07-ClassesAndObjects/all
 
-.PHONY : c01/all
+.PHONY : ProfessionalC++/all
 
 # Convenience name for "clean" pass in the directory.
-c01/clean: c01/CMakeFiles/UserInterface.dir/clean
-c01/clean: c01/CMakeFiles/DatabaseTest.dir/clean
-c01/clean: c01/CMakeFiles/EmployeeTest.dir/clean
-c01/clean: c01/CMakeFiles/VectorTest.dir/clean
-c01/clean: c01/CMakeFiles/constarg.dir/clean
-c01/clean: c01/CMakeFiles/exceptions.dir/clean
-c01/clean: c01/CMakeFiles/stringtest.dir/clean
-c01/clean: c01/CMakeFiles/main.dir/clean
-c01/clean: c01/CMakeFiles/structtest.dir/clean
-c01/clean: c01/CMakeFiles/helloworld.dir/clean
-c01/clean: c01/CMakeFiles/usingnamespaces.dir/clean
-c01/clean: c01/CMakeFiles/AirlineTicketTest.dir/clean
-c01/clean: c01/CMakeFiles/stdarray.dir/clean
-c01/clean: c01/CMakeFiles/strongtypedenums.dir/clean
-c01/clean: c01/CMakeFiles/typetest.dir/clean
-c01/clean: c01/CMakeFiles/variables.dir/clean
-c01/clean: c01/CMakeFiles/alternativefunctionsyntax.dir/clean
-c01/clean: c01/CMakeFiles/nullpointerconstant.dir/clean
+ProfessionalC++/clean: ProfessionalC++/01-ACrashCourse/clean
+ProfessionalC++/clean: ProfessionalC++/02-WorkingWithStrings/clean
+ProfessionalC++/clean: ProfessionalC++/07-ClassesAndObjects/clean
 
-.PHONY : c01/clean
+.PHONY : ProfessionalC++/clean
 
 # Convenience name for "preinstall" pass in the directory.
-c01/preinstall:
+ProfessionalC++/preinstall: ProfessionalC++/01-ACrashCourse/preinstall
+ProfessionalC++/preinstall: ProfessionalC++/02-WorkingWithStrings/preinstall
+ProfessionalC++/preinstall: ProfessionalC++/07-ClassesAndObjects/preinstall
 
-.PHONY : c01/preinstall
+.PHONY : ProfessionalC++/preinstall
 
 #=============================================================================
-# Target rules for target c01/CMakeFiles/UserInterface.dir
+# Directory level rules for directory ProfessionalC++/01-ACrashCourse
+
+# Convenience name for "all" pass in the directory.
+ProfessionalC++/01-ACrashCourse/all: ProfessionalC++/01-ACrashCourse/CMakeFiles/UserInterface.dir/all
+ProfessionalC++/01-ACrashCourse/all: ProfessionalC++/01-ACrashCourse/CMakeFiles/DatabaseTest.dir/all
+ProfessionalC++/01-ACrashCourse/all: ProfessionalC++/01-ACrashCourse/CMakeFiles/EmployeeTest.dir/all
+ProfessionalC++/01-ACrashCourse/all: ProfessionalC++/01-ACrashCourse/CMakeFiles/VectorTest.dir/all
+ProfessionalC++/01-ACrashCourse/all: ProfessionalC++/01-ACrashCourse/CMakeFiles/constarg.dir/all
+ProfessionalC++/01-ACrashCourse/all: ProfessionalC++/01-ACrashCourse/CMakeFiles/exceptions.dir/all
+ProfessionalC++/01-ACrashCourse/all: ProfessionalC++/01-ACrashCourse/CMakeFiles/stringtest.dir/all
+ProfessionalC++/01-ACrashCourse/all: ProfessionalC++/01-ACrashCourse/CMakeFiles/main.dir/all
+ProfessionalC++/01-ACrashCourse/all: ProfessionalC++/01-ACrashCourse/CMakeFiles/structtest.dir/all
+ProfessionalC++/01-ACrashCourse/all: ProfessionalC++/01-ACrashCourse/CMakeFiles/helloworld.dir/all
+ProfessionalC++/01-ACrashCourse/all: ProfessionalC++/01-ACrashCourse/CMakeFiles/usingnamespaces.dir/all
+ProfessionalC++/01-ACrashCourse/all: ProfessionalC++/01-ACrashCourse/CMakeFiles/AirlineTicketTest.dir/all
+ProfessionalC++/01-ACrashCourse/all: ProfessionalC++/01-ACrashCourse/CMakeFiles/stdarray.dir/all
+ProfessionalC++/01-ACrashCourse/all: ProfessionalC++/01-ACrashCourse/CMakeFiles/strongtypedenums.dir/all
+ProfessionalC++/01-ACrashCourse/all: ProfessionalC++/01-ACrashCourse/CMakeFiles/typetest.dir/all
+ProfessionalC++/01-ACrashCourse/all: ProfessionalC++/01-ACrashCourse/CMakeFiles/variables.dir/all
+ProfessionalC++/01-ACrashCourse/all: ProfessionalC++/01-ACrashCourse/CMakeFiles/alternativefunctionsyntax.dir/all
+ProfessionalC++/01-ACrashCourse/all: ProfessionalC++/01-ACrashCourse/CMakeFiles/nullpointerconstant.dir/all
+
+.PHONY : ProfessionalC++/01-ACrashCourse/all
+
+# Convenience name for "clean" pass in the directory.
+ProfessionalC++/01-ACrashCourse/clean: ProfessionalC++/01-ACrashCourse/CMakeFiles/UserInterface.dir/clean
+ProfessionalC++/01-ACrashCourse/clean: ProfessionalC++/01-ACrashCourse/CMakeFiles/DatabaseTest.dir/clean
+ProfessionalC++/01-ACrashCourse/clean: ProfessionalC++/01-ACrashCourse/CMakeFiles/EmployeeTest.dir/clean
+ProfessionalC++/01-ACrashCourse/clean: ProfessionalC++/01-ACrashCourse/CMakeFiles/VectorTest.dir/clean
+ProfessionalC++/01-ACrashCourse/clean: ProfessionalC++/01-ACrashCourse/CMakeFiles/constarg.dir/clean
+ProfessionalC++/01-ACrashCourse/clean: ProfessionalC++/01-ACrashCourse/CMakeFiles/exceptions.dir/clean
+ProfessionalC++/01-ACrashCourse/clean: ProfessionalC++/01-ACrashCourse/CMakeFiles/stringtest.dir/clean
+ProfessionalC++/01-ACrashCourse/clean: ProfessionalC++/01-ACrashCourse/CMakeFiles/main.dir/clean
+ProfessionalC++/01-ACrashCourse/clean: ProfessionalC++/01-ACrashCourse/CMakeFiles/structtest.dir/clean
+ProfessionalC++/01-ACrashCourse/clean: ProfessionalC++/01-ACrashCourse/CMakeFiles/helloworld.dir/clean
+ProfessionalC++/01-ACrashCourse/clean: ProfessionalC++/01-ACrashCourse/CMakeFiles/usingnamespaces.dir/clean
+ProfessionalC++/01-ACrashCourse/clean: ProfessionalC++/01-ACrashCourse/CMakeFiles/AirlineTicketTest.dir/clean
+ProfessionalC++/01-ACrashCourse/clean: ProfessionalC++/01-ACrashCourse/CMakeFiles/stdarray.dir/clean
+ProfessionalC++/01-ACrashCourse/clean: ProfessionalC++/01-ACrashCourse/CMakeFiles/strongtypedenums.dir/clean
+ProfessionalC++/01-ACrashCourse/clean: ProfessionalC++/01-ACrashCourse/CMakeFiles/typetest.dir/clean
+ProfessionalC++/01-ACrashCourse/clean: ProfessionalC++/01-ACrashCourse/CMakeFiles/variables.dir/clean
+ProfessionalC++/01-ACrashCourse/clean: ProfessionalC++/01-ACrashCourse/CMakeFiles/alternativefunctionsyntax.dir/clean
+ProfessionalC++/01-ACrashCourse/clean: ProfessionalC++/01-ACrashCourse/CMakeFiles/nullpointerconstant.dir/clean
+
+.PHONY : ProfessionalC++/01-ACrashCourse/clean
+
+# Convenience name for "preinstall" pass in the directory.
+ProfessionalC++/01-ACrashCourse/preinstall:
+
+.PHONY : ProfessionalC++/01-ACrashCourse/preinstall
+
+#=============================================================================
+# Target rules for target ProfessionalC++/01-ACrashCourse/CMakeFiles/UserInterface.dir
 
 # All Build rule for target.
-c01/CMakeFiles/UserInterface.dir/all:
-	$(MAKE) -f c01/CMakeFiles/UserInterface.dir/build.make c01/CMakeFiles/UserInterface.dir/depend
-	$(MAKE) -f c01/CMakeFiles/UserInterface.dir/build.make c01/CMakeFiles/UserInterface.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wang/github/CPlusPlus/build/CMakeFiles --progress-num=67,68,69,70 "Built target UserInterface"
-.PHONY : c01/CMakeFiles/UserInterface.dir/all
+ProfessionalC++/01-ACrashCourse/CMakeFiles/UserInterface.dir/all:
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/UserInterface.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/UserInterface.dir/depend
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/UserInterface.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/UserInterface.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wang/github/CPlusPlus/build/CMakeFiles --progress-num=73,74,75 "Built target UserInterface"
+.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/UserInterface.dir/all
 
 # Include target in all.
-all: c01/CMakeFiles/UserInterface.dir/all
+all: ProfessionalC++/01-ACrashCourse/CMakeFiles/UserInterface.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-c01/CMakeFiles/UserInterface.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 4
-	$(MAKE) -f CMakeFiles/Makefile2 c01/CMakeFiles/UserInterface.dir/all
+ProfessionalC++/01-ACrashCourse/CMakeFiles/UserInterface.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 ProfessionalC++/01-ACrashCourse/CMakeFiles/UserInterface.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 0
-.PHONY : c01/CMakeFiles/UserInterface.dir/rule
+.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/UserInterface.dir/rule
 
 # Convenience name for target.
-UserInterface: c01/CMakeFiles/UserInterface.dir/rule
+UserInterface: ProfessionalC++/01-ACrashCourse/CMakeFiles/UserInterface.dir/rule
 
 .PHONY : UserInterface
 
 # clean rule for target.
-c01/CMakeFiles/UserInterface.dir/clean:
-	$(MAKE) -f c01/CMakeFiles/UserInterface.dir/build.make c01/CMakeFiles/UserInterface.dir/clean
-.PHONY : c01/CMakeFiles/UserInterface.dir/clean
+ProfessionalC++/01-ACrashCourse/CMakeFiles/UserInterface.dir/clean:
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/UserInterface.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/UserInterface.dir/clean
+.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/UserInterface.dir/clean
 
 # clean rule for target.
-clean: c01/CMakeFiles/UserInterface.dir/clean
+clean: ProfessionalC++/01-ACrashCourse/CMakeFiles/UserInterface.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target c01/CMakeFiles/DatabaseTest.dir
+# Target rules for target ProfessionalC++/01-ACrashCourse/CMakeFiles/DatabaseTest.dir
 
 # All Build rule for target.
-c01/CMakeFiles/DatabaseTest.dir/all:
-	$(MAKE) -f c01/CMakeFiles/DatabaseTest.dir/build.make c01/CMakeFiles/DatabaseTest.dir/depend
-	$(MAKE) -f c01/CMakeFiles/DatabaseTest.dir/build.make c01/CMakeFiles/DatabaseTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wang/github/CPlusPlus/build/CMakeFiles --progress-num=12,13,14,15 "Built target DatabaseTest"
-.PHONY : c01/CMakeFiles/DatabaseTest.dir/all
+ProfessionalC++/01-ACrashCourse/CMakeFiles/DatabaseTest.dir/all:
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/DatabaseTest.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/DatabaseTest.dir/depend
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/DatabaseTest.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/DatabaseTest.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wang/github/CPlusPlus/build/CMakeFiles --progress-num=18,19,20 "Built target DatabaseTest"
+.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/DatabaseTest.dir/all
 
 # Include target in all.
-all: c01/CMakeFiles/DatabaseTest.dir/all
+all: ProfessionalC++/01-ACrashCourse/CMakeFiles/DatabaseTest.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-c01/CMakeFiles/DatabaseTest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 4
-	$(MAKE) -f CMakeFiles/Makefile2 c01/CMakeFiles/DatabaseTest.dir/all
+ProfessionalC++/01-ACrashCourse/CMakeFiles/DatabaseTest.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 ProfessionalC++/01-ACrashCourse/CMakeFiles/DatabaseTest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 0
-.PHONY : c01/CMakeFiles/DatabaseTest.dir/rule
+.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/DatabaseTest.dir/rule
 
 # Convenience name for target.
-DatabaseTest: c01/CMakeFiles/DatabaseTest.dir/rule
+DatabaseTest: ProfessionalC++/01-ACrashCourse/CMakeFiles/DatabaseTest.dir/rule
 
 .PHONY : DatabaseTest
 
 # clean rule for target.
-c01/CMakeFiles/DatabaseTest.dir/clean:
-	$(MAKE) -f c01/CMakeFiles/DatabaseTest.dir/build.make c01/CMakeFiles/DatabaseTest.dir/clean
-.PHONY : c01/CMakeFiles/DatabaseTest.dir/clean
+ProfessionalC++/01-ACrashCourse/CMakeFiles/DatabaseTest.dir/clean:
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/DatabaseTest.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/DatabaseTest.dir/clean
+.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/DatabaseTest.dir/clean
 
 # clean rule for target.
-clean: c01/CMakeFiles/DatabaseTest.dir/clean
+clean: ProfessionalC++/01-ACrashCourse/CMakeFiles/DatabaseTest.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target c01/CMakeFiles/EmployeeTest.dir
+# Target rules for target ProfessionalC++/01-ACrashCourse/CMakeFiles/EmployeeTest.dir
 
 # All Build rule for target.
-c01/CMakeFiles/EmployeeTest.dir/all:
-	$(MAKE) -f c01/CMakeFiles/EmployeeTest.dir/build.make c01/CMakeFiles/EmployeeTest.dir/depend
-	$(MAKE) -f c01/CMakeFiles/EmployeeTest.dir/build.make c01/CMakeFiles/EmployeeTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wang/github/CPlusPlus/build/CMakeFiles --progress-num=19,20,21 "Built target EmployeeTest"
-.PHONY : c01/CMakeFiles/EmployeeTest.dir/all
+ProfessionalC++/01-ACrashCourse/CMakeFiles/EmployeeTest.dir/all:
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/EmployeeTest.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/EmployeeTest.dir/depend
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/EmployeeTest.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/EmployeeTest.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wang/github/CPlusPlus/build/CMakeFiles --progress-num=23,24,25 "Built target EmployeeTest"
+.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/EmployeeTest.dir/all
 
 # Include target in all.
-all: c01/CMakeFiles/EmployeeTest.dir/all
+all: ProfessionalC++/01-ACrashCourse/CMakeFiles/EmployeeTest.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-c01/CMakeFiles/EmployeeTest.dir/rule: cmake_check_build_system
+ProfessionalC++/01-ACrashCourse/CMakeFiles/EmployeeTest.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 c01/CMakeFiles/EmployeeTest.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 ProfessionalC++/01-ACrashCourse/CMakeFiles/EmployeeTest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 0
-.PHONY : c01/CMakeFiles/EmployeeTest.dir/rule
+.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/EmployeeTest.dir/rule
 
 # Convenience name for target.
-EmployeeTest: c01/CMakeFiles/EmployeeTest.dir/rule
+EmployeeTest: ProfessionalC++/01-ACrashCourse/CMakeFiles/EmployeeTest.dir/rule
 
 .PHONY : EmployeeTest
 
 # clean rule for target.
-c01/CMakeFiles/EmployeeTest.dir/clean:
-	$(MAKE) -f c01/CMakeFiles/EmployeeTest.dir/build.make c01/CMakeFiles/EmployeeTest.dir/clean
-.PHONY : c01/CMakeFiles/EmployeeTest.dir/clean
+ProfessionalC++/01-ACrashCourse/CMakeFiles/EmployeeTest.dir/clean:
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/EmployeeTest.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/EmployeeTest.dir/clean
+.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/EmployeeTest.dir/clean
 
 # clean rule for target.
-clean: c01/CMakeFiles/EmployeeTest.dir/clean
+clean: ProfessionalC++/01-ACrashCourse/CMakeFiles/EmployeeTest.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target c01/CMakeFiles/VectorTest.dir
+# Target rules for target ProfessionalC++/01-ACrashCourse/CMakeFiles/VectorTest.dir
 
 # All Build rule for target.
-c01/CMakeFiles/VectorTest.dir/all:
-	$(MAKE) -f c01/CMakeFiles/VectorTest.dir/build.make c01/CMakeFiles/VectorTest.dir/depend
-	$(MAKE) -f c01/CMakeFiles/VectorTest.dir/build.make c01/CMakeFiles/VectorTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wang/github/CPlusPlus/build/CMakeFiles --progress-num=71,72 "Built target VectorTest"
-.PHONY : c01/CMakeFiles/VectorTest.dir/all
+ProfessionalC++/01-ACrashCourse/CMakeFiles/VectorTest.dir/all:
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/VectorTest.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/VectorTest.dir/depend
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/VectorTest.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/VectorTest.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wang/github/CPlusPlus/build/CMakeFiles --progress-num=76,77 "Built target VectorTest"
+.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/VectorTest.dir/all
 
 # Include target in all.
-all: c01/CMakeFiles/VectorTest.dir/all
+all: ProfessionalC++/01-ACrashCourse/CMakeFiles/VectorTest.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-c01/CMakeFiles/VectorTest.dir/rule: cmake_check_build_system
+ProfessionalC++/01-ACrashCourse/CMakeFiles/VectorTest.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 c01/CMakeFiles/VectorTest.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 ProfessionalC++/01-ACrashCourse/CMakeFiles/VectorTest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 0
-.PHONY : c01/CMakeFiles/VectorTest.dir/rule
+.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/VectorTest.dir/rule
 
 # Convenience name for target.
-VectorTest: c01/CMakeFiles/VectorTest.dir/rule
+VectorTest: ProfessionalC++/01-ACrashCourse/CMakeFiles/VectorTest.dir/rule
 
 .PHONY : VectorTest
 
 # clean rule for target.
-c01/CMakeFiles/VectorTest.dir/clean:
-	$(MAKE) -f c01/CMakeFiles/VectorTest.dir/build.make c01/CMakeFiles/VectorTest.dir/clean
-.PHONY : c01/CMakeFiles/VectorTest.dir/clean
+ProfessionalC++/01-ACrashCourse/CMakeFiles/VectorTest.dir/clean:
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/VectorTest.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/VectorTest.dir/clean
+.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/VectorTest.dir/clean
 
 # clean rule for target.
-clean: c01/CMakeFiles/VectorTest.dir/clean
+clean: ProfessionalC++/01-ACrashCourse/CMakeFiles/VectorTest.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target c01/CMakeFiles/constarg.dir
+# Target rules for target ProfessionalC++/01-ACrashCourse/CMakeFiles/constarg.dir
 
 # All Build rule for target.
-c01/CMakeFiles/constarg.dir/all:
-	$(MAKE) -f c01/CMakeFiles/constarg.dir/build.make c01/CMakeFiles/constarg.dir/depend
-	$(MAKE) -f c01/CMakeFiles/constarg.dir/build.make c01/CMakeFiles/constarg.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wang/github/CPlusPlus/build/CMakeFiles --progress-num=74,75 "Built target constarg"
-.PHONY : c01/CMakeFiles/constarg.dir/all
+ProfessionalC++/01-ACrashCourse/CMakeFiles/constarg.dir/all:
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/constarg.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/constarg.dir/depend
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/constarg.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/constarg.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wang/github/CPlusPlus/build/CMakeFiles --progress-num=79,80 "Built target constarg"
+.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/constarg.dir/all
 
 # Include target in all.
-all: c01/CMakeFiles/constarg.dir/all
+all: ProfessionalC++/01-ACrashCourse/CMakeFiles/constarg.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-c01/CMakeFiles/constarg.dir/rule: cmake_check_build_system
+ProfessionalC++/01-ACrashCourse/CMakeFiles/constarg.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 c01/CMakeFiles/constarg.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 ProfessionalC++/01-ACrashCourse/CMakeFiles/constarg.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 0
-.PHONY : c01/CMakeFiles/constarg.dir/rule
+.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/constarg.dir/rule
 
 # Convenience name for target.
-constarg: c01/CMakeFiles/constarg.dir/rule
+constarg: ProfessionalC++/01-ACrashCourse/CMakeFiles/constarg.dir/rule
 
 .PHONY : constarg
 
 # clean rule for target.
-c01/CMakeFiles/constarg.dir/clean:
-	$(MAKE) -f c01/CMakeFiles/constarg.dir/build.make c01/CMakeFiles/constarg.dir/clean
-.PHONY : c01/CMakeFiles/constarg.dir/clean
+ProfessionalC++/01-ACrashCourse/CMakeFiles/constarg.dir/clean:
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/constarg.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/constarg.dir/clean
+.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/constarg.dir/clean
 
 # clean rule for target.
-clean: c01/CMakeFiles/constarg.dir/clean
+clean: ProfessionalC++/01-ACrashCourse/CMakeFiles/constarg.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target c01/CMakeFiles/exceptions.dir
+# Target rules for target ProfessionalC++/01-ACrashCourse/CMakeFiles/exceptions.dir
 
 # All Build rule for target.
-c01/CMakeFiles/exceptions.dir/all:
-	$(MAKE) -f c01/CMakeFiles/exceptions.dir/build.make c01/CMakeFiles/exceptions.dir/depend
-	$(MAKE) -f c01/CMakeFiles/exceptions.dir/build.make c01/CMakeFiles/exceptions.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wang/github/CPlusPlus/build/CMakeFiles --progress-num=76,77 "Built target exceptions"
-.PHONY : c01/CMakeFiles/exceptions.dir/all
+ProfessionalC++/01-ACrashCourse/CMakeFiles/exceptions.dir/all:
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/exceptions.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/exceptions.dir/depend
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/exceptions.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/exceptions.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wang/github/CPlusPlus/build/CMakeFiles --progress-num=81 "Built target exceptions"
+.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/exceptions.dir/all
 
 # Include target in all.
-all: c01/CMakeFiles/exceptions.dir/all
+all: ProfessionalC++/01-ACrashCourse/CMakeFiles/exceptions.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-c01/CMakeFiles/exceptions.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 c01/CMakeFiles/exceptions.dir/all
+ProfessionalC++/01-ACrashCourse/CMakeFiles/exceptions.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 ProfessionalC++/01-ACrashCourse/CMakeFiles/exceptions.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 0
-.PHONY : c01/CMakeFiles/exceptions.dir/rule
+.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/exceptions.dir/rule
 
 # Convenience name for target.
-exceptions: c01/CMakeFiles/exceptions.dir/rule
+exceptions: ProfessionalC++/01-ACrashCourse/CMakeFiles/exceptions.dir/rule
 
 .PHONY : exceptions
 
 # clean rule for target.
-c01/CMakeFiles/exceptions.dir/clean:
-	$(MAKE) -f c01/CMakeFiles/exceptions.dir/build.make c01/CMakeFiles/exceptions.dir/clean
-.PHONY : c01/CMakeFiles/exceptions.dir/clean
+ProfessionalC++/01-ACrashCourse/CMakeFiles/exceptions.dir/clean:
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/exceptions.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/exceptions.dir/clean
+.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/exceptions.dir/clean
 
 # clean rule for target.
-clean: c01/CMakeFiles/exceptions.dir/clean
+clean: ProfessionalC++/01-ACrashCourse/CMakeFiles/exceptions.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target c01/CMakeFiles/stringtest.dir
+# Target rules for target ProfessionalC++/01-ACrashCourse/CMakeFiles/stringtest.dir
 
 # All Build rule for target.
-c01/CMakeFiles/stringtest.dir/all:
-	$(MAKE) -f c01/CMakeFiles/stringtest.dir/build.make c01/CMakeFiles/stringtest.dir/depend
-	$(MAKE) -f c01/CMakeFiles/stringtest.dir/build.make c01/CMakeFiles/stringtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wang/github/CPlusPlus/build/CMakeFiles --progress-num=87,88 "Built target stringtest"
-.PHONY : c01/CMakeFiles/stringtest.dir/all
+ProfessionalC++/01-ACrashCourse/CMakeFiles/stringtest.dir/all:
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/stringtest.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/stringtest.dir/depend
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/stringtest.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/stringtest.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wang/github/CPlusPlus/build/CMakeFiles --progress-num=89,90 "Built target stringtest"
+.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/stringtest.dir/all
 
 # Include target in all.
-all: c01/CMakeFiles/stringtest.dir/all
+all: ProfessionalC++/01-ACrashCourse/CMakeFiles/stringtest.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-c01/CMakeFiles/stringtest.dir/rule: cmake_check_build_system
+ProfessionalC++/01-ACrashCourse/CMakeFiles/stringtest.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 c01/CMakeFiles/stringtest.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 ProfessionalC++/01-ACrashCourse/CMakeFiles/stringtest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 0
-.PHONY : c01/CMakeFiles/stringtest.dir/rule
+.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/stringtest.dir/rule
 
 # Convenience name for target.
-stringtest: c01/CMakeFiles/stringtest.dir/rule
+stringtest: ProfessionalC++/01-ACrashCourse/CMakeFiles/stringtest.dir/rule
 
 .PHONY : stringtest
 
 # clean rule for target.
-c01/CMakeFiles/stringtest.dir/clean:
-	$(MAKE) -f c01/CMakeFiles/stringtest.dir/build.make c01/CMakeFiles/stringtest.dir/clean
-.PHONY : c01/CMakeFiles/stringtest.dir/clean
+ProfessionalC++/01-ACrashCourse/CMakeFiles/stringtest.dir/clean:
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/stringtest.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/stringtest.dir/clean
+.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/stringtest.dir/clean
 
 # clean rule for target.
-clean: c01/CMakeFiles/stringtest.dir/clean
+clean: ProfessionalC++/01-ACrashCourse/CMakeFiles/stringtest.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target c01/CMakeFiles/main.dir
+# Target rules for target ProfessionalC++/01-ACrashCourse/CMakeFiles/main.dir
 
 # All Build rule for target.
-c01/CMakeFiles/main.dir/all:
-	$(MAKE) -f c01/CMakeFiles/main.dir/build.make c01/CMakeFiles/main.dir/depend
-	$(MAKE) -f c01/CMakeFiles/main.dir/build.make c01/CMakeFiles/main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wang/github/CPlusPlus/build/CMakeFiles --progress-num=80,81 "Built target main"
-.PHONY : c01/CMakeFiles/main.dir/all
+ProfessionalC++/01-ACrashCourse/CMakeFiles/main.dir/all:
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/main.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/main.dir/depend
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/main.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/main.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wang/github/CPlusPlus/build/CMakeFiles --progress-num=83,84 "Built target main"
+.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/main.dir/all
 
 # Include target in all.
-all: c01/CMakeFiles/main.dir/all
+all: ProfessionalC++/01-ACrashCourse/CMakeFiles/main.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-c01/CMakeFiles/main.dir/rule: cmake_check_build_system
+ProfessionalC++/01-ACrashCourse/CMakeFiles/main.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 c01/CMakeFiles/main.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 ProfessionalC++/01-ACrashCourse/CMakeFiles/main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 0
-.PHONY : c01/CMakeFiles/main.dir/rule
+.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/main.dir/rule
 
 # Convenience name for target.
-main: c01/CMakeFiles/main.dir/rule
+main: ProfessionalC++/01-ACrashCourse/CMakeFiles/main.dir/rule
 
 .PHONY : main
 
 # clean rule for target.
-c01/CMakeFiles/main.dir/clean:
-	$(MAKE) -f c01/CMakeFiles/main.dir/build.make c01/CMakeFiles/main.dir/clean
-.PHONY : c01/CMakeFiles/main.dir/clean
+ProfessionalC++/01-ACrashCourse/CMakeFiles/main.dir/clean:
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/main.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/main.dir/clean
+.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/main.dir/clean
 
 # clean rule for target.
-clean: c01/CMakeFiles/main.dir/clean
+clean: ProfessionalC++/01-ACrashCourse/CMakeFiles/main.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target c01/CMakeFiles/structtest.dir
+# Target rules for target ProfessionalC++/01-ACrashCourse/CMakeFiles/structtest.dir
 
 # All Build rule for target.
-c01/CMakeFiles/structtest.dir/all:
-	$(MAKE) -f c01/CMakeFiles/structtest.dir/build.make c01/CMakeFiles/structtest.dir/depend
-	$(MAKE) -f c01/CMakeFiles/structtest.dir/build.make c01/CMakeFiles/structtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wang/github/CPlusPlus/build/CMakeFiles --progress-num=92,93 "Built target structtest"
-.PHONY : c01/CMakeFiles/structtest.dir/all
+ProfessionalC++/01-ACrashCourse/CMakeFiles/structtest.dir/all:
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/structtest.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/structtest.dir/depend
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/structtest.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/structtest.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wang/github/CPlusPlus/build/CMakeFiles --progress-num=94 "Built target structtest"
+.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/structtest.dir/all
 
 # Include target in all.
-all: c01/CMakeFiles/structtest.dir/all
+all: ProfessionalC++/01-ACrashCourse/CMakeFiles/structtest.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-c01/CMakeFiles/structtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 c01/CMakeFiles/structtest.dir/all
+ProfessionalC++/01-ACrashCourse/CMakeFiles/structtest.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 ProfessionalC++/01-ACrashCourse/CMakeFiles/structtest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 0
-.PHONY : c01/CMakeFiles/structtest.dir/rule
+.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/structtest.dir/rule
 
 # Convenience name for target.
-structtest: c01/CMakeFiles/structtest.dir/rule
+structtest: ProfessionalC++/01-ACrashCourse/CMakeFiles/structtest.dir/rule
 
 .PHONY : structtest
 
 # clean rule for target.
-c01/CMakeFiles/structtest.dir/clean:
-	$(MAKE) -f c01/CMakeFiles/structtest.dir/build.make c01/CMakeFiles/structtest.dir/clean
-.PHONY : c01/CMakeFiles/structtest.dir/clean
+ProfessionalC++/01-ACrashCourse/CMakeFiles/structtest.dir/clean:
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/structtest.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/structtest.dir/clean
+.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/structtest.dir/clean
 
 # clean rule for target.
-clean: c01/CMakeFiles/structtest.dir/clean
+clean: ProfessionalC++/01-ACrashCourse/CMakeFiles/structtest.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target c01/CMakeFiles/helloworld.dir
+# Target rules for target ProfessionalC++/01-ACrashCourse/CMakeFiles/helloworld.dir
 
 # All Build rule for target.
-c01/CMakeFiles/helloworld.dir/all:
-	$(MAKE) -f c01/CMakeFiles/helloworld.dir/build.make c01/CMakeFiles/helloworld.dir/depend
-	$(MAKE) -f c01/CMakeFiles/helloworld.dir/build.make c01/CMakeFiles/helloworld.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wang/github/CPlusPlus/build/CMakeFiles --progress-num=78,79 "Built target helloworld"
-.PHONY : c01/CMakeFiles/helloworld.dir/all
+ProfessionalC++/01-ACrashCourse/CMakeFiles/helloworld.dir/all:
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/helloworld.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/helloworld.dir/depend
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/helloworld.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/helloworld.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wang/github/CPlusPlus/build/CMakeFiles --progress-num=82 "Built target helloworld"
+.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/helloworld.dir/all
 
 # Include target in all.
-all: c01/CMakeFiles/helloworld.dir/all
+all: ProfessionalC++/01-ACrashCourse/CMakeFiles/helloworld.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-c01/CMakeFiles/helloworld.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 c01/CMakeFiles/helloworld.dir/all
+ProfessionalC++/01-ACrashCourse/CMakeFiles/helloworld.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 ProfessionalC++/01-ACrashCourse/CMakeFiles/helloworld.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 0
-.PHONY : c01/CMakeFiles/helloworld.dir/rule
+.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/helloworld.dir/rule
 
 # Convenience name for target.
-helloworld: c01/CMakeFiles/helloworld.dir/rule
+helloworld: ProfessionalC++/01-ACrashCourse/CMakeFiles/helloworld.dir/rule
 
 .PHONY : helloworld
 
 # clean rule for target.
-c01/CMakeFiles/helloworld.dir/clean:
-	$(MAKE) -f c01/CMakeFiles/helloworld.dir/build.make c01/CMakeFiles/helloworld.dir/clean
-.PHONY : c01/CMakeFiles/helloworld.dir/clean
+ProfessionalC++/01-ACrashCourse/CMakeFiles/helloworld.dir/clean:
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/helloworld.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/helloworld.dir/clean
+.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/helloworld.dir/clean
 
 # clean rule for target.
-clean: c01/CMakeFiles/helloworld.dir/clean
+clean: ProfessionalC++/01-ACrashCourse/CMakeFiles/helloworld.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target c01/CMakeFiles/usingnamespaces.dir
+# Target rules for target ProfessionalC++/01-ACrashCourse/CMakeFiles/usingnamespaces.dir
 
 # All Build rule for target.
-c01/CMakeFiles/usingnamespaces.dir/all:
-	$(MAKE) -f c01/CMakeFiles/usingnamespaces.dir/build.make c01/CMakeFiles/usingnamespaces.dir/depend
-	$(MAKE) -f c01/CMakeFiles/usingnamespaces.dir/build.make c01/CMakeFiles/usingnamespaces.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wang/github/CPlusPlus/build/CMakeFiles --progress-num=96,97,98 "Built target usingnamespaces"
-.PHONY : c01/CMakeFiles/usingnamespaces.dir/all
+ProfessionalC++/01-ACrashCourse/CMakeFiles/usingnamespaces.dir/all:
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/usingnamespaces.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/usingnamespaces.dir/depend
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/usingnamespaces.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/usingnamespaces.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wang/github/CPlusPlus/build/CMakeFiles --progress-num=97,98 "Built target usingnamespaces"
+.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/usingnamespaces.dir/all
 
 # Include target in all.
-all: c01/CMakeFiles/usingnamespaces.dir/all
+all: ProfessionalC++/01-ACrashCourse/CMakeFiles/usingnamespaces.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-c01/CMakeFiles/usingnamespaces.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 c01/CMakeFiles/usingnamespaces.dir/all
+ProfessionalC++/01-ACrashCourse/CMakeFiles/usingnamespaces.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 ProfessionalC++/01-ACrashCourse/CMakeFiles/usingnamespaces.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 0
-.PHONY : c01/CMakeFiles/usingnamespaces.dir/rule
+.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/usingnamespaces.dir/rule
 
 # Convenience name for target.
-usingnamespaces: c01/CMakeFiles/usingnamespaces.dir/rule
+usingnamespaces: ProfessionalC++/01-ACrashCourse/CMakeFiles/usingnamespaces.dir/rule
 
 .PHONY : usingnamespaces
 
 # clean rule for target.
-c01/CMakeFiles/usingnamespaces.dir/clean:
-	$(MAKE) -f c01/CMakeFiles/usingnamespaces.dir/build.make c01/CMakeFiles/usingnamespaces.dir/clean
-.PHONY : c01/CMakeFiles/usingnamespaces.dir/clean
+ProfessionalC++/01-ACrashCourse/CMakeFiles/usingnamespaces.dir/clean:
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/usingnamespaces.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/usingnamespaces.dir/clean
+.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/usingnamespaces.dir/clean
 
 # clean rule for target.
-clean: c01/CMakeFiles/usingnamespaces.dir/clean
+clean: ProfessionalC++/01-ACrashCourse/CMakeFiles/usingnamespaces.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target c01/CMakeFiles/AirlineTicketTest.dir
+# Target rules for target ProfessionalC++/01-ACrashCourse/CMakeFiles/AirlineTicketTest.dir
 
 # All Build rule for target.
-c01/CMakeFiles/AirlineTicketTest.dir/all:
-	$(MAKE) -f c01/CMakeFiles/AirlineTicketTest.dir/build.make c01/CMakeFiles/AirlineTicketTest.dir/depend
-	$(MAKE) -f c01/CMakeFiles/AirlineTicketTest.dir/build.make c01/CMakeFiles/AirlineTicketTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wang/github/CPlusPlus/build/CMakeFiles --progress-num=4,5,6 "Built target AirlineTicketTest"
-.PHONY : c01/CMakeFiles/AirlineTicketTest.dir/all
+ProfessionalC++/01-ACrashCourse/CMakeFiles/AirlineTicketTest.dir/all:
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/AirlineTicketTest.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/AirlineTicketTest.dir/depend
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/AirlineTicketTest.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/AirlineTicketTest.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wang/github/CPlusPlus/build/CMakeFiles --progress-num=3,4,5 "Built target AirlineTicketTest"
+.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/AirlineTicketTest.dir/all
 
 # Include target in all.
-all: c01/CMakeFiles/AirlineTicketTest.dir/all
+all: ProfessionalC++/01-ACrashCourse/CMakeFiles/AirlineTicketTest.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-c01/CMakeFiles/AirlineTicketTest.dir/rule: cmake_check_build_system
+ProfessionalC++/01-ACrashCourse/CMakeFiles/AirlineTicketTest.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 c01/CMakeFiles/AirlineTicketTest.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 ProfessionalC++/01-ACrashCourse/CMakeFiles/AirlineTicketTest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 0
-.PHONY : c01/CMakeFiles/AirlineTicketTest.dir/rule
+.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/AirlineTicketTest.dir/rule
 
 # Convenience name for target.
-AirlineTicketTest: c01/CMakeFiles/AirlineTicketTest.dir/rule
+AirlineTicketTest: ProfessionalC++/01-ACrashCourse/CMakeFiles/AirlineTicketTest.dir/rule
 
 .PHONY : AirlineTicketTest
 
 # clean rule for target.
-c01/CMakeFiles/AirlineTicketTest.dir/clean:
-	$(MAKE) -f c01/CMakeFiles/AirlineTicketTest.dir/build.make c01/CMakeFiles/AirlineTicketTest.dir/clean
-.PHONY : c01/CMakeFiles/AirlineTicketTest.dir/clean
+ProfessionalC++/01-ACrashCourse/CMakeFiles/AirlineTicketTest.dir/clean:
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/AirlineTicketTest.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/AirlineTicketTest.dir/clean
+.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/AirlineTicketTest.dir/clean
 
 # clean rule for target.
-clean: c01/CMakeFiles/AirlineTicketTest.dir/clean
+clean: ProfessionalC++/01-ACrashCourse/CMakeFiles/AirlineTicketTest.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target c01/CMakeFiles/stdarray.dir
+# Target rules for target ProfessionalC++/01-ACrashCourse/CMakeFiles/stdarray.dir
 
 # All Build rule for target.
-c01/CMakeFiles/stdarray.dir/all:
-	$(MAKE) -f c01/CMakeFiles/stdarray.dir/build.make c01/CMakeFiles/stdarray.dir/depend
-	$(MAKE) -f c01/CMakeFiles/stdarray.dir/build.make c01/CMakeFiles/stdarray.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wang/github/CPlusPlus/build/CMakeFiles --progress-num=83,84 "Built target stdarray"
-.PHONY : c01/CMakeFiles/stdarray.dir/all
+ProfessionalC++/01-ACrashCourse/CMakeFiles/stdarray.dir/all:
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/stdarray.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/stdarray.dir/depend
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/stdarray.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/stdarray.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wang/github/CPlusPlus/build/CMakeFiles --progress-num=86,87 "Built target stdarray"
+.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/stdarray.dir/all
 
 # Include target in all.
-all: c01/CMakeFiles/stdarray.dir/all
+all: ProfessionalC++/01-ACrashCourse/CMakeFiles/stdarray.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-c01/CMakeFiles/stdarray.dir/rule: cmake_check_build_system
+ProfessionalC++/01-ACrashCourse/CMakeFiles/stdarray.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 c01/CMakeFiles/stdarray.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 ProfessionalC++/01-ACrashCourse/CMakeFiles/stdarray.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 0
-.PHONY : c01/CMakeFiles/stdarray.dir/rule
+.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/stdarray.dir/rule
 
 # Convenience name for target.
-stdarray: c01/CMakeFiles/stdarray.dir/rule
+stdarray: ProfessionalC++/01-ACrashCourse/CMakeFiles/stdarray.dir/rule
 
 .PHONY : stdarray
 
 # clean rule for target.
-c01/CMakeFiles/stdarray.dir/clean:
-	$(MAKE) -f c01/CMakeFiles/stdarray.dir/build.make c01/CMakeFiles/stdarray.dir/clean
-.PHONY : c01/CMakeFiles/stdarray.dir/clean
+ProfessionalC++/01-ACrashCourse/CMakeFiles/stdarray.dir/clean:
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/stdarray.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/stdarray.dir/clean
+.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/stdarray.dir/clean
 
 # clean rule for target.
-clean: c01/CMakeFiles/stdarray.dir/clean
+clean: ProfessionalC++/01-ACrashCourse/CMakeFiles/stdarray.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target c01/CMakeFiles/strongtypedenums.dir
+# Target rules for target ProfessionalC++/01-ACrashCourse/CMakeFiles/strongtypedenums.dir
 
 # All Build rule for target.
-c01/CMakeFiles/strongtypedenums.dir/all:
-	$(MAKE) -f c01/CMakeFiles/strongtypedenums.dir/build.make c01/CMakeFiles/strongtypedenums.dir/depend
-	$(MAKE) -f c01/CMakeFiles/strongtypedenums.dir/build.make c01/CMakeFiles/strongtypedenums.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wang/github/CPlusPlus/build/CMakeFiles --progress-num=91 "Built target strongtypedenums"
-.PHONY : c01/CMakeFiles/strongtypedenums.dir/all
+ProfessionalC++/01-ACrashCourse/CMakeFiles/strongtypedenums.dir/all:
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/strongtypedenums.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/strongtypedenums.dir/depend
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/strongtypedenums.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/strongtypedenums.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wang/github/CPlusPlus/build/CMakeFiles --progress-num=92,93 "Built target strongtypedenums"
+.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/strongtypedenums.dir/all
 
 # Include target in all.
-all: c01/CMakeFiles/strongtypedenums.dir/all
+all: ProfessionalC++/01-ACrashCourse/CMakeFiles/strongtypedenums.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-c01/CMakeFiles/strongtypedenums.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 c01/CMakeFiles/strongtypedenums.dir/all
+ProfessionalC++/01-ACrashCourse/CMakeFiles/strongtypedenums.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 ProfessionalC++/01-ACrashCourse/CMakeFiles/strongtypedenums.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 0
-.PHONY : c01/CMakeFiles/strongtypedenums.dir/rule
+.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/strongtypedenums.dir/rule
 
 # Convenience name for target.
-strongtypedenums: c01/CMakeFiles/strongtypedenums.dir/rule
+strongtypedenums: ProfessionalC++/01-ACrashCourse/CMakeFiles/strongtypedenums.dir/rule
 
 .PHONY : strongtypedenums
 
 # clean rule for target.
-c01/CMakeFiles/strongtypedenums.dir/clean:
-	$(MAKE) -f c01/CMakeFiles/strongtypedenums.dir/build.make c01/CMakeFiles/strongtypedenums.dir/clean
-.PHONY : c01/CMakeFiles/strongtypedenums.dir/clean
+ProfessionalC++/01-ACrashCourse/CMakeFiles/strongtypedenums.dir/clean:
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/strongtypedenums.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/strongtypedenums.dir/clean
+.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/strongtypedenums.dir/clean
 
 # clean rule for target.
-clean: c01/CMakeFiles/strongtypedenums.dir/clean
+clean: ProfessionalC++/01-ACrashCourse/CMakeFiles/strongtypedenums.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target c01/CMakeFiles/typetest.dir
+# Target rules for target ProfessionalC++/01-ACrashCourse/CMakeFiles/typetest.dir
 
 # All Build rule for target.
-c01/CMakeFiles/typetest.dir/all:
-	$(MAKE) -f c01/CMakeFiles/typetest.dir/build.make c01/CMakeFiles/typetest.dir/depend
-	$(MAKE) -f c01/CMakeFiles/typetest.dir/build.make c01/CMakeFiles/typetest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wang/github/CPlusPlus/build/CMakeFiles --progress-num=94,95 "Built target typetest"
-.PHONY : c01/CMakeFiles/typetest.dir/all
+ProfessionalC++/01-ACrashCourse/CMakeFiles/typetest.dir/all:
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/typetest.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/typetest.dir/depend
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/typetest.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/typetest.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wang/github/CPlusPlus/build/CMakeFiles --progress-num=95,96 "Built target typetest"
+.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/typetest.dir/all
 
 # Include target in all.
-all: c01/CMakeFiles/typetest.dir/all
+all: ProfessionalC++/01-ACrashCourse/CMakeFiles/typetest.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-c01/CMakeFiles/typetest.dir/rule: cmake_check_build_system
+ProfessionalC++/01-ACrashCourse/CMakeFiles/typetest.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 c01/CMakeFiles/typetest.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 ProfessionalC++/01-ACrashCourse/CMakeFiles/typetest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 0
-.PHONY : c01/CMakeFiles/typetest.dir/rule
+.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/typetest.dir/rule
 
 # Convenience name for target.
-typetest: c01/CMakeFiles/typetest.dir/rule
+typetest: ProfessionalC++/01-ACrashCourse/CMakeFiles/typetest.dir/rule
 
 .PHONY : typetest
 
 # clean rule for target.
-c01/CMakeFiles/typetest.dir/clean:
-	$(MAKE) -f c01/CMakeFiles/typetest.dir/build.make c01/CMakeFiles/typetest.dir/clean
-.PHONY : c01/CMakeFiles/typetest.dir/clean
+ProfessionalC++/01-ACrashCourse/CMakeFiles/typetest.dir/clean:
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/typetest.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/typetest.dir/clean
+.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/typetest.dir/clean
 
 # clean rule for target.
-clean: c01/CMakeFiles/typetest.dir/clean
+clean: ProfessionalC++/01-ACrashCourse/CMakeFiles/typetest.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target c01/CMakeFiles/variables.dir
+# Target rules for target ProfessionalC++/01-ACrashCourse/CMakeFiles/variables.dir
 
 # All Build rule for target.
-c01/CMakeFiles/variables.dir/all:
-	$(MAKE) -f c01/CMakeFiles/variables.dir/build.make c01/CMakeFiles/variables.dir/depend
-	$(MAKE) -f c01/CMakeFiles/variables.dir/build.make c01/CMakeFiles/variables.dir/build
+ProfessionalC++/01-ACrashCourse/CMakeFiles/variables.dir/all:
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/variables.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/variables.dir/depend
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/variables.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/variables.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wang/github/CPlusPlus/build/CMakeFiles --progress-num=99,100 "Built target variables"
-.PHONY : c01/CMakeFiles/variables.dir/all
+.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/variables.dir/all
 
 # Include target in all.
-all: c01/CMakeFiles/variables.dir/all
+all: ProfessionalC++/01-ACrashCourse/CMakeFiles/variables.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-c01/CMakeFiles/variables.dir/rule: cmake_check_build_system
+ProfessionalC++/01-ACrashCourse/CMakeFiles/variables.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 c01/CMakeFiles/variables.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 ProfessionalC++/01-ACrashCourse/CMakeFiles/variables.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 0
-.PHONY : c01/CMakeFiles/variables.dir/rule
+.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/variables.dir/rule
 
 # Convenience name for target.
-variables: c01/CMakeFiles/variables.dir/rule
+variables: ProfessionalC++/01-ACrashCourse/CMakeFiles/variables.dir/rule
 
 .PHONY : variables
 
 # clean rule for target.
-c01/CMakeFiles/variables.dir/clean:
-	$(MAKE) -f c01/CMakeFiles/variables.dir/build.make c01/CMakeFiles/variables.dir/clean
-.PHONY : c01/CMakeFiles/variables.dir/clean
+ProfessionalC++/01-ACrashCourse/CMakeFiles/variables.dir/clean:
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/variables.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/variables.dir/clean
+.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/variables.dir/clean
 
 # clean rule for target.
-clean: c01/CMakeFiles/variables.dir/clean
+clean: ProfessionalC++/01-ACrashCourse/CMakeFiles/variables.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target c01/CMakeFiles/alternativefunctionsyntax.dir
+# Target rules for target ProfessionalC++/01-ACrashCourse/CMakeFiles/alternativefunctionsyntax.dir
 
 # All Build rule for target.
-c01/CMakeFiles/alternativefunctionsyntax.dir/all:
-	$(MAKE) -f c01/CMakeFiles/alternativefunctionsyntax.dir/build.make c01/CMakeFiles/alternativefunctionsyntax.dir/depend
-	$(MAKE) -f c01/CMakeFiles/alternativefunctionsyntax.dir/build.make c01/CMakeFiles/alternativefunctionsyntax.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wang/github/CPlusPlus/build/CMakeFiles --progress-num=73 "Built target alternativefunctionsyntax"
-.PHONY : c01/CMakeFiles/alternativefunctionsyntax.dir/all
+ProfessionalC++/01-ACrashCourse/CMakeFiles/alternativefunctionsyntax.dir/all:
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/alternativefunctionsyntax.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/alternativefunctionsyntax.dir/depend
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/alternativefunctionsyntax.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/alternativefunctionsyntax.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wang/github/CPlusPlus/build/CMakeFiles --progress-num=78 "Built target alternativefunctionsyntax"
+.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/alternativefunctionsyntax.dir/all
 
 # Include target in all.
-all: c01/CMakeFiles/alternativefunctionsyntax.dir/all
+all: ProfessionalC++/01-ACrashCourse/CMakeFiles/alternativefunctionsyntax.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-c01/CMakeFiles/alternativefunctionsyntax.dir/rule: cmake_check_build_system
+ProfessionalC++/01-ACrashCourse/CMakeFiles/alternativefunctionsyntax.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 c01/CMakeFiles/alternativefunctionsyntax.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 ProfessionalC++/01-ACrashCourse/CMakeFiles/alternativefunctionsyntax.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 0
-.PHONY : c01/CMakeFiles/alternativefunctionsyntax.dir/rule
+.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/alternativefunctionsyntax.dir/rule
 
 # Convenience name for target.
-alternativefunctionsyntax: c01/CMakeFiles/alternativefunctionsyntax.dir/rule
+alternativefunctionsyntax: ProfessionalC++/01-ACrashCourse/CMakeFiles/alternativefunctionsyntax.dir/rule
 
 .PHONY : alternativefunctionsyntax
 
 # clean rule for target.
-c01/CMakeFiles/alternativefunctionsyntax.dir/clean:
-	$(MAKE) -f c01/CMakeFiles/alternativefunctionsyntax.dir/build.make c01/CMakeFiles/alternativefunctionsyntax.dir/clean
-.PHONY : c01/CMakeFiles/alternativefunctionsyntax.dir/clean
+ProfessionalC++/01-ACrashCourse/CMakeFiles/alternativefunctionsyntax.dir/clean:
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/alternativefunctionsyntax.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/alternativefunctionsyntax.dir/clean
+.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/alternativefunctionsyntax.dir/clean
 
 # clean rule for target.
-clean: c01/CMakeFiles/alternativefunctionsyntax.dir/clean
+clean: ProfessionalC++/01-ACrashCourse/CMakeFiles/alternativefunctionsyntax.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target c01/CMakeFiles/nullpointerconstant.dir
+# Target rules for target ProfessionalC++/01-ACrashCourse/CMakeFiles/nullpointerconstant.dir
 
 # All Build rule for target.
-c01/CMakeFiles/nullpointerconstant.dir/all:
-	$(MAKE) -f c01/CMakeFiles/nullpointerconstant.dir/build.make c01/CMakeFiles/nullpointerconstant.dir/depend
-	$(MAKE) -f c01/CMakeFiles/nullpointerconstant.dir/build.make c01/CMakeFiles/nullpointerconstant.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wang/github/CPlusPlus/build/CMakeFiles --progress-num=82 "Built target nullpointerconstant"
-.PHONY : c01/CMakeFiles/nullpointerconstant.dir/all
+ProfessionalC++/01-ACrashCourse/CMakeFiles/nullpointerconstant.dir/all:
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/nullpointerconstant.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/nullpointerconstant.dir/depend
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/nullpointerconstant.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/nullpointerconstant.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wang/github/CPlusPlus/build/CMakeFiles --progress-num=85 "Built target nullpointerconstant"
+.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/nullpointerconstant.dir/all
 
 # Include target in all.
-all: c01/CMakeFiles/nullpointerconstant.dir/all
+all: ProfessionalC++/01-ACrashCourse/CMakeFiles/nullpointerconstant.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-c01/CMakeFiles/nullpointerconstant.dir/rule: cmake_check_build_system
+ProfessionalC++/01-ACrashCourse/CMakeFiles/nullpointerconstant.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 c01/CMakeFiles/nullpointerconstant.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 ProfessionalC++/01-ACrashCourse/CMakeFiles/nullpointerconstant.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 0
-.PHONY : c01/CMakeFiles/nullpointerconstant.dir/rule
+.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/nullpointerconstant.dir/rule
 
 # Convenience name for target.
-nullpointerconstant: c01/CMakeFiles/nullpointerconstant.dir/rule
+nullpointerconstant: ProfessionalC++/01-ACrashCourse/CMakeFiles/nullpointerconstant.dir/rule
 
 .PHONY : nullpointerconstant
 
 # clean rule for target.
-c01/CMakeFiles/nullpointerconstant.dir/clean:
-	$(MAKE) -f c01/CMakeFiles/nullpointerconstant.dir/build.make c01/CMakeFiles/nullpointerconstant.dir/clean
-.PHONY : c01/CMakeFiles/nullpointerconstant.dir/clean
+ProfessionalC++/01-ACrashCourse/CMakeFiles/nullpointerconstant.dir/clean:
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/nullpointerconstant.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/nullpointerconstant.dir/clean
+.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/nullpointerconstant.dir/clean
 
 # clean rule for target.
-clean: c01/CMakeFiles/nullpointerconstant.dir/clean
+clean: ProfessionalC++/01-ACrashCourse/CMakeFiles/nullpointerconstant.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory c02
+# Directory level rules for directory ProfessionalC++/02-WorkingWithStrings
 
 # Convenience name for "all" pass in the directory.
-c02/all: c02/CMakeFiles/RawStringLiteral.dir/all
-c02/all: c02/CMakeFiles/CppStrings.dir/all
-c02/all: c02/CMakeFiles/strlen.dir/all
-c02/all: c02/CMakeFiles/strcpy.dir/all
+ProfessionalC++/02-WorkingWithStrings/all: ProfessionalC++/02-WorkingWithStrings/CMakeFiles/RawStringLiteral.dir/all
+ProfessionalC++/02-WorkingWithStrings/all: ProfessionalC++/02-WorkingWithStrings/CMakeFiles/CppStrings.dir/all
+ProfessionalC++/02-WorkingWithStrings/all: ProfessionalC++/02-WorkingWithStrings/CMakeFiles/strlen.dir/all
+ProfessionalC++/02-WorkingWithStrings/all: ProfessionalC++/02-WorkingWithStrings/CMakeFiles/strcpy.dir/all
 
-.PHONY : c02/all
+.PHONY : ProfessionalC++/02-WorkingWithStrings/all
 
 # Convenience name for "clean" pass in the directory.
-c02/clean: c02/CMakeFiles/RawStringLiteral.dir/clean
-c02/clean: c02/CMakeFiles/CppStrings.dir/clean
-c02/clean: c02/CMakeFiles/strlen.dir/clean
-c02/clean: c02/CMakeFiles/strcpy.dir/clean
+ProfessionalC++/02-WorkingWithStrings/clean: ProfessionalC++/02-WorkingWithStrings/CMakeFiles/RawStringLiteral.dir/clean
+ProfessionalC++/02-WorkingWithStrings/clean: ProfessionalC++/02-WorkingWithStrings/CMakeFiles/CppStrings.dir/clean
+ProfessionalC++/02-WorkingWithStrings/clean: ProfessionalC++/02-WorkingWithStrings/CMakeFiles/strlen.dir/clean
+ProfessionalC++/02-WorkingWithStrings/clean: ProfessionalC++/02-WorkingWithStrings/CMakeFiles/strcpy.dir/clean
 
-.PHONY : c02/clean
+.PHONY : ProfessionalC++/02-WorkingWithStrings/clean
 
 # Convenience name for "preinstall" pass in the directory.
-c02/preinstall:
+ProfessionalC++/02-WorkingWithStrings/preinstall:
 
-.PHONY : c02/preinstall
+.PHONY : ProfessionalC++/02-WorkingWithStrings/preinstall
 
 #=============================================================================
-# Target rules for target c02/CMakeFiles/RawStringLiteral.dir
+# Target rules for target ProfessionalC++/02-WorkingWithStrings/CMakeFiles/RawStringLiteral.dir
 
 # All Build rule for target.
-c02/CMakeFiles/RawStringLiteral.dir/all:
-	$(MAKE) -f c02/CMakeFiles/RawStringLiteral.dir/build.make c02/CMakeFiles/RawStringLiteral.dir/depend
-	$(MAKE) -f c02/CMakeFiles/RawStringLiteral.dir/build.make c02/CMakeFiles/RawStringLiteral.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wang/github/CPlusPlus/build/CMakeFiles --progress-num=28 "Built target RawStringLiteral"
-.PHONY : c02/CMakeFiles/RawStringLiteral.dir/all
+ProfessionalC++/02-WorkingWithStrings/CMakeFiles/RawStringLiteral.dir/all:
+	$(MAKE) -f ProfessionalC++/02-WorkingWithStrings/CMakeFiles/RawStringLiteral.dir/build.make ProfessionalC++/02-WorkingWithStrings/CMakeFiles/RawStringLiteral.dir/depend
+	$(MAKE) -f ProfessionalC++/02-WorkingWithStrings/CMakeFiles/RawStringLiteral.dir/build.make ProfessionalC++/02-WorkingWithStrings/CMakeFiles/RawStringLiteral.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wang/github/CPlusPlus/build/CMakeFiles --progress-num=39,40 "Built target RawStringLiteral"
+.PHONY : ProfessionalC++/02-WorkingWithStrings/CMakeFiles/RawStringLiteral.dir/all
 
 # Include target in all.
-all: c02/CMakeFiles/RawStringLiteral.dir/all
+all: ProfessionalC++/02-WorkingWithStrings/CMakeFiles/RawStringLiteral.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-c02/CMakeFiles/RawStringLiteral.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 c02/CMakeFiles/RawStringLiteral.dir/all
+ProfessionalC++/02-WorkingWithStrings/CMakeFiles/RawStringLiteral.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 ProfessionalC++/02-WorkingWithStrings/CMakeFiles/RawStringLiteral.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 0
-.PHONY : c02/CMakeFiles/RawStringLiteral.dir/rule
+.PHONY : ProfessionalC++/02-WorkingWithStrings/CMakeFiles/RawStringLiteral.dir/rule
 
 # Convenience name for target.
-RawStringLiteral: c02/CMakeFiles/RawStringLiteral.dir/rule
+RawStringLiteral: ProfessionalC++/02-WorkingWithStrings/CMakeFiles/RawStringLiteral.dir/rule
 
 .PHONY : RawStringLiteral
 
 # clean rule for target.
-c02/CMakeFiles/RawStringLiteral.dir/clean:
-	$(MAKE) -f c02/CMakeFiles/RawStringLiteral.dir/build.make c02/CMakeFiles/RawStringLiteral.dir/clean
-.PHONY : c02/CMakeFiles/RawStringLiteral.dir/clean
+ProfessionalC++/02-WorkingWithStrings/CMakeFiles/RawStringLiteral.dir/clean:
+	$(MAKE) -f ProfessionalC++/02-WorkingWithStrings/CMakeFiles/RawStringLiteral.dir/build.make ProfessionalC++/02-WorkingWithStrings/CMakeFiles/RawStringLiteral.dir/clean
+.PHONY : ProfessionalC++/02-WorkingWithStrings/CMakeFiles/RawStringLiteral.dir/clean
 
 # clean rule for target.
-clean: c02/CMakeFiles/RawStringLiteral.dir/clean
+clean: ProfessionalC++/02-WorkingWithStrings/CMakeFiles/RawStringLiteral.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target c02/CMakeFiles/CppStrings.dir
+# Target rules for target ProfessionalC++/02-WorkingWithStrings/CMakeFiles/CppStrings.dir
 
 # All Build rule for target.
-c02/CMakeFiles/CppStrings.dir/all:
-	$(MAKE) -f c02/CMakeFiles/CppStrings.dir/build.make c02/CMakeFiles/CppStrings.dir/depend
-	$(MAKE) -f c02/CMakeFiles/CppStrings.dir/build.make c02/CMakeFiles/CppStrings.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wang/github/CPlusPlus/build/CMakeFiles --progress-num=10,11 "Built target CppStrings"
-.PHONY : c02/CMakeFiles/CppStrings.dir/all
+ProfessionalC++/02-WorkingWithStrings/CMakeFiles/CppStrings.dir/all:
+	$(MAKE) -f ProfessionalC++/02-WorkingWithStrings/CMakeFiles/CppStrings.dir/build.make ProfessionalC++/02-WorkingWithStrings/CMakeFiles/CppStrings.dir/depend
+	$(MAKE) -f ProfessionalC++/02-WorkingWithStrings/CMakeFiles/CppStrings.dir/build.make ProfessionalC++/02-WorkingWithStrings/CMakeFiles/CppStrings.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wang/github/CPlusPlus/build/CMakeFiles --progress-num=15 "Built target CppStrings"
+.PHONY : ProfessionalC++/02-WorkingWithStrings/CMakeFiles/CppStrings.dir/all
 
 # Include target in all.
-all: c02/CMakeFiles/CppStrings.dir/all
+all: ProfessionalC++/02-WorkingWithStrings/CMakeFiles/CppStrings.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-c02/CMakeFiles/CppStrings.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 c02/CMakeFiles/CppStrings.dir/all
+ProfessionalC++/02-WorkingWithStrings/CMakeFiles/CppStrings.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 ProfessionalC++/02-WorkingWithStrings/CMakeFiles/CppStrings.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 0
-.PHONY : c02/CMakeFiles/CppStrings.dir/rule
+.PHONY : ProfessionalC++/02-WorkingWithStrings/CMakeFiles/CppStrings.dir/rule
 
 # Convenience name for target.
-CppStrings: c02/CMakeFiles/CppStrings.dir/rule
+CppStrings: ProfessionalC++/02-WorkingWithStrings/CMakeFiles/CppStrings.dir/rule
 
 .PHONY : CppStrings
 
 # clean rule for target.
-c02/CMakeFiles/CppStrings.dir/clean:
-	$(MAKE) -f c02/CMakeFiles/CppStrings.dir/build.make c02/CMakeFiles/CppStrings.dir/clean
-.PHONY : c02/CMakeFiles/CppStrings.dir/clean
+ProfessionalC++/02-WorkingWithStrings/CMakeFiles/CppStrings.dir/clean:
+	$(MAKE) -f ProfessionalC++/02-WorkingWithStrings/CMakeFiles/CppStrings.dir/build.make ProfessionalC++/02-WorkingWithStrings/CMakeFiles/CppStrings.dir/clean
+.PHONY : ProfessionalC++/02-WorkingWithStrings/CMakeFiles/CppStrings.dir/clean
 
 # clean rule for target.
-clean: c02/CMakeFiles/CppStrings.dir/clean
+clean: ProfessionalC++/02-WorkingWithStrings/CMakeFiles/CppStrings.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target c02/CMakeFiles/strlen.dir
+# Target rules for target ProfessionalC++/02-WorkingWithStrings/CMakeFiles/strlen.dir
 
 # All Build rule for target.
-c02/CMakeFiles/strlen.dir/all:
-	$(MAKE) -f c02/CMakeFiles/strlen.dir/build.make c02/CMakeFiles/strlen.dir/depend
-	$(MAKE) -f c02/CMakeFiles/strlen.dir/build.make c02/CMakeFiles/strlen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wang/github/CPlusPlus/build/CMakeFiles --progress-num=89,90 "Built target strlen"
-.PHONY : c02/CMakeFiles/strlen.dir/all
+ProfessionalC++/02-WorkingWithStrings/CMakeFiles/strlen.dir/all:
+	$(MAKE) -f ProfessionalC++/02-WorkingWithStrings/CMakeFiles/strlen.dir/build.make ProfessionalC++/02-WorkingWithStrings/CMakeFiles/strlen.dir/depend
+	$(MAKE) -f ProfessionalC++/02-WorkingWithStrings/CMakeFiles/strlen.dir/build.make ProfessionalC++/02-WorkingWithStrings/CMakeFiles/strlen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wang/github/CPlusPlus/build/CMakeFiles --progress-num=91 "Built target strlen"
+.PHONY : ProfessionalC++/02-WorkingWithStrings/CMakeFiles/strlen.dir/all
 
 # Include target in all.
-all: c02/CMakeFiles/strlen.dir/all
+all: ProfessionalC++/02-WorkingWithStrings/CMakeFiles/strlen.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-c02/CMakeFiles/strlen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 c02/CMakeFiles/strlen.dir/all
+ProfessionalC++/02-WorkingWithStrings/CMakeFiles/strlen.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 ProfessionalC++/02-WorkingWithStrings/CMakeFiles/strlen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 0
-.PHONY : c02/CMakeFiles/strlen.dir/rule
+.PHONY : ProfessionalC++/02-WorkingWithStrings/CMakeFiles/strlen.dir/rule
 
 # Convenience name for target.
-strlen: c02/CMakeFiles/strlen.dir/rule
+strlen: ProfessionalC++/02-WorkingWithStrings/CMakeFiles/strlen.dir/rule
 
 .PHONY : strlen
 
 # clean rule for target.
-c02/CMakeFiles/strlen.dir/clean:
-	$(MAKE) -f c02/CMakeFiles/strlen.dir/build.make c02/CMakeFiles/strlen.dir/clean
-.PHONY : c02/CMakeFiles/strlen.dir/clean
+ProfessionalC++/02-WorkingWithStrings/CMakeFiles/strlen.dir/clean:
+	$(MAKE) -f ProfessionalC++/02-WorkingWithStrings/CMakeFiles/strlen.dir/build.make ProfessionalC++/02-WorkingWithStrings/CMakeFiles/strlen.dir/clean
+.PHONY : ProfessionalC++/02-WorkingWithStrings/CMakeFiles/strlen.dir/clean
 
 # clean rule for target.
-clean: c02/CMakeFiles/strlen.dir/clean
+clean: ProfessionalC++/02-WorkingWithStrings/CMakeFiles/strlen.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target c02/CMakeFiles/strcpy.dir
+# Target rules for target ProfessionalC++/02-WorkingWithStrings/CMakeFiles/strcpy.dir
 
 # All Build rule for target.
-c02/CMakeFiles/strcpy.dir/all:
-	$(MAKE) -f c02/CMakeFiles/strcpy.dir/build.make c02/CMakeFiles/strcpy.dir/depend
-	$(MAKE) -f c02/CMakeFiles/strcpy.dir/build.make c02/CMakeFiles/strcpy.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wang/github/CPlusPlus/build/CMakeFiles --progress-num=85,86 "Built target strcpy"
-.PHONY : c02/CMakeFiles/strcpy.dir/all
+ProfessionalC++/02-WorkingWithStrings/CMakeFiles/strcpy.dir/all:
+	$(MAKE) -f ProfessionalC++/02-WorkingWithStrings/CMakeFiles/strcpy.dir/build.make ProfessionalC++/02-WorkingWithStrings/CMakeFiles/strcpy.dir/depend
+	$(MAKE) -f ProfessionalC++/02-WorkingWithStrings/CMakeFiles/strcpy.dir/build.make ProfessionalC++/02-WorkingWithStrings/CMakeFiles/strcpy.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wang/github/CPlusPlus/build/CMakeFiles --progress-num=88 "Built target strcpy"
+.PHONY : ProfessionalC++/02-WorkingWithStrings/CMakeFiles/strcpy.dir/all
 
 # Include target in all.
-all: c02/CMakeFiles/strcpy.dir/all
+all: ProfessionalC++/02-WorkingWithStrings/CMakeFiles/strcpy.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-c02/CMakeFiles/strcpy.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 c02/CMakeFiles/strcpy.dir/all
+ProfessionalC++/02-WorkingWithStrings/CMakeFiles/strcpy.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 ProfessionalC++/02-WorkingWithStrings/CMakeFiles/strcpy.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 0
-.PHONY : c02/CMakeFiles/strcpy.dir/rule
+.PHONY : ProfessionalC++/02-WorkingWithStrings/CMakeFiles/strcpy.dir/rule
 
 # Convenience name for target.
-strcpy: c02/CMakeFiles/strcpy.dir/rule
+strcpy: ProfessionalC++/02-WorkingWithStrings/CMakeFiles/strcpy.dir/rule
 
 .PHONY : strcpy
 
 # clean rule for target.
-c02/CMakeFiles/strcpy.dir/clean:
-	$(MAKE) -f c02/CMakeFiles/strcpy.dir/build.make c02/CMakeFiles/strcpy.dir/clean
-.PHONY : c02/CMakeFiles/strcpy.dir/clean
+ProfessionalC++/02-WorkingWithStrings/CMakeFiles/strcpy.dir/clean:
+	$(MAKE) -f ProfessionalC++/02-WorkingWithStrings/CMakeFiles/strcpy.dir/build.make ProfessionalC++/02-WorkingWithStrings/CMakeFiles/strcpy.dir/clean
+.PHONY : ProfessionalC++/02-WorkingWithStrings/CMakeFiles/strcpy.dir/clean
 
 # clean rule for target.
-clean: c02/CMakeFiles/strcpy.dir/clean
+clean: ProfessionalC++/02-WorkingWithStrings/CMakeFiles/strcpy.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory ProfessionalC++/07-ClassesAndObjects
+
+# Convenience name for "all" pass in the directory.
+ProfessionalC++/07-ClassesAndObjects/all:
+
+.PHONY : ProfessionalC++/07-ClassesAndObjects/all
+
+# Convenience name for "clean" pass in the directory.
+ProfessionalC++/07-ClassesAndObjects/clean:
+
+.PHONY : ProfessionalC++/07-ClassesAndObjects/clean
+
+# Convenience name for "preinstall" pass in the directory.
+ProfessionalC++/07-ClassesAndObjects/preinstall:
+
+.PHONY : ProfessionalC++/07-ClassesAndObjects/preinstall
 
 #=============================================================================
 # Directory level rules for directory ProgrammingAbstractionsInC++
 
 # Convenience name for "all" pass in the directory.
 ProgrammingAbstractionsInC++/all: ProgrammingAbstractionsInC++/01-OverviewOfC++/all
+ProgrammingAbstractionsInC++/all: ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/all
+ProgrammingAbstractionsInC++/all: ProgrammingAbstractionsInC++/03-Strings/all
 
 .PHONY : ProgrammingAbstractionsInC++/all
 
 # Convenience name for "clean" pass in the directory.
 ProgrammingAbstractionsInC++/clean: ProgrammingAbstractionsInC++/01-OverviewOfC++/clean
+ProgrammingAbstractionsInC++/clean: ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/clean
+ProgrammingAbstractionsInC++/clean: ProgrammingAbstractionsInC++/03-Strings/clean
 
 .PHONY : ProgrammingAbstractionsInC++/clean
 
 # Convenience name for "preinstall" pass in the directory.
 ProgrammingAbstractionsInC++/preinstall: ProgrammingAbstractionsInC++/01-OverviewOfC++/preinstall
+ProgrammingAbstractionsInC++/preinstall: ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/preinstall
+ProgrammingAbstractionsInC++/preinstall: ProgrammingAbstractionsInC++/03-Strings/preinstall
 
 .PHONY : ProgrammingAbstractionsInC++/preinstall
 
@@ -1063,7 +1111,7 @@ ProgrammingAbstractionsInC++/01-OverviewOfC++/preinstall:
 ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/AddThreeNumbers.dir/all:
 	$(MAKE) -f ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/AddThreeNumbers.dir/build.make ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/AddThreeNumbers.dir/depend
 	$(MAKE) -f ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/AddThreeNumbers.dir/build.make ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/AddThreeNumbers.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wang/github/CPlusPlus/build/CMakeFiles --progress-num=2,3 "Built target AddThreeNumbers"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wang/github/CPlusPlus/build/CMakeFiles --progress-num=2 "Built target AddThreeNumbers"
 .PHONY : ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/AddThreeNumbers.dir/all
 
 # Include target in all.
@@ -1073,7 +1121,7 @@ all: ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/AddThreeNumbers.di
 
 # Build rule for subdir invocation for target.
 ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/AddThreeNumbers.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/AddThreeNumbers.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 0
 .PHONY : ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/AddThreeNumbers.dir/rule
@@ -1100,7 +1148,7 @@ clean: ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/AddThreeNumbers.
 ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/Countdown.dir/all:
 	$(MAKE) -f ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/Countdown.dir/build.make ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/Countdown.dir/depend
 	$(MAKE) -f ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/Countdown.dir/build.make ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/Countdown.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wang/github/CPlusPlus/build/CMakeFiles --progress-num=9 "Built target Countdown"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wang/github/CPlusPlus/build/CMakeFiles --progress-num=13,14 "Built target Countdown"
 .PHONY : ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/Countdown.dir/all
 
 # Include target in all.
@@ -1110,7 +1158,7 @@ all: ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/Countdown.dir/all
 
 # Build rule for subdir invocation for target.
 ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/Countdown.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/Countdown.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 0
 .PHONY : ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/Countdown.dir/rule
@@ -1174,7 +1222,7 @@ clean: ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/AddIntegerList.d
 ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/DigitSum.dir/all:
 	$(MAKE) -f ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/DigitSum.dir/build.make ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/DigitSum.dir/depend
 	$(MAKE) -f ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/DigitSum.dir/build.make ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/DigitSum.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wang/github/CPlusPlus/build/CMakeFiles --progress-num=16,17 "Built target DigitSum"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wang/github/CPlusPlus/build/CMakeFiles --progress-num=21 "Built target DigitSum"
 .PHONY : ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/DigitSum.dir/all
 
 # Include target in all.
@@ -1184,7 +1232,7 @@ all: ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/DigitSum.dir/all
 
 # Build rule for subdir invocation for target.
 ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/DigitSum.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/DigitSum.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 0
 .PHONY : ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/DigitSum.dir/rule
@@ -1211,7 +1259,7 @@ clean: ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/DigitSum.dir/cle
 ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/DirectionTest.dir/all: STFlib/CMakeFiles/STFlib.dir/all
 	$(MAKE) -f ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/DirectionTest.dir/build.make ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/DirectionTest.dir/depend
 	$(MAKE) -f ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/DirectionTest.dir/build.make ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/DirectionTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wang/github/CPlusPlus/build/CMakeFiles --progress-num=18 "Built target DirectionTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wang/github/CPlusPlus/build/CMakeFiles --progress-num=22 "Built target DirectionTest"
 .PHONY : ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/DirectionTest.dir/all
 
 # Include target in all.
@@ -1221,7 +1269,7 @@ all: ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/DirectionTest.dir/
 
 # Build rule for subdir invocation for target.
 ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/DirectionTest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 39
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/DirectionTest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 0
 .PHONY : ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/DirectionTest.dir/rule
@@ -1248,7 +1296,7 @@ clean: ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/DirectionTest.di
 ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/Enumerations.dir/all:
 	$(MAKE) -f ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/Enumerations.dir/build.make ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/Enumerations.dir/depend
 	$(MAKE) -f ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/Enumerations.dir/build.make ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/Enumerations.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wang/github/CPlusPlus/build/CMakeFiles --progress-num=22,23 "Built target Enumerations"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wang/github/CPlusPlus/build/CMakeFiles --progress-num=26 "Built target Enumerations"
 .PHONY : ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/Enumerations.dir/all
 
 # Include target in all.
@@ -1258,7 +1306,7 @@ all: ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/Enumerations.dir/a
 
 # Build rule for subdir invocation for target.
 ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/Enumerations.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/Enumerations.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 0
 .PHONY : ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/Enumerations.dir/rule
@@ -1285,7 +1333,7 @@ clean: ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/Enumerations.dir
 ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/HelloWorld.dir/all:
 	$(MAKE) -f ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/HelloWorld.dir/build.make ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/HelloWorld.dir/depend
 	$(MAKE) -f ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/HelloWorld.dir/build.make ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/HelloWorld.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wang/github/CPlusPlus/build/CMakeFiles --progress-num=24,25 "Built target HelloWorld"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wang/github/CPlusPlus/build/CMakeFiles --progress-num=30,31 "Built target HelloWorld"
 .PHONY : ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/HelloWorld.dir/all
 
 # Include target in all.
@@ -1322,7 +1370,7 @@ clean: ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/HelloWorld.dir/c
 ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/Average3.dir/all:
 	$(MAKE) -f ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/Average3.dir/build.make ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/Average3.dir/depend
 	$(MAKE) -f ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/Average3.dir/build.make ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/Average3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wang/github/CPlusPlus/build/CMakeFiles --progress-num=7,8 "Built target Average3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wang/github/CPlusPlus/build/CMakeFiles --progress-num=6 "Built target Average3"
 .PHONY : ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/Average3.dir/all
 
 # Include target in all.
@@ -1332,7 +1380,7 @@ all: ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/Average3.dir/all
 
 # Build rule for subdir invocation for target.
 ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/Average3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/Average3.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 0
 .PHONY : ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/Average3.dir/rule
@@ -1359,7 +1407,7 @@ clean: ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/Average3.dir/cle
 ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/PowersOfTwo.dir/all:
 	$(MAKE) -f ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/PowersOfTwo.dir/build.make ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/PowersOfTwo.dir/depend
 	$(MAKE) -f ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/PowersOfTwo.dir/build.make ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/PowersOfTwo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wang/github/CPlusPlus/build/CMakeFiles --progress-num=26,27 "Built target PowersOfTwo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wang/github/CPlusPlus/build/CMakeFiles --progress-num=35 "Built target PowersOfTwo"
 .PHONY : ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/PowersOfTwo.dir/all
 
 # Include target in all.
@@ -1369,7 +1417,7 @@ all: ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/PowersOfTwo.dir/al
 
 # Build rule for subdir invocation for target.
 ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/PowersOfTwo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/PowersOfTwo.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 0
 .PHONY : ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/PowersOfTwo.dir/rule
@@ -1386,6 +1434,506 @@ ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/PowersOfTwo.dir/clean:
 
 # clean rule for target.
 clean: ProgrammingAbstractionsInC++/01-OverviewOfC++/CMakeFiles/PowersOfTwo.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory ProgrammingAbstractionsInC++/02-FunctionsAndLibraries
+
+# Convenience name for "all" pass in the directory.
+ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/all: ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/OddEven.dir/all
+ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/all: ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/Combinations.dir/all
+ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/all: ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/FlipCoin.dir/all
+ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/all: ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/Craps.dir/all
+ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/all: ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/OverloadRaiseToPower.dir/all
+ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/all: ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/Quadratic.dir/all
+ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/all: ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/RandTest.dir/all
+ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/all: ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/GraphicsExample.dir/all
+ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/all: ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/CircleArea.dir/all
+ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/all: ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/SimpioExample.dir/all
+
+.PHONY : ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/all
+
+# Convenience name for "clean" pass in the directory.
+ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/clean: ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/OddEven.dir/clean
+ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/clean: ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/Combinations.dir/clean
+ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/clean: ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/FlipCoin.dir/clean
+ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/clean: ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/Craps.dir/clean
+ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/clean: ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/OverloadRaiseToPower.dir/clean
+ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/clean: ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/Quadratic.dir/clean
+ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/clean: ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/RandTest.dir/clean
+ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/clean: ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/GraphicsExample.dir/clean
+ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/clean: ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/CircleArea.dir/clean
+ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/clean: ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/SimpioExample.dir/clean
+
+.PHONY : ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/clean
+
+# Convenience name for "preinstall" pass in the directory.
+ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/preinstall:
+
+.PHONY : ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/preinstall
+
+#=============================================================================
+# Target rules for target ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/OddEven.dir
+
+# All Build rule for target.
+ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/OddEven.dir/all:
+	$(MAKE) -f ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/OddEven.dir/build.make ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/OddEven.dir/depend
+	$(MAKE) -f ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/OddEven.dir/build.make ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/OddEven.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wang/github/CPlusPlus/build/CMakeFiles --progress-num=32 "Built target OddEven"
+.PHONY : ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/OddEven.dir/all
+
+# Include target in all.
+all: ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/OddEven.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/OddEven.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/OddEven.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 0
+.PHONY : ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/OddEven.dir/rule
+
+# Convenience name for target.
+OddEven: ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/OddEven.dir/rule
+
+.PHONY : OddEven
+
+# clean rule for target.
+ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/OddEven.dir/clean:
+	$(MAKE) -f ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/OddEven.dir/build.make ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/OddEven.dir/clean
+.PHONY : ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/OddEven.dir/clean
+
+# clean rule for target.
+clean: ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/OddEven.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/Combinations.dir
+
+# All Build rule for target.
+ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/Combinations.dir/all:
+	$(MAKE) -f ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/Combinations.dir/build.make ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/Combinations.dir/depend
+	$(MAKE) -f ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/Combinations.dir/build.make ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/Combinations.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wang/github/CPlusPlus/build/CMakeFiles --progress-num=10,11 "Built target Combinations"
+.PHONY : ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/Combinations.dir/all
+
+# Include target in all.
+all: ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/Combinations.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/Combinations.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/Combinations.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 0
+.PHONY : ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/Combinations.dir/rule
+
+# Convenience name for target.
+Combinations: ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/Combinations.dir/rule
+
+.PHONY : Combinations
+
+# clean rule for target.
+ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/Combinations.dir/clean:
+	$(MAKE) -f ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/Combinations.dir/build.make ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/Combinations.dir/clean
+.PHONY : ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/Combinations.dir/clean
+
+# clean rule for target.
+clean: ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/Combinations.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/FlipCoin.dir
+
+# All Build rule for target.
+ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/FlipCoin.dir/all: STFlib/CMakeFiles/STFlib.dir/all
+	$(MAKE) -f ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/FlipCoin.dir/build.make ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/FlipCoin.dir/depend
+	$(MAKE) -f ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/FlipCoin.dir/build.make ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/FlipCoin.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wang/github/CPlusPlus/build/CMakeFiles --progress-num=27,28 "Built target FlipCoin"
+.PHONY : ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/FlipCoin.dir/all
+
+# Include target in all.
+all: ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/FlipCoin.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/FlipCoin.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 33
+	$(MAKE) -f CMakeFiles/Makefile2 ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/FlipCoin.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 0
+.PHONY : ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/FlipCoin.dir/rule
+
+# Convenience name for target.
+FlipCoin: ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/FlipCoin.dir/rule
+
+.PHONY : FlipCoin
+
+# clean rule for target.
+ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/FlipCoin.dir/clean:
+	$(MAKE) -f ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/FlipCoin.dir/build.make ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/FlipCoin.dir/clean
+.PHONY : ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/FlipCoin.dir/clean
+
+# clean rule for target.
+clean: ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/FlipCoin.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/Craps.dir
+
+# All Build rule for target.
+ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/Craps.dir/all: STFlib/CMakeFiles/STFlib.dir/all
+	$(MAKE) -f ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/Craps.dir/build.make ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/Craps.dir/depend
+	$(MAKE) -f ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/Craps.dir/build.make ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/Craps.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wang/github/CPlusPlus/build/CMakeFiles --progress-num=16,17 "Built target Craps"
+.PHONY : ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/Craps.dir/all
+
+# Include target in all.
+all: ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/Craps.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/Craps.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 33
+	$(MAKE) -f CMakeFiles/Makefile2 ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/Craps.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 0
+.PHONY : ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/Craps.dir/rule
+
+# Convenience name for target.
+Craps: ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/Craps.dir/rule
+
+.PHONY : Craps
+
+# clean rule for target.
+ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/Craps.dir/clean:
+	$(MAKE) -f ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/Craps.dir/build.make ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/Craps.dir/clean
+.PHONY : ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/Craps.dir/clean
+
+# clean rule for target.
+clean: ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/Craps.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/OverloadRaiseToPower.dir
+
+# All Build rule for target.
+ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/OverloadRaiseToPower.dir/all:
+	$(MAKE) -f ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/OverloadRaiseToPower.dir/build.make ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/OverloadRaiseToPower.dir/depend
+	$(MAKE) -f ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/OverloadRaiseToPower.dir/build.make ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/OverloadRaiseToPower.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wang/github/CPlusPlus/build/CMakeFiles --progress-num=33,34 "Built target OverloadRaiseToPower"
+.PHONY : ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/OverloadRaiseToPower.dir/all
+
+# Include target in all.
+all: ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/OverloadRaiseToPower.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/OverloadRaiseToPower.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/OverloadRaiseToPower.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 0
+.PHONY : ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/OverloadRaiseToPower.dir/rule
+
+# Convenience name for target.
+OverloadRaiseToPower: ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/OverloadRaiseToPower.dir/rule
+
+.PHONY : OverloadRaiseToPower
+
+# clean rule for target.
+ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/OverloadRaiseToPower.dir/clean:
+	$(MAKE) -f ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/OverloadRaiseToPower.dir/build.make ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/OverloadRaiseToPower.dir/clean
+.PHONY : ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/OverloadRaiseToPower.dir/clean
+
+# clean rule for target.
+clean: ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/OverloadRaiseToPower.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/Quadratic.dir
+
+# All Build rule for target.
+ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/Quadratic.dir/all:
+	$(MAKE) -f ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/Quadratic.dir/build.make ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/Quadratic.dir/depend
+	$(MAKE) -f ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/Quadratic.dir/build.make ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/Quadratic.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wang/github/CPlusPlus/build/CMakeFiles --progress-num=36,37 "Built target Quadratic"
+.PHONY : ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/Quadratic.dir/all
+
+# Include target in all.
+all: ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/Quadratic.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/Quadratic.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/Quadratic.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 0
+.PHONY : ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/Quadratic.dir/rule
+
+# Convenience name for target.
+Quadratic: ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/Quadratic.dir/rule
+
+.PHONY : Quadratic
+
+# clean rule for target.
+ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/Quadratic.dir/clean:
+	$(MAKE) -f ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/Quadratic.dir/build.make ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/Quadratic.dir/clean
+.PHONY : ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/Quadratic.dir/clean
+
+# clean rule for target.
+clean: ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/Quadratic.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/RandTest.dir
+
+# All Build rule for target.
+ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/RandTest.dir/all: STFlib/CMakeFiles/STFlib.dir/all
+	$(MAKE) -f ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/RandTest.dir/build.make ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/RandTest.dir/depend
+	$(MAKE) -f ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/RandTest.dir/build.make ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/RandTest.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wang/github/CPlusPlus/build/CMakeFiles --progress-num=38 "Built target RandTest"
+.PHONY : ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/RandTest.dir/all
+
+# Include target in all.
+all: ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/RandTest.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/RandTest.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 32
+	$(MAKE) -f CMakeFiles/Makefile2 ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/RandTest.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 0
+.PHONY : ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/RandTest.dir/rule
+
+# Convenience name for target.
+RandTest: ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/RandTest.dir/rule
+
+.PHONY : RandTest
+
+# clean rule for target.
+ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/RandTest.dir/clean:
+	$(MAKE) -f ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/RandTest.dir/build.make ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/RandTest.dir/clean
+.PHONY : ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/RandTest.dir/clean
+
+# clean rule for target.
+clean: ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/RandTest.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/GraphicsExample.dir
+
+# All Build rule for target.
+ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/GraphicsExample.dir/all: STFlib/CMakeFiles/STFlib.dir/all
+	$(MAKE) -f ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/GraphicsExample.dir/build.make ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/GraphicsExample.dir/depend
+	$(MAKE) -f ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/GraphicsExample.dir/build.make ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/GraphicsExample.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wang/github/CPlusPlus/build/CMakeFiles --progress-num=29 "Built target GraphicsExample"
+.PHONY : ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/GraphicsExample.dir/all
+
+# Include target in all.
+all: ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/GraphicsExample.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/GraphicsExample.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 32
+	$(MAKE) -f CMakeFiles/Makefile2 ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/GraphicsExample.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 0
+.PHONY : ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/GraphicsExample.dir/rule
+
+# Convenience name for target.
+GraphicsExample: ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/GraphicsExample.dir/rule
+
+.PHONY : GraphicsExample
+
+# clean rule for target.
+ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/GraphicsExample.dir/clean:
+	$(MAKE) -f ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/GraphicsExample.dir/build.make ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/GraphicsExample.dir/clean
+.PHONY : ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/GraphicsExample.dir/clean
+
+# clean rule for target.
+clean: ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/GraphicsExample.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/CircleArea.dir
+
+# All Build rule for target.
+ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/CircleArea.dir/all:
+	$(MAKE) -f ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/CircleArea.dir/build.make ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/CircleArea.dir/depend
+	$(MAKE) -f ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/CircleArea.dir/build.make ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/CircleArea.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wang/github/CPlusPlus/build/CMakeFiles --progress-num=9 "Built target CircleArea"
+.PHONY : ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/CircleArea.dir/all
+
+# Include target in all.
+all: ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/CircleArea.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/CircleArea.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/CircleArea.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 0
+.PHONY : ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/CircleArea.dir/rule
+
+# Convenience name for target.
+CircleArea: ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/CircleArea.dir/rule
+
+.PHONY : CircleArea
+
+# clean rule for target.
+ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/CircleArea.dir/clean:
+	$(MAKE) -f ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/CircleArea.dir/build.make ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/CircleArea.dir/clean
+.PHONY : ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/CircleArea.dir/clean
+
+# clean rule for target.
+clean: ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/CircleArea.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/SimpioExample.dir
+
+# All Build rule for target.
+ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/SimpioExample.dir/all: STFlib/CMakeFiles/STFlib.dir/all
+	$(MAKE) -f ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/SimpioExample.dir/build.make ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/SimpioExample.dir/depend
+	$(MAKE) -f ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/SimpioExample.dir/build.make ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/SimpioExample.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wang/github/CPlusPlus/build/CMakeFiles --progress-num=72 "Built target SimpioExample"
+.PHONY : ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/SimpioExample.dir/all
+
+# Include target in all.
+all: ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/SimpioExample.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/SimpioExample.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 32
+	$(MAKE) -f CMakeFiles/Makefile2 ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/SimpioExample.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 0
+.PHONY : ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/SimpioExample.dir/rule
+
+# Convenience name for target.
+SimpioExample: ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/SimpioExample.dir/rule
+
+.PHONY : SimpioExample
+
+# clean rule for target.
+ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/SimpioExample.dir/clean:
+	$(MAKE) -f ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/SimpioExample.dir/build.make ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/SimpioExample.dir/clean
+.PHONY : ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/SimpioExample.dir/clean
+
+# clean rule for target.
+clean: ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/CMakeFiles/SimpioExample.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory ProgrammingAbstractionsInC++/03-Strings
+
+# Convenience name for "all" pass in the directory.
+ProgrammingAbstractionsInC++/03-Strings/all: ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/CountSpaces.dir/all
+ProgrammingAbstractionsInC++/03-Strings/all: ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/CaseConversion.dir/all
+
+.PHONY : ProgrammingAbstractionsInC++/03-Strings/all
+
+# Convenience name for "clean" pass in the directory.
+ProgrammingAbstractionsInC++/03-Strings/clean: ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/CountSpaces.dir/clean
+ProgrammingAbstractionsInC++/03-Strings/clean: ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/CaseConversion.dir/clean
+
+.PHONY : ProgrammingAbstractionsInC++/03-Strings/clean
+
+# Convenience name for "preinstall" pass in the directory.
+ProgrammingAbstractionsInC++/03-Strings/preinstall:
+
+.PHONY : ProgrammingAbstractionsInC++/03-Strings/preinstall
+
+#=============================================================================
+# Target rules for target ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/CountSpaces.dir
+
+# All Build rule for target.
+ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/CountSpaces.dir/all:
+	$(MAKE) -f ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/CountSpaces.dir/build.make ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/CountSpaces.dir/depend
+	$(MAKE) -f ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/CountSpaces.dir/build.make ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/CountSpaces.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wang/github/CPlusPlus/build/CMakeFiles --progress-num=12 "Built target CountSpaces"
+.PHONY : ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/CountSpaces.dir/all
+
+# Include target in all.
+all: ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/CountSpaces.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/CountSpaces.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/CountSpaces.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 0
+.PHONY : ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/CountSpaces.dir/rule
+
+# Convenience name for target.
+CountSpaces: ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/CountSpaces.dir/rule
+
+.PHONY : CountSpaces
+
+# clean rule for target.
+ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/CountSpaces.dir/clean:
+	$(MAKE) -f ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/CountSpaces.dir/build.make ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/CountSpaces.dir/clean
+.PHONY : ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/CountSpaces.dir/clean
+
+# clean rule for target.
+clean: ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/CountSpaces.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/CaseConversion.dir
+
+# All Build rule for target.
+ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/CaseConversion.dir/all:
+	$(MAKE) -f ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/CaseConversion.dir/build.make ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/CaseConversion.dir/depend
+	$(MAKE) -f ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/CaseConversion.dir/build.make ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/CaseConversion.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wang/github/CPlusPlus/build/CMakeFiles --progress-num=7,8 "Built target CaseConversion"
+.PHONY : ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/CaseConversion.dir/all
+
+# Include target in all.
+all: ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/CaseConversion.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/CaseConversion.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/CaseConversion.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/github/CPlusPlus/build/CMakeFiles 0
+.PHONY : ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/CaseConversion.dir/rule
+
+# Convenience name for target.
+CaseConversion: ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/CaseConversion.dir/rule
+
+.PHONY : CaseConversion
+
+# clean rule for target.
+ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/CaseConversion.dir/clean:
+	$(MAKE) -f ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/CaseConversion.dir/build.make ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/CaseConversion.dir/clean
+.PHONY : ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/CaseConversion.dir/clean
+
+# clean rule for target.
+clean: ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/CaseConversion.dir/clean
 
 .PHONY : clean
 

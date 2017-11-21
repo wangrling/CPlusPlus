@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/FlipCoin.dir/FlipCoin.cpp.o  -o FlipCoin -rdynamic ../../STFlib/libSTFlib.a -ldl 

@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/Craps.dir/Craps.cpp.o  -o Craps -rdynamic ../../STFlib/libSTFlib.a -ldl 

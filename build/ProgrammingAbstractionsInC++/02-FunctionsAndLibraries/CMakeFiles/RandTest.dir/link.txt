@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/RandTest.dir/RandTest.cpp.o  -o RandTest -rdynamic ../../STFlib/libSTFlib.a -ldl 
