@@ -1,6 +1,8 @@
 {
     "files.associations": {
         "iostream": "cpp",
-        "iterator": "cpp"
+        "iterator": "cpp",
+        "iosfwd": "cpp",
+        "memory": "cpp"
     }
 }

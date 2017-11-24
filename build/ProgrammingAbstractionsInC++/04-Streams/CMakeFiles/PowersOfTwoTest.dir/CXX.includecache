@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/wang/github/CPlusPlus/ProgrammingAbstractionsInC++/04-Streams/PowersOfTwo.cpp
+iostream
+-
+sstream
+-
+string
+-
+iomanip
+-
+

@@ -410,6 +410,162 @@ strcpy/fast:
 .PHONY : strcpy/fast
 
 #=============================================================================
+# Target rules for targets named DestructorHeapExamples
+
+# Build rule for target.
+DestructorHeapExamples: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 DestructorHeapExamples
+.PHONY : DestructorHeapExamples
+
+# fast build rule for target.
+DestructorHeapExamples/fast:
+	$(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/DestructorHeapExamples.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/DestructorHeapExamples.dir/build
+.PHONY : DestructorHeapExamples/fast
+
+#=============================================================================
+# Target rules for targets named DestructorExamples
+
+# Build rule for target.
+DestructorExamples: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 DestructorExamples
+.PHONY : DestructorExamples
+
+# fast build rule for target.
+DestructorExamples/fast:
+	$(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/DestructorExamples.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/DestructorExamples.dir/build
+.PHONY : DestructorExamples/fast
+
+#=============================================================================
+# Target rules for targets named CellNumOnly
+
+# Build rule for target.
+CellNumOnly: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 CellNumOnly
+.PHONY : CellNumOnly
+
+# fast build rule for target.
+CellNumOnly/fast:
+	$(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumOnly.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumOnly.dir/build
+.PHONY : CellNumOnly/fast
+
+#=============================================================================
+# Target rules for targets named CellNumTextSmartPointer
+
+# Build rule for target.
+CellNumTextSmartPointer: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 CellNumTextSmartPointer
+.PHONY : CellNumTextSmartPointer
+
+# fast build rule for target.
+CellNumTextSmartPointer/fast:
+	$(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextSmartPointer.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextSmartPointer.dir/build
+.PHONY : CellNumTextSmartPointer/fast
+
+#=============================================================================
+# Target rules for targets named CellUnambiguousTest
+
+# Build rule for target.
+CellUnambiguousTest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 CellUnambiguousTest
+.PHONY : CellUnambiguousTest
+
+# fast build rule for target.
+CellUnambiguousTest/fast:
+	$(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellUnambiguousTest.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellUnambiguousTest.dir/build
+.PHONY : CellUnambiguousTest/fast
+
+#=============================================================================
+# Target rules for targets named CellNumTextAlternate
+
+# Build rule for target.
+CellNumTextAlternate: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 CellNumTextAlternate
+.PHONY : CellNumTextAlternate
+
+# fast build rule for target.
+CellNumTextAlternate/fast:
+	$(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextAlternate.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextAlternate.dir/build
+.PHONY : CellNumTextAlternate/fast
+
+#=============================================================================
+# Target rules for targets named CellNumTextTest
+
+# Build rule for target.
+CellNumTextTest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 CellNumTextTest
+.PHONY : CellNumTextTest
+
+# fast build rule for target.
+CellNumTextTest/fast:
+	$(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextTest.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextTest.dir/build
+.PHONY : CellNumTextTest/fast
+
+#=============================================================================
+# Target rules for targets named CellCtorsDefault
+
+# Build rule for target.
+CellCtorsDefault: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 CellCtorsDefault
+.PHONY : CellCtorsDefault
+
+# fast build rule for target.
+CellCtorsDefault/fast:
+	$(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellCtorsDefault.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellCtorsDefault.dir/build
+.PHONY : CellCtorsDefault/fast
+
+#=============================================================================
+# Target rules for targets named CellCopyCtor
+
+# Build rule for target.
+CellCopyCtor: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 CellCopyCtor
+.PHONY : CellCopyCtor
+
+# fast build rule for target.
+CellCopyCtor/fast:
+	$(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellCopyCtor.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellCopyCtor.dir/build
+.PHONY : CellCopyCtor/fast
+
+#=============================================================================
+# Target rules for targets named CellNumTextHeap
+
+# Build rule for target.
+CellNumTextHeap: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 CellNumTextHeap
+.PHONY : CellNumTextHeap
+
+# fast build rule for target.
+CellNumTextHeap/fast:
+	$(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextHeap.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextHeap.dir/build
+.PHONY : CellNumTextHeap/fast
+
+#=============================================================================
+# Target rules for targets named CellCtorsNoDefault
+
+# Build rule for target.
+CellCtorsNoDefault: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 CellCtorsNoDefault
+.PHONY : CellCtorsNoDefault
+
+# fast build rule for target.
+CellCtorsNoDefault/fast:
+	$(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellCtorsNoDefault.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellCtorsNoDefault.dir/build
+.PHONY : CellCtorsNoDefault/fast
+
+#=============================================================================
+# Target rules for targets named InitializerListCtor
+
+# Build rule for target.
+InitializerListCtor: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 InitializerListCtor
+.PHONY : InitializerListCtor
+
+# fast build rule for target.
+InitializerListCtor/fast:
+	$(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/InitializerListCtor.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/InitializerListCtor.dir/build
+.PHONY : InitializerListCtor/fast
+
+#=============================================================================
 # Target rules for targets named AddThreeNumbers
 
 # Build rule for target.
@@ -657,6 +813,45 @@ SimpioExample/fast:
 .PHONY : SimpioExample/fast
 
 #=============================================================================
+# Target rules for targets named CaseConversion
+
+# Build rule for target.
+CaseConversion: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 CaseConversion
+.PHONY : CaseConversion
+
+# fast build rule for target.
+CaseConversion/fast:
+	$(MAKE) -f ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/CaseConversion.dir/build.make ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/CaseConversion.dir/build
+.PHONY : CaseConversion/fast
+
+#=============================================================================
+# Target rules for targets named PigLatin
+
+# Build rule for target.
+PigLatin: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 PigLatin
+.PHONY : PigLatin
+
+# fast build rule for target.
+PigLatin/fast:
+	$(MAKE) -f ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/PigLatin.dir/build.make ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/PigLatin.dir/build
+.PHONY : PigLatin/fast
+
+#=============================================================================
+# Target rules for targets named RepeatChar
+
+# Build rule for target.
+RepeatChar: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 RepeatChar
+.PHONY : RepeatChar
+
+# fast build rule for target.
+RepeatChar/fast:
+	$(MAKE) -f ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/RepeatChar.dir/build.make ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/RepeatChar.dir/build
+.PHONY : RepeatChar/fast
+
+#=============================================================================
 # Target rules for targets named CountSpaces
 
 # Build rule for target.
@@ -670,17 +865,147 @@ CountSpaces/fast:
 .PHONY : CountSpaces/fast
 
 #=============================================================================
-# Target rules for targets named CaseConversion
+# Target rules for targets named CountWords
 
 # Build rule for target.
-CaseConversion: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 CaseConversion
-.PHONY : CaseConversion
+CountWords: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 CountWords
+.PHONY : CountWords
 
 # fast build rule for target.
-CaseConversion/fast:
-	$(MAKE) -f ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/CaseConversion.dir/build.make ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/CaseConversion.dir/build
-.PHONY : CaseConversion/fast
+CountWords/fast:
+	$(MAKE) -f ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/CountWords.dir/build.make ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/CountWords.dir/build
+.PHONY : CountWords/fast
+
+#=============================================================================
+# Target rules for targets named TestDirection
+
+# Build rule for target.
+TestDirection: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TestDirection
+.PHONY : TestDirection
+
+# fast build rule for target.
+TestDirection/fast:
+	$(MAKE) -f ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/TestDirection.dir/build.make ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/TestDirection.dir/build
+.PHONY : TestDirection/fast
+
+#=============================================================================
+# Target rules for targets named StartsWith
+
+# Build rule for target.
+StartsWith: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 StartsWith
+.PHONY : StartsWith
+
+# fast build rule for target.
+StartsWith/fast:
+	$(MAKE) -f ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/StartsWith.dir/build.make ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/StartsWith.dir/build
+.PHONY : StartsWith/fast
+
+#=============================================================================
+# Target rules for targets named HelloName
+
+# Build rule for target.
+HelloName: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 HelloName
+.PHONY : HelloName
+
+# fast build rule for target.
+HelloName/fast:
+	$(MAKE) -f ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/HelloName.dir/build.make ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/HelloName.dir/build
+.PHONY : HelloName/fast
+
+#=============================================================================
+# Target rules for targets named ReverseString
+
+# Build rule for target.
+ReverseString: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ReverseString
+.PHONY : ReverseString
+
+# fast build rule for target.
+ReverseString/fast:
+	$(MAKE) -f ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/ReverseString.dir/build.make ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/ReverseString.dir/build
+.PHONY : ReverseString/fast
+
+#=============================================================================
+# Target rules for targets named Palindrome
+
+# Build rule for target.
+Palindrome: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Palindrome
+.PHONY : Palindrome
+
+# fast build rule for target.
+Palindrome/fast:
+	$(MAKE) -f ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/Palindrome.dir/build.make ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/Palindrome.dir/build
+.PHONY : Palindrome/fast
+
+#=============================================================================
+# Target rules for targets named SecondHalf
+
+# Build rule for target.
+SecondHalf: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 SecondHalf
+.PHONY : SecondHalf
+
+# fast build rule for target.
+SecondHalf/fast:
+	$(MAKE) -f ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/SecondHalf.dir/build.make ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/SecondHalf.dir/build
+.PHONY : SecondHalf/fast
+
+#=============================================================================
+# Target rules for targets named StringStreamTest
+
+# Build rule for target.
+StringStreamTest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 StringStreamTest
+.PHONY : StringStreamTest
+
+# fast build rule for target.
+StringStreamTest/fast:
+	$(MAKE) -f ProgrammingAbstractionsInC++/04-Streams/CMakeFiles/StringStreamTest.dir/build.make ProgrammingAbstractionsInC++/04-Streams/CMakeFiles/StringStreamTest.dir/build
+.PHONY : StringStreamTest/fast
+
+#=============================================================================
+# Target rules for targets named PrecisionExample
+
+# Build rule for target.
+PrecisionExample: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 PrecisionExample
+.PHONY : PrecisionExample
+
+# fast build rule for target.
+PrecisionExample/fast:
+	$(MAKE) -f ProgrammingAbstractionsInC++/04-Streams/CMakeFiles/PrecisionExample.dir/build.make ProgrammingAbstractionsInC++/04-Streams/CMakeFiles/PrecisionExample.dir/build
+.PHONY : PrecisionExample/fast
+
+#=============================================================================
+# Target rules for targets named PowersOfTwoTest
+
+# Build rule for target.
+PowersOfTwoTest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 PowersOfTwoTest
+.PHONY : PowersOfTwoTest
+
+# fast build rule for target.
+PowersOfTwoTest/fast:
+	$(MAKE) -f ProgrammingAbstractionsInC++/04-Streams/CMakeFiles/PowersOfTwoTest.dir/build.make ProgrammingAbstractionsInC++/04-Streams/CMakeFiles/PowersOfTwoTest.dir/build
+.PHONY : PowersOfTwoTest/fast
+
+#=============================================================================
+# Target rules for targets named FloatingModes
+
+# Build rule for target.
+FloatingModes: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 FloatingModes
+.PHONY : FloatingModes
+
+# fast build rule for target.
+FloatingModes/fast:
+	$(MAKE) -f ProgrammingAbstractionsInC++/04-Streams/CMakeFiles/FloatingModes.dir/build.make ProgrammingAbstractionsInC++/04-Streams/CMakeFiles/FloatingModes.dir/build
+.PHONY : FloatingModes/fast
 
 # Help Target
 help:
@@ -713,6 +1038,18 @@ help:
 	@echo "... CppStrings"
 	@echo "... strlen"
 	@echo "... strcpy"
+	@echo "... DestructorHeapExamples"
+	@echo "... DestructorExamples"
+	@echo "... CellNumOnly"
+	@echo "... CellNumTextSmartPointer"
+	@echo "... CellUnambiguousTest"
+	@echo "... CellNumTextAlternate"
+	@echo "... CellNumTextTest"
+	@echo "... CellCtorsDefault"
+	@echo "... CellCopyCtor"
+	@echo "... CellNumTextHeap"
+	@echo "... CellCtorsNoDefault"
+	@echo "... InitializerListCtor"
 	@echo "... AddThreeNumbers"
 	@echo "... Countdown"
 	@echo "... AddIntegerList"
@@ -732,8 +1069,21 @@ help:
 	@echo "... GraphicsExample"
 	@echo "... CircleArea"
 	@echo "... SimpioExample"
-	@echo "... CountSpaces"
 	@echo "... CaseConversion"
+	@echo "... PigLatin"
+	@echo "... RepeatChar"
+	@echo "... CountSpaces"
+	@echo "... CountWords"
+	@echo "... TestDirection"
+	@echo "... StartsWith"
+	@echo "... HelloName"
+	@echo "... ReverseString"
+	@echo "... Palindrome"
+	@echo "... SecondHalf"
+	@echo "... StringStreamTest"
+	@echo "... PrecisionExample"
+	@echo "... PowersOfTwoTest"
+	@echo "... FloatingModes"
 .PHONY : help
 
 

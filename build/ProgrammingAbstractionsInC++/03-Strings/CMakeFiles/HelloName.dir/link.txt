@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/HelloName.dir/HelloName.cpp.o  -o HelloName -rdynamic 

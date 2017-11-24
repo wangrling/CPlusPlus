@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../STFlib/private/init.h
+cstdlib
+-
+stdio.h
+-
+
+../STFlib/system/error.h
+exception
+-
+iostream
+-
+string
+-
+private/init.h
+../STFlib/system/private/init.h
+
+/home/wang/github/CPlusPlus/ProgrammingAbstractionsInC++/04-Streams/StringStreamTest.cpp
+iostream
+-
+sstream
+-
+error.h
+/home/wang/github/CPlusPlus/ProgrammingAbstractionsInC++/04-Streams/error.h
+

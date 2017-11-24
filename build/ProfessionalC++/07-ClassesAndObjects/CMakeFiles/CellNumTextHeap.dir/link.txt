@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/CellNumTextHeap.dir/CellNumTextHeap.cpp.o CMakeFiles/CellNumTextHeap.dir/CellNumText.cpp.o  -o CellNumTextHeap -rdynamic 

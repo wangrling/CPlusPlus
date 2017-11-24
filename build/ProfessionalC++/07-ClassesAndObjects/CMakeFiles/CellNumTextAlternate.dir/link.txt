@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/CellNumTextAlternate.dir/CellNumTextAlternate.cpp.o CMakeFiles/CellNumTextAlternate.dir/CellNumText.cpp.o  -o CellNumTextAlternate -rdynamic 

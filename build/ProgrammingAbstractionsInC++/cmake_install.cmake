@@ -37,6 +37,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/wang/github/CPlusPlus/build/ProgrammingAbstractionsInC++/01-OverviewOfC++/cmake_install.cmake")
   include("/home/wang/github/CPlusPlus/build/ProgrammingAbstractionsInC++/02-FunctionsAndLibraries/cmake_install.cmake")
   include("/home/wang/github/CPlusPlus/build/ProgrammingAbstractionsInC++/03-Strings/cmake_install.cmake")
+  include("/home/wang/github/CPlusPlus/build/ProgrammingAbstractionsInC++/04-Streams/cmake_install.cmake")
 
 endif()
 

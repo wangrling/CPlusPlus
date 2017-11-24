@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/wang/github/CPlusPlus/ProfessionalC++/07-ClassesAndObjects/CellNumText.cpp
+CellNumText.h
+/home/wang/github/CPlusPlus/ProfessionalC++/07-ClassesAndObjects/CellNumText.h
+iostream
+-
+sstream
+-
+
+/home/wang/github/CPlusPlus/ProfessionalC++/07-ClassesAndObjects/CellNumText.h
+string
+-
+
+/home/wang/github/CPlusPlus/ProfessionalC++/07-ClassesAndObjects/CellNumTextSmartPointer.cpp
+CellNumText.h
+/home/wang/github/CPlusPlus/ProfessionalC++/07-ClassesAndObjects/CellNumText.h
+iostream
+-
+memory
+-
+

@@ -111,6 +111,51 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/CaseConversion.dir/rule:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f CMakeFiles/Makefile2 ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/CaseConversion.dir/rule
+.PHONY : ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/CaseConversion.dir/rule
+
+# Convenience name for target.
+CaseConversion: ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/CaseConversion.dir/rule
+
+.PHONY : CaseConversion
+
+# fast build rule for target.
+CaseConversion/fast:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/CaseConversion.dir/build.make ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/CaseConversion.dir/build
+.PHONY : CaseConversion/fast
+
+# Convenience name for target.
+ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/PigLatin.dir/rule:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f CMakeFiles/Makefile2 ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/PigLatin.dir/rule
+.PHONY : ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/PigLatin.dir/rule
+
+# Convenience name for target.
+PigLatin: ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/PigLatin.dir/rule
+
+.PHONY : PigLatin
+
+# fast build rule for target.
+PigLatin/fast:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/PigLatin.dir/build.make ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/PigLatin.dir/build
+.PHONY : PigLatin/fast
+
+# Convenience name for target.
+ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/RepeatChar.dir/rule:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f CMakeFiles/Makefile2 ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/RepeatChar.dir/rule
+.PHONY : ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/RepeatChar.dir/rule
+
+# Convenience name for target.
+RepeatChar: ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/RepeatChar.dir/rule
+
+.PHONY : RepeatChar
+
+# fast build rule for target.
+RepeatChar/fast:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/RepeatChar.dir/build.make ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/RepeatChar.dir/build
+.PHONY : RepeatChar/fast
+
+# Convenience name for target.
 ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/CountSpaces.dir/rule:
 	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f CMakeFiles/Makefile2 ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/CountSpaces.dir/rule
 .PHONY : ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/CountSpaces.dir/rule
@@ -126,19 +171,109 @@ CountSpaces/fast:
 .PHONY : CountSpaces/fast
 
 # Convenience name for target.
-ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/CaseConversion.dir/rule:
-	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f CMakeFiles/Makefile2 ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/CaseConversion.dir/rule
-.PHONY : ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/CaseConversion.dir/rule
+ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/CountWords.dir/rule:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f CMakeFiles/Makefile2 ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/CountWords.dir/rule
+.PHONY : ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/CountWords.dir/rule
 
 # Convenience name for target.
-CaseConversion: ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/CaseConversion.dir/rule
+CountWords: ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/CountWords.dir/rule
 
-.PHONY : CaseConversion
+.PHONY : CountWords
 
 # fast build rule for target.
-CaseConversion/fast:
-	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/CaseConversion.dir/build.make ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/CaseConversion.dir/build
-.PHONY : CaseConversion/fast
+CountWords/fast:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/CountWords.dir/build.make ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/CountWords.dir/build
+.PHONY : CountWords/fast
+
+# Convenience name for target.
+ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/TestDirection.dir/rule:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f CMakeFiles/Makefile2 ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/TestDirection.dir/rule
+.PHONY : ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/TestDirection.dir/rule
+
+# Convenience name for target.
+TestDirection: ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/TestDirection.dir/rule
+
+.PHONY : TestDirection
+
+# fast build rule for target.
+TestDirection/fast:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/TestDirection.dir/build.make ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/TestDirection.dir/build
+.PHONY : TestDirection/fast
+
+# Convenience name for target.
+ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/StartsWith.dir/rule:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f CMakeFiles/Makefile2 ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/StartsWith.dir/rule
+.PHONY : ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/StartsWith.dir/rule
+
+# Convenience name for target.
+StartsWith: ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/StartsWith.dir/rule
+
+.PHONY : StartsWith
+
+# fast build rule for target.
+StartsWith/fast:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/StartsWith.dir/build.make ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/StartsWith.dir/build
+.PHONY : StartsWith/fast
+
+# Convenience name for target.
+ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/HelloName.dir/rule:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f CMakeFiles/Makefile2 ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/HelloName.dir/rule
+.PHONY : ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/HelloName.dir/rule
+
+# Convenience name for target.
+HelloName: ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/HelloName.dir/rule
+
+.PHONY : HelloName
+
+# fast build rule for target.
+HelloName/fast:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/HelloName.dir/build.make ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/HelloName.dir/build
+.PHONY : HelloName/fast
+
+# Convenience name for target.
+ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/ReverseString.dir/rule:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f CMakeFiles/Makefile2 ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/ReverseString.dir/rule
+.PHONY : ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/ReverseString.dir/rule
+
+# Convenience name for target.
+ReverseString: ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/ReverseString.dir/rule
+
+.PHONY : ReverseString
+
+# fast build rule for target.
+ReverseString/fast:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/ReverseString.dir/build.make ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/ReverseString.dir/build
+.PHONY : ReverseString/fast
+
+# Convenience name for target.
+ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/Palindrome.dir/rule:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f CMakeFiles/Makefile2 ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/Palindrome.dir/rule
+.PHONY : ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/Palindrome.dir/rule
+
+# Convenience name for target.
+Palindrome: ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/Palindrome.dir/rule
+
+.PHONY : Palindrome
+
+# fast build rule for target.
+Palindrome/fast:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/Palindrome.dir/build.make ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/Palindrome.dir/build
+.PHONY : Palindrome/fast
+
+# Convenience name for target.
+ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/SecondHalf.dir/rule:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f CMakeFiles/Makefile2 ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/SecondHalf.dir/rule
+.PHONY : ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/SecondHalf.dir/rule
+
+# Convenience name for target.
+SecondHalf: ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/SecondHalf.dir/rule
+
+.PHONY : SecondHalf
+
+# fast build rule for target.
+SecondHalf/fast:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/SecondHalf.dir/build.make ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/SecondHalf.dir/build
+.PHONY : SecondHalf/fast
 
 CaseConversion.o: CaseConversion.cpp.o
 
@@ -194,6 +329,276 @@ CountSpaces.cpp.s:
 	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/CountSpaces.dir/build.make ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/CountSpaces.dir/CountSpaces.cpp.s
 .PHONY : CountSpaces.cpp.s
 
+CountWords.o: CountWords.cpp.o
+
+.PHONY : CountWords.o
+
+# target to build an object file
+CountWords.cpp.o:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/CountWords.dir/build.make ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/CountWords.dir/CountWords.cpp.o
+.PHONY : CountWords.cpp.o
+
+CountWords.i: CountWords.cpp.i
+
+.PHONY : CountWords.i
+
+# target to preprocess a source file
+CountWords.cpp.i:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/CountWords.dir/build.make ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/CountWords.dir/CountWords.cpp.i
+.PHONY : CountWords.cpp.i
+
+CountWords.s: CountWords.cpp.s
+
+.PHONY : CountWords.s
+
+# target to generate assembly for a file
+CountWords.cpp.s:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/CountWords.dir/build.make ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/CountWords.dir/CountWords.cpp.s
+.PHONY : CountWords.cpp.s
+
+HelloName.o: HelloName.cpp.o
+
+.PHONY : HelloName.o
+
+# target to build an object file
+HelloName.cpp.o:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/HelloName.dir/build.make ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/HelloName.dir/HelloName.cpp.o
+.PHONY : HelloName.cpp.o
+
+HelloName.i: HelloName.cpp.i
+
+.PHONY : HelloName.i
+
+# target to preprocess a source file
+HelloName.cpp.i:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/HelloName.dir/build.make ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/HelloName.dir/HelloName.cpp.i
+.PHONY : HelloName.cpp.i
+
+HelloName.s: HelloName.cpp.s
+
+.PHONY : HelloName.s
+
+# target to generate assembly for a file
+HelloName.cpp.s:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/HelloName.dir/build.make ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/HelloName.dir/HelloName.cpp.s
+.PHONY : HelloName.cpp.s
+
+Palindrome.o: Palindrome.cpp.o
+
+.PHONY : Palindrome.o
+
+# target to build an object file
+Palindrome.cpp.o:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/Palindrome.dir/build.make ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/Palindrome.dir/Palindrome.cpp.o
+.PHONY : Palindrome.cpp.o
+
+Palindrome.i: Palindrome.cpp.i
+
+.PHONY : Palindrome.i
+
+# target to preprocess a source file
+Palindrome.cpp.i:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/Palindrome.dir/build.make ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/Palindrome.dir/Palindrome.cpp.i
+.PHONY : Palindrome.cpp.i
+
+Palindrome.s: Palindrome.cpp.s
+
+.PHONY : Palindrome.s
+
+# target to generate assembly for a file
+Palindrome.cpp.s:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/Palindrome.dir/build.make ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/Palindrome.dir/Palindrome.cpp.s
+.PHONY : Palindrome.cpp.s
+
+PigLatin.o: PigLatin.cpp.o
+
+.PHONY : PigLatin.o
+
+# target to build an object file
+PigLatin.cpp.o:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/PigLatin.dir/build.make ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/PigLatin.dir/PigLatin.cpp.o
+.PHONY : PigLatin.cpp.o
+
+PigLatin.i: PigLatin.cpp.i
+
+.PHONY : PigLatin.i
+
+# target to preprocess a source file
+PigLatin.cpp.i:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/PigLatin.dir/build.make ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/PigLatin.dir/PigLatin.cpp.i
+.PHONY : PigLatin.cpp.i
+
+PigLatin.s: PigLatin.cpp.s
+
+.PHONY : PigLatin.s
+
+# target to generate assembly for a file
+PigLatin.cpp.s:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/PigLatin.dir/build.make ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/PigLatin.dir/PigLatin.cpp.s
+.PHONY : PigLatin.cpp.s
+
+RepeatChar.o: RepeatChar.cpp.o
+
+.PHONY : RepeatChar.o
+
+# target to build an object file
+RepeatChar.cpp.o:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/RepeatChar.dir/build.make ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/RepeatChar.dir/RepeatChar.cpp.o
+.PHONY : RepeatChar.cpp.o
+
+RepeatChar.i: RepeatChar.cpp.i
+
+.PHONY : RepeatChar.i
+
+# target to preprocess a source file
+RepeatChar.cpp.i:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/RepeatChar.dir/build.make ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/RepeatChar.dir/RepeatChar.cpp.i
+.PHONY : RepeatChar.cpp.i
+
+RepeatChar.s: RepeatChar.cpp.s
+
+.PHONY : RepeatChar.s
+
+# target to generate assembly for a file
+RepeatChar.cpp.s:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/RepeatChar.dir/build.make ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/RepeatChar.dir/RepeatChar.cpp.s
+.PHONY : RepeatChar.cpp.s
+
+ReverseString.o: ReverseString.cpp.o
+
+.PHONY : ReverseString.o
+
+# target to build an object file
+ReverseString.cpp.o:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/ReverseString.dir/build.make ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/ReverseString.dir/ReverseString.cpp.o
+.PHONY : ReverseString.cpp.o
+
+ReverseString.i: ReverseString.cpp.i
+
+.PHONY : ReverseString.i
+
+# target to preprocess a source file
+ReverseString.cpp.i:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/ReverseString.dir/build.make ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/ReverseString.dir/ReverseString.cpp.i
+.PHONY : ReverseString.cpp.i
+
+ReverseString.s: ReverseString.cpp.s
+
+.PHONY : ReverseString.s
+
+# target to generate assembly for a file
+ReverseString.cpp.s:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/ReverseString.dir/build.make ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/ReverseString.dir/ReverseString.cpp.s
+.PHONY : ReverseString.cpp.s
+
+SecondHalf.o: SecondHalf.cpp.o
+
+.PHONY : SecondHalf.o
+
+# target to build an object file
+SecondHalf.cpp.o:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/SecondHalf.dir/build.make ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/SecondHalf.dir/SecondHalf.cpp.o
+.PHONY : SecondHalf.cpp.o
+
+SecondHalf.i: SecondHalf.cpp.i
+
+.PHONY : SecondHalf.i
+
+# target to preprocess a source file
+SecondHalf.cpp.i:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/SecondHalf.dir/build.make ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/SecondHalf.dir/SecondHalf.cpp.i
+.PHONY : SecondHalf.cpp.i
+
+SecondHalf.s: SecondHalf.cpp.s
+
+.PHONY : SecondHalf.s
+
+# target to generate assembly for a file
+SecondHalf.cpp.s:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/SecondHalf.dir/build.make ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/SecondHalf.dir/SecondHalf.cpp.s
+.PHONY : SecondHalf.cpp.s
+
+StartsWith.o: StartsWith.cpp.o
+
+.PHONY : StartsWith.o
+
+# target to build an object file
+StartsWith.cpp.o:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/StartsWith.dir/build.make ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/StartsWith.dir/StartsWith.cpp.o
+.PHONY : StartsWith.cpp.o
+
+StartsWith.i: StartsWith.cpp.i
+
+.PHONY : StartsWith.i
+
+# target to preprocess a source file
+StartsWith.cpp.i:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/StartsWith.dir/build.make ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/StartsWith.dir/StartsWith.cpp.i
+.PHONY : StartsWith.cpp.i
+
+StartsWith.s: StartsWith.cpp.s
+
+.PHONY : StartsWith.s
+
+# target to generate assembly for a file
+StartsWith.cpp.s:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/StartsWith.dir/build.make ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/StartsWith.dir/StartsWith.cpp.s
+.PHONY : StartsWith.cpp.s
+
+TestDirection.o: TestDirection.cpp.o
+
+.PHONY : TestDirection.o
+
+# target to build an object file
+TestDirection.cpp.o:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/TestDirection.dir/build.make ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/TestDirection.dir/TestDirection.cpp.o
+.PHONY : TestDirection.cpp.o
+
+TestDirection.i: TestDirection.cpp.i
+
+.PHONY : TestDirection.i
+
+# target to preprocess a source file
+TestDirection.cpp.i:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/TestDirection.dir/build.make ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/TestDirection.dir/TestDirection.cpp.i
+.PHONY : TestDirection.cpp.i
+
+TestDirection.s: TestDirection.cpp.s
+
+.PHONY : TestDirection.s
+
+# target to generate assembly for a file
+TestDirection.cpp.s:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/TestDirection.dir/build.make ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/TestDirection.dir/TestDirection.cpp.s
+.PHONY : TestDirection.cpp.s
+
+direction.o: direction.cpp.o
+
+.PHONY : direction.o
+
+# target to build an object file
+direction.cpp.o:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/TestDirection.dir/build.make ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/TestDirection.dir/direction.cpp.o
+.PHONY : direction.cpp.o
+
+direction.i: direction.cpp.i
+
+.PHONY : direction.i
+
+# target to preprocess a source file
+direction.cpp.i:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/TestDirection.dir/build.make ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/TestDirection.dir/direction.cpp.i
+.PHONY : direction.cpp.i
+
+direction.s: direction.cpp.s
+
+.PHONY : direction.s
+
+# target to generate assembly for a file
+direction.cpp.s:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/TestDirection.dir/build.make ProgrammingAbstractionsInC++/03-Strings/CMakeFiles/TestDirection.dir/direction.cpp.s
+.PHONY : direction.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -201,15 +606,54 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... edit_cache"
-	@echo "... CountSpaces"
 	@echo "... CaseConversion"
+	@echo "... PigLatin"
+	@echo "... RepeatChar"
+	@echo "... CountSpaces"
+	@echo "... CountWords"
+	@echo "... TestDirection"
+	@echo "... edit_cache"
+	@echo "... StartsWith"
+	@echo "... HelloName"
+	@echo "... ReverseString"
+	@echo "... Palindrome"
+	@echo "... SecondHalf"
 	@echo "... CaseConversion.o"
 	@echo "... CaseConversion.i"
 	@echo "... CaseConversion.s"
 	@echo "... CountSpaces.o"
 	@echo "... CountSpaces.i"
 	@echo "... CountSpaces.s"
+	@echo "... CountWords.o"
+	@echo "... CountWords.i"
+	@echo "... CountWords.s"
+	@echo "... HelloName.o"
+	@echo "... HelloName.i"
+	@echo "... HelloName.s"
+	@echo "... Palindrome.o"
+	@echo "... Palindrome.i"
+	@echo "... Palindrome.s"
+	@echo "... PigLatin.o"
+	@echo "... PigLatin.i"
+	@echo "... PigLatin.s"
+	@echo "... RepeatChar.o"
+	@echo "... RepeatChar.i"
+	@echo "... RepeatChar.s"
+	@echo "... ReverseString.o"
+	@echo "... ReverseString.i"
+	@echo "... ReverseString.s"
+	@echo "... SecondHalf.o"
+	@echo "... SecondHalf.i"
+	@echo "... SecondHalf.s"
+	@echo "... StartsWith.o"
+	@echo "... StartsWith.i"
+	@echo "... StartsWith.s"
+	@echo "... TestDirection.o"
+	@echo "... TestDirection.i"
+	@echo "... TestDirection.s"
+	@echo "... direction.o"
+	@echo "... direction.i"
+	@echo "... direction.s"
 .PHONY : help
 
 

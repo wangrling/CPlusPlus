@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/wang/github/CPlusPlus/ProfessionalC++/07-ClassesAndObjects/CellUnambiguous.cpp
+CellUnambiguous.h
+/home/wang/github/CPlusPlus/ProfessionalC++/07-ClassesAndObjects/CellUnambiguous.h
+iostream
+-
+sstream
+-
+
+/home/wang/github/CPlusPlus/ProfessionalC++/07-ClassesAndObjects/CellUnambiguous.h
+string
+-
+
+/home/wang/github/CPlusPlus/ProfessionalC++/07-ClassesAndObjects/CellUnambiguousTest.cpp
+CellUnambiguous.h
+/home/wang/github/CPlusPlus/ProfessionalC++/07-ClassesAndObjects/CellUnambiguous.h
+iostream
+-
+

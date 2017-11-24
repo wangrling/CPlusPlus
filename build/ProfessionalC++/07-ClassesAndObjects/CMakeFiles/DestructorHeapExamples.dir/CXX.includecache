@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/wang/github/CPlusPlus/ProfessionalC++/07-ClassesAndObjects/DestructorHeapExamples.cpp
+SpreadsheetCell.h
+/home/wang/github/CPlusPlus/ProfessionalC++/07-ClassesAndObjects/SpreadsheetCell.h
+iostream
+-
+
+/home/wang/github/CPlusPlus/ProfessionalC++/07-ClassesAndObjects/SpreadsheetCell.cpp
+SpreadsheetCell.h
+/home/wang/github/CPlusPlus/ProfessionalC++/07-ClassesAndObjects/SpreadsheetCell.h
+iostream
+-
+sstream
+-
+
+/home/wang/github/CPlusPlus/ProfessionalC++/07-ClassesAndObjects/SpreadsheetCell.h
+string
+-
+

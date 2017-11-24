@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/wang/github/CPlusPlus/ProgrammingAbstractionsInC++/03-Strings/TestDirection.cpp
+iostream
+-
+direction.h
+/home/wang/github/CPlusPlus/ProgrammingAbstractionsInC++/03-Strings/direction.h
+
+/home/wang/github/CPlusPlus/ProgrammingAbstractionsInC++/03-Strings/direction.cpp
+direction.h
+/home/wang/github/CPlusPlus/ProgrammingAbstractionsInC++/03-Strings/direction.h
+
+/home/wang/github/CPlusPlus/ProgrammingAbstractionsInC++/03-Strings/direction.h
+string
+-
+

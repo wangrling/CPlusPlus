@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/StringStreamTest.dir/StringStreamTest.cpp.o  -o StringStreamTest -rdynamic ../../STFlib/libSTFlib.a -ldl 

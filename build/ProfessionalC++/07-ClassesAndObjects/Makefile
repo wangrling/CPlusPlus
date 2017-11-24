@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /home/wang/github/CPlusPlus/build
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/local/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
@@ -77,6 +66,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/local/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -110,14 +110,761 @@ depend:
 	cd /home/wang/github/CPlusPlus/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+# Convenience name for target.
+ProfessionalC++/07-ClassesAndObjects/CMakeFiles/DestructorHeapExamples.dir/rule:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f CMakeFiles/Makefile2 ProfessionalC++/07-ClassesAndObjects/CMakeFiles/DestructorHeapExamples.dir/rule
+.PHONY : ProfessionalC++/07-ClassesAndObjects/CMakeFiles/DestructorHeapExamples.dir/rule
+
+# Convenience name for target.
+DestructorHeapExamples: ProfessionalC++/07-ClassesAndObjects/CMakeFiles/DestructorHeapExamples.dir/rule
+
+.PHONY : DestructorHeapExamples
+
+# fast build rule for target.
+DestructorHeapExamples/fast:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/DestructorHeapExamples.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/DestructorHeapExamples.dir/build
+.PHONY : DestructorHeapExamples/fast
+
+# Convenience name for target.
+ProfessionalC++/07-ClassesAndObjects/CMakeFiles/DestructorExamples.dir/rule:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f CMakeFiles/Makefile2 ProfessionalC++/07-ClassesAndObjects/CMakeFiles/DestructorExamples.dir/rule
+.PHONY : ProfessionalC++/07-ClassesAndObjects/CMakeFiles/DestructorExamples.dir/rule
+
+# Convenience name for target.
+DestructorExamples: ProfessionalC++/07-ClassesAndObjects/CMakeFiles/DestructorExamples.dir/rule
+
+.PHONY : DestructorExamples
+
+# fast build rule for target.
+DestructorExamples/fast:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/DestructorExamples.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/DestructorExamples.dir/build
+.PHONY : DestructorExamples/fast
+
+# Convenience name for target.
+ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumOnly.dir/rule:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f CMakeFiles/Makefile2 ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumOnly.dir/rule
+.PHONY : ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumOnly.dir/rule
+
+# Convenience name for target.
+CellNumOnly: ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumOnly.dir/rule
+
+.PHONY : CellNumOnly
+
+# fast build rule for target.
+CellNumOnly/fast:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumOnly.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumOnly.dir/build
+.PHONY : CellNumOnly/fast
+
+# Convenience name for target.
+ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextSmartPointer.dir/rule:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f CMakeFiles/Makefile2 ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextSmartPointer.dir/rule
+.PHONY : ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextSmartPointer.dir/rule
+
+# Convenience name for target.
+CellNumTextSmartPointer: ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextSmartPointer.dir/rule
+
+.PHONY : CellNumTextSmartPointer
+
+# fast build rule for target.
+CellNumTextSmartPointer/fast:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextSmartPointer.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextSmartPointer.dir/build
+.PHONY : CellNumTextSmartPointer/fast
+
+# Convenience name for target.
+ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellUnambiguousTest.dir/rule:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f CMakeFiles/Makefile2 ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellUnambiguousTest.dir/rule
+.PHONY : ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellUnambiguousTest.dir/rule
+
+# Convenience name for target.
+CellUnambiguousTest: ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellUnambiguousTest.dir/rule
+
+.PHONY : CellUnambiguousTest
+
+# fast build rule for target.
+CellUnambiguousTest/fast:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellUnambiguousTest.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellUnambiguousTest.dir/build
+.PHONY : CellUnambiguousTest/fast
+
+# Convenience name for target.
+ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextAlternate.dir/rule:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f CMakeFiles/Makefile2 ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextAlternate.dir/rule
+.PHONY : ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextAlternate.dir/rule
+
+# Convenience name for target.
+CellNumTextAlternate: ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextAlternate.dir/rule
+
+.PHONY : CellNumTextAlternate
+
+# fast build rule for target.
+CellNumTextAlternate/fast:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextAlternate.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextAlternate.dir/build
+.PHONY : CellNumTextAlternate/fast
+
+# Convenience name for target.
+ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextTest.dir/rule:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f CMakeFiles/Makefile2 ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextTest.dir/rule
+.PHONY : ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextTest.dir/rule
+
+# Convenience name for target.
+CellNumTextTest: ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextTest.dir/rule
+
+.PHONY : CellNumTextTest
+
+# fast build rule for target.
+CellNumTextTest/fast:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextTest.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextTest.dir/build
+.PHONY : CellNumTextTest/fast
+
+# Convenience name for target.
+ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellCtorsDefault.dir/rule:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f CMakeFiles/Makefile2 ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellCtorsDefault.dir/rule
+.PHONY : ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellCtorsDefault.dir/rule
+
+# Convenience name for target.
+CellCtorsDefault: ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellCtorsDefault.dir/rule
+
+.PHONY : CellCtorsDefault
+
+# fast build rule for target.
+CellCtorsDefault/fast:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellCtorsDefault.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellCtorsDefault.dir/build
+.PHONY : CellCtorsDefault/fast
+
+# Convenience name for target.
+ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellCopyCtor.dir/rule:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f CMakeFiles/Makefile2 ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellCopyCtor.dir/rule
+.PHONY : ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellCopyCtor.dir/rule
+
+# Convenience name for target.
+CellCopyCtor: ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellCopyCtor.dir/rule
+
+.PHONY : CellCopyCtor
+
+# fast build rule for target.
+CellCopyCtor/fast:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellCopyCtor.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellCopyCtor.dir/build
+.PHONY : CellCopyCtor/fast
+
+# Convenience name for target.
+ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextHeap.dir/rule:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f CMakeFiles/Makefile2 ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextHeap.dir/rule
+.PHONY : ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextHeap.dir/rule
+
+# Convenience name for target.
+CellNumTextHeap: ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextHeap.dir/rule
+
+.PHONY : CellNumTextHeap
+
+# fast build rule for target.
+CellNumTextHeap/fast:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextHeap.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextHeap.dir/build
+.PHONY : CellNumTextHeap/fast
+
+# Convenience name for target.
+ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellCtorsNoDefault.dir/rule:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f CMakeFiles/Makefile2 ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellCtorsNoDefault.dir/rule
+.PHONY : ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellCtorsNoDefault.dir/rule
+
+# Convenience name for target.
+CellCtorsNoDefault: ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellCtorsNoDefault.dir/rule
+
+.PHONY : CellCtorsNoDefault
+
+# fast build rule for target.
+CellCtorsNoDefault/fast:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellCtorsNoDefault.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellCtorsNoDefault.dir/build
+.PHONY : CellCtorsNoDefault/fast
+
+# Convenience name for target.
+ProfessionalC++/07-ClassesAndObjects/CMakeFiles/InitializerListCtor.dir/rule:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f CMakeFiles/Makefile2 ProfessionalC++/07-ClassesAndObjects/CMakeFiles/InitializerListCtor.dir/rule
+.PHONY : ProfessionalC++/07-ClassesAndObjects/CMakeFiles/InitializerListCtor.dir/rule
+
+# Convenience name for target.
+InitializerListCtor: ProfessionalC++/07-ClassesAndObjects/CMakeFiles/InitializerListCtor.dir/rule
+
+.PHONY : InitializerListCtor
+
+# fast build rule for target.
+InitializerListCtor/fast:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/InitializerListCtor.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/InitializerListCtor.dir/build
+.PHONY : InitializerListCtor/fast
+
+CellCopyCtor.o: CellCopyCtor.cpp.o
+
+.PHONY : CellCopyCtor.o
+
+# target to build an object file
+CellCopyCtor.cpp.o:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellCopyCtor.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellCopyCtor.dir/CellCopyCtor.cpp.o
+.PHONY : CellCopyCtor.cpp.o
+
+CellCopyCtor.i: CellCopyCtor.cpp.i
+
+.PHONY : CellCopyCtor.i
+
+# target to preprocess a source file
+CellCopyCtor.cpp.i:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellCopyCtor.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellCopyCtor.dir/CellCopyCtor.cpp.i
+.PHONY : CellCopyCtor.cpp.i
+
+CellCopyCtor.s: CellCopyCtor.cpp.s
+
+.PHONY : CellCopyCtor.s
+
+# target to generate assembly for a file
+CellCopyCtor.cpp.s:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellCopyCtor.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellCopyCtor.dir/CellCopyCtor.cpp.s
+.PHONY : CellCopyCtor.cpp.s
+
+CellCopyCtorTest.o: CellCopyCtorTest.cpp.o
+
+.PHONY : CellCopyCtorTest.o
+
+# target to build an object file
+CellCopyCtorTest.cpp.o:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellCopyCtor.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellCopyCtor.dir/CellCopyCtorTest.cpp.o
+.PHONY : CellCopyCtorTest.cpp.o
+
+CellCopyCtorTest.i: CellCopyCtorTest.cpp.i
+
+.PHONY : CellCopyCtorTest.i
+
+# target to preprocess a source file
+CellCopyCtorTest.cpp.i:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellCopyCtor.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellCopyCtor.dir/CellCopyCtorTest.cpp.i
+.PHONY : CellCopyCtorTest.cpp.i
+
+CellCopyCtorTest.s: CellCopyCtorTest.cpp.s
+
+.PHONY : CellCopyCtorTest.s
+
+# target to generate assembly for a file
+CellCopyCtorTest.cpp.s:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellCopyCtor.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellCopyCtor.dir/CellCopyCtorTest.cpp.s
+.PHONY : CellCopyCtorTest.cpp.s
+
+CellCtors.o: CellCtors.cpp.o
+
+.PHONY : CellCtors.o
+
+# target to build an object file
+CellCtors.cpp.o:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellCtorsDefault.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellCtorsDefault.dir/CellCtors.cpp.o
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellCtorsNoDefault.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellCtorsNoDefault.dir/CellCtors.cpp.o
+.PHONY : CellCtors.cpp.o
+
+CellCtors.i: CellCtors.cpp.i
+
+.PHONY : CellCtors.i
+
+# target to preprocess a source file
+CellCtors.cpp.i:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellCtorsDefault.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellCtorsDefault.dir/CellCtors.cpp.i
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellCtorsNoDefault.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellCtorsNoDefault.dir/CellCtors.cpp.i
+.PHONY : CellCtors.cpp.i
+
+CellCtors.s: CellCtors.cpp.s
+
+.PHONY : CellCtors.s
+
+# target to generate assembly for a file
+CellCtors.cpp.s:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellCtorsDefault.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellCtorsDefault.dir/CellCtors.cpp.s
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellCtorsNoDefault.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellCtorsNoDefault.dir/CellCtors.cpp.s
+.PHONY : CellCtors.cpp.s
+
+CellCtorsDefault.o: CellCtorsDefault.cpp.o
+
+.PHONY : CellCtorsDefault.o
+
+# target to build an object file
+CellCtorsDefault.cpp.o:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellCtorsDefault.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellCtorsDefault.dir/CellCtorsDefault.cpp.o
+.PHONY : CellCtorsDefault.cpp.o
+
+CellCtorsDefault.i: CellCtorsDefault.cpp.i
+
+.PHONY : CellCtorsDefault.i
+
+# target to preprocess a source file
+CellCtorsDefault.cpp.i:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellCtorsDefault.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellCtorsDefault.dir/CellCtorsDefault.cpp.i
+.PHONY : CellCtorsDefault.cpp.i
+
+CellCtorsDefault.s: CellCtorsDefault.cpp.s
+
+.PHONY : CellCtorsDefault.s
+
+# target to generate assembly for a file
+CellCtorsDefault.cpp.s:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellCtorsDefault.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellCtorsDefault.dir/CellCtorsDefault.cpp.s
+.PHONY : CellCtorsDefault.cpp.s
+
+CellCtorsNoDefault.o: CellCtorsNoDefault.cpp.o
+
+.PHONY : CellCtorsNoDefault.o
+
+# target to build an object file
+CellCtorsNoDefault.cpp.o:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellCtorsNoDefault.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellCtorsNoDefault.dir/CellCtorsNoDefault.cpp.o
+.PHONY : CellCtorsNoDefault.cpp.o
+
+CellCtorsNoDefault.i: CellCtorsNoDefault.cpp.i
+
+.PHONY : CellCtorsNoDefault.i
+
+# target to preprocess a source file
+CellCtorsNoDefault.cpp.i:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellCtorsNoDefault.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellCtorsNoDefault.dir/CellCtorsNoDefault.cpp.i
+.PHONY : CellCtorsNoDefault.cpp.i
+
+CellCtorsNoDefault.s: CellCtorsNoDefault.cpp.s
+
+.PHONY : CellCtorsNoDefault.s
+
+# target to generate assembly for a file
+CellCtorsNoDefault.cpp.s:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellCtorsNoDefault.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellCtorsNoDefault.dir/CellCtorsNoDefault.cpp.s
+.PHONY : CellCtorsNoDefault.cpp.s
+
+CellNumOnly.o: CellNumOnly.cpp.o
+
+.PHONY : CellNumOnly.o
+
+# target to build an object file
+CellNumOnly.cpp.o:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumOnly.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumOnly.dir/CellNumOnly.cpp.o
+.PHONY : CellNumOnly.cpp.o
+
+CellNumOnly.i: CellNumOnly.cpp.i
+
+.PHONY : CellNumOnly.i
+
+# target to preprocess a source file
+CellNumOnly.cpp.i:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumOnly.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumOnly.dir/CellNumOnly.cpp.i
+.PHONY : CellNumOnly.cpp.i
+
+CellNumOnly.s: CellNumOnly.cpp.s
+
+.PHONY : CellNumOnly.s
+
+# target to generate assembly for a file
+CellNumOnly.cpp.s:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumOnly.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumOnly.dir/CellNumOnly.cpp.s
+.PHONY : CellNumOnly.cpp.s
+
+CellNumOnlyTest.o: CellNumOnlyTest.cpp.o
+
+.PHONY : CellNumOnlyTest.o
+
+# target to build an object file
+CellNumOnlyTest.cpp.o:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumOnly.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumOnly.dir/CellNumOnlyTest.cpp.o
+.PHONY : CellNumOnlyTest.cpp.o
+
+CellNumOnlyTest.i: CellNumOnlyTest.cpp.i
+
+.PHONY : CellNumOnlyTest.i
+
+# target to preprocess a source file
+CellNumOnlyTest.cpp.i:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumOnly.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumOnly.dir/CellNumOnlyTest.cpp.i
+.PHONY : CellNumOnlyTest.cpp.i
+
+CellNumOnlyTest.s: CellNumOnlyTest.cpp.s
+
+.PHONY : CellNumOnlyTest.s
+
+# target to generate assembly for a file
+CellNumOnlyTest.cpp.s:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumOnly.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumOnly.dir/CellNumOnlyTest.cpp.s
+.PHONY : CellNumOnlyTest.cpp.s
+
+CellNumText.o: CellNumText.cpp.o
+
+.PHONY : CellNumText.o
+
+# target to build an object file
+CellNumText.cpp.o:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextSmartPointer.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextSmartPointer.dir/CellNumText.cpp.o
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextAlternate.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextAlternate.dir/CellNumText.cpp.o
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextTest.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextTest.dir/CellNumText.cpp.o
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextHeap.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextHeap.dir/CellNumText.cpp.o
+.PHONY : CellNumText.cpp.o
+
+CellNumText.i: CellNumText.cpp.i
+
+.PHONY : CellNumText.i
+
+# target to preprocess a source file
+CellNumText.cpp.i:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextSmartPointer.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextSmartPointer.dir/CellNumText.cpp.i
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextAlternate.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextAlternate.dir/CellNumText.cpp.i
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextTest.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextTest.dir/CellNumText.cpp.i
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextHeap.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextHeap.dir/CellNumText.cpp.i
+.PHONY : CellNumText.cpp.i
+
+CellNumText.s: CellNumText.cpp.s
+
+.PHONY : CellNumText.s
+
+# target to generate assembly for a file
+CellNumText.cpp.s:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextSmartPointer.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextSmartPointer.dir/CellNumText.cpp.s
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextAlternate.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextAlternate.dir/CellNumText.cpp.s
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextTest.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextTest.dir/CellNumText.cpp.s
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextHeap.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextHeap.dir/CellNumText.cpp.s
+.PHONY : CellNumText.cpp.s
+
+CellNumTextAlternate.o: CellNumTextAlternate.cpp.o
+
+.PHONY : CellNumTextAlternate.o
+
+# target to build an object file
+CellNumTextAlternate.cpp.o:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextAlternate.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextAlternate.dir/CellNumTextAlternate.cpp.o
+.PHONY : CellNumTextAlternate.cpp.o
+
+CellNumTextAlternate.i: CellNumTextAlternate.cpp.i
+
+.PHONY : CellNumTextAlternate.i
+
+# target to preprocess a source file
+CellNumTextAlternate.cpp.i:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextAlternate.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextAlternate.dir/CellNumTextAlternate.cpp.i
+.PHONY : CellNumTextAlternate.cpp.i
+
+CellNumTextAlternate.s: CellNumTextAlternate.cpp.s
+
+.PHONY : CellNumTextAlternate.s
+
+# target to generate assembly for a file
+CellNumTextAlternate.cpp.s:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextAlternate.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextAlternate.dir/CellNumTextAlternate.cpp.s
+.PHONY : CellNumTextAlternate.cpp.s
+
+CellNumTextHeap.o: CellNumTextHeap.cpp.o
+
+.PHONY : CellNumTextHeap.o
+
+# target to build an object file
+CellNumTextHeap.cpp.o:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextHeap.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextHeap.dir/CellNumTextHeap.cpp.o
+.PHONY : CellNumTextHeap.cpp.o
+
+CellNumTextHeap.i: CellNumTextHeap.cpp.i
+
+.PHONY : CellNumTextHeap.i
+
+# target to preprocess a source file
+CellNumTextHeap.cpp.i:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextHeap.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextHeap.dir/CellNumTextHeap.cpp.i
+.PHONY : CellNumTextHeap.cpp.i
+
+CellNumTextHeap.s: CellNumTextHeap.cpp.s
+
+.PHONY : CellNumTextHeap.s
+
+# target to generate assembly for a file
+CellNumTextHeap.cpp.s:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextHeap.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextHeap.dir/CellNumTextHeap.cpp.s
+.PHONY : CellNumTextHeap.cpp.s
+
+CellNumTextSmartPointer.o: CellNumTextSmartPointer.cpp.o
+
+.PHONY : CellNumTextSmartPointer.o
+
+# target to build an object file
+CellNumTextSmartPointer.cpp.o:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextSmartPointer.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextSmartPointer.dir/CellNumTextSmartPointer.cpp.o
+.PHONY : CellNumTextSmartPointer.cpp.o
+
+CellNumTextSmartPointer.i: CellNumTextSmartPointer.cpp.i
+
+.PHONY : CellNumTextSmartPointer.i
+
+# target to preprocess a source file
+CellNumTextSmartPointer.cpp.i:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextSmartPointer.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextSmartPointer.dir/CellNumTextSmartPointer.cpp.i
+.PHONY : CellNumTextSmartPointer.cpp.i
+
+CellNumTextSmartPointer.s: CellNumTextSmartPointer.cpp.s
+
+.PHONY : CellNumTextSmartPointer.s
+
+# target to generate assembly for a file
+CellNumTextSmartPointer.cpp.s:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextSmartPointer.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextSmartPointer.dir/CellNumTextSmartPointer.cpp.s
+.PHONY : CellNumTextSmartPointer.cpp.s
+
+CellNumTextTest.o: CellNumTextTest.cpp.o
+
+.PHONY : CellNumTextTest.o
+
+# target to build an object file
+CellNumTextTest.cpp.o:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextTest.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextTest.dir/CellNumTextTest.cpp.o
+.PHONY : CellNumTextTest.cpp.o
+
+CellNumTextTest.i: CellNumTextTest.cpp.i
+
+.PHONY : CellNumTextTest.i
+
+# target to preprocess a source file
+CellNumTextTest.cpp.i:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextTest.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextTest.dir/CellNumTextTest.cpp.i
+.PHONY : CellNumTextTest.cpp.i
+
+CellNumTextTest.s: CellNumTextTest.cpp.s
+
+.PHONY : CellNumTextTest.s
+
+# target to generate assembly for a file
+CellNumTextTest.cpp.s:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextTest.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellNumTextTest.dir/CellNumTextTest.cpp.s
+.PHONY : CellNumTextTest.cpp.s
+
+CellUnambiguous.o: CellUnambiguous.cpp.o
+
+.PHONY : CellUnambiguous.o
+
+# target to build an object file
+CellUnambiguous.cpp.o:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellUnambiguousTest.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellUnambiguousTest.dir/CellUnambiguous.cpp.o
+.PHONY : CellUnambiguous.cpp.o
+
+CellUnambiguous.i: CellUnambiguous.cpp.i
+
+.PHONY : CellUnambiguous.i
+
+# target to preprocess a source file
+CellUnambiguous.cpp.i:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellUnambiguousTest.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellUnambiguousTest.dir/CellUnambiguous.cpp.i
+.PHONY : CellUnambiguous.cpp.i
+
+CellUnambiguous.s: CellUnambiguous.cpp.s
+
+.PHONY : CellUnambiguous.s
+
+# target to generate assembly for a file
+CellUnambiguous.cpp.s:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellUnambiguousTest.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellUnambiguousTest.dir/CellUnambiguous.cpp.s
+.PHONY : CellUnambiguous.cpp.s
+
+CellUnambiguousTest.o: CellUnambiguousTest.cpp.o
+
+.PHONY : CellUnambiguousTest.o
+
+# target to build an object file
+CellUnambiguousTest.cpp.o:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellUnambiguousTest.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellUnambiguousTest.dir/CellUnambiguousTest.cpp.o
+.PHONY : CellUnambiguousTest.cpp.o
+
+CellUnambiguousTest.i: CellUnambiguousTest.cpp.i
+
+.PHONY : CellUnambiguousTest.i
+
+# target to preprocess a source file
+CellUnambiguousTest.cpp.i:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellUnambiguousTest.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellUnambiguousTest.dir/CellUnambiguousTest.cpp.i
+.PHONY : CellUnambiguousTest.cpp.i
+
+CellUnambiguousTest.s: CellUnambiguousTest.cpp.s
+
+.PHONY : CellUnambiguousTest.s
+
+# target to generate assembly for a file
+CellUnambiguousTest.cpp.s:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellUnambiguousTest.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/CellUnambiguousTest.dir/CellUnambiguousTest.cpp.s
+.PHONY : CellUnambiguousTest.cpp.s
+
+DestructorExamples.o: DestructorExamples.cpp.o
+
+.PHONY : DestructorExamples.o
+
+# target to build an object file
+DestructorExamples.cpp.o:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/DestructorExamples.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/DestructorExamples.dir/DestructorExamples.cpp.o
+.PHONY : DestructorExamples.cpp.o
+
+DestructorExamples.i: DestructorExamples.cpp.i
+
+.PHONY : DestructorExamples.i
+
+# target to preprocess a source file
+DestructorExamples.cpp.i:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/DestructorExamples.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/DestructorExamples.dir/DestructorExamples.cpp.i
+.PHONY : DestructorExamples.cpp.i
+
+DestructorExamples.s: DestructorExamples.cpp.s
+
+.PHONY : DestructorExamples.s
+
+# target to generate assembly for a file
+DestructorExamples.cpp.s:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/DestructorExamples.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/DestructorExamples.dir/DestructorExamples.cpp.s
+.PHONY : DestructorExamples.cpp.s
+
+DestructorHeapExamples.o: DestructorHeapExamples.cpp.o
+
+.PHONY : DestructorHeapExamples.o
+
+# target to build an object file
+DestructorHeapExamples.cpp.o:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/DestructorHeapExamples.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/DestructorHeapExamples.dir/DestructorHeapExamples.cpp.o
+.PHONY : DestructorHeapExamples.cpp.o
+
+DestructorHeapExamples.i: DestructorHeapExamples.cpp.i
+
+.PHONY : DestructorHeapExamples.i
+
+# target to preprocess a source file
+DestructorHeapExamples.cpp.i:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/DestructorHeapExamples.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/DestructorHeapExamples.dir/DestructorHeapExamples.cpp.i
+.PHONY : DestructorHeapExamples.cpp.i
+
+DestructorHeapExamples.s: DestructorHeapExamples.cpp.s
+
+.PHONY : DestructorHeapExamples.s
+
+# target to generate assembly for a file
+DestructorHeapExamples.cpp.s:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/DestructorHeapExamples.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/DestructorHeapExamples.dir/DestructorHeapExamples.cpp.s
+.PHONY : DestructorHeapExamples.cpp.s
+
+InitializerListCtor.o: InitializerListCtor.cpp.o
+
+.PHONY : InitializerListCtor.o
+
+# target to build an object file
+InitializerListCtor.cpp.o:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/InitializerListCtor.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/InitializerListCtor.dir/InitializerListCtor.cpp.o
+.PHONY : InitializerListCtor.cpp.o
+
+InitializerListCtor.i: InitializerListCtor.cpp.i
+
+.PHONY : InitializerListCtor.i
+
+# target to preprocess a source file
+InitializerListCtor.cpp.i:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/InitializerListCtor.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/InitializerListCtor.dir/InitializerListCtor.cpp.i
+.PHONY : InitializerListCtor.cpp.i
+
+InitializerListCtor.s: InitializerListCtor.cpp.s
+
+.PHONY : InitializerListCtor.s
+
+# target to generate assembly for a file
+InitializerListCtor.cpp.s:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/InitializerListCtor.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/InitializerListCtor.dir/InitializerListCtor.cpp.s
+.PHONY : InitializerListCtor.cpp.s
+
+SpreadsheetCell.o: SpreadsheetCell.cpp.o
+
+.PHONY : SpreadsheetCell.o
+
+# target to build an object file
+SpreadsheetCell.cpp.o:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/DestructorHeapExamples.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/DestructorHeapExamples.dir/SpreadsheetCell.cpp.o
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/DestructorExamples.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/DestructorExamples.dir/SpreadsheetCell.cpp.o
+.PHONY : SpreadsheetCell.cpp.o
+
+SpreadsheetCell.i: SpreadsheetCell.cpp.i
+
+.PHONY : SpreadsheetCell.i
+
+# target to preprocess a source file
+SpreadsheetCell.cpp.i:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/DestructorHeapExamples.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/DestructorHeapExamples.dir/SpreadsheetCell.cpp.i
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/DestructorExamples.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/DestructorExamples.dir/SpreadsheetCell.cpp.i
+.PHONY : SpreadsheetCell.cpp.i
+
+SpreadsheetCell.s: SpreadsheetCell.cpp.s
+
+.PHONY : SpreadsheetCell.s
+
+# target to generate assembly for a file
+SpreadsheetCell.cpp.s:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/DestructorHeapExamples.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/DestructorHeapExamples.dir/SpreadsheetCell.cpp.s
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/07-ClassesAndObjects/CMakeFiles/DestructorExamples.dir/build.make ProfessionalC++/07-ClassesAndObjects/CMakeFiles/DestructorExamples.dir/SpreadsheetCell.cpp.s
+.PHONY : SpreadsheetCell.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... DestructorHeapExamples"
+	@echo "... DestructorExamples"
+	@echo "... rebuild_cache"
+	@echo "... CellNumOnly"
+	@echo "... CellNumTextSmartPointer"
+	@echo "... CellUnambiguousTest"
+	@echo "... CellNumTextAlternate"
+	@echo "... CellNumTextTest"
+	@echo "... CellCtorsDefault"
+	@echo "... CellCopyCtor"
+	@echo "... CellNumTextHeap"
+	@echo "... CellCtorsNoDefault"
+	@echo "... InitializerListCtor"
+	@echo "... CellCopyCtor.o"
+	@echo "... CellCopyCtor.i"
+	@echo "... CellCopyCtor.s"
+	@echo "... CellCopyCtorTest.o"
+	@echo "... CellCopyCtorTest.i"
+	@echo "... CellCopyCtorTest.s"
+	@echo "... CellCtors.o"
+	@echo "... CellCtors.i"
+	@echo "... CellCtors.s"
+	@echo "... CellCtorsDefault.o"
+	@echo "... CellCtorsDefault.i"
+	@echo "... CellCtorsDefault.s"
+	@echo "... CellCtorsNoDefault.o"
+	@echo "... CellCtorsNoDefault.i"
+	@echo "... CellCtorsNoDefault.s"
+	@echo "... CellNumOnly.o"
+	@echo "... CellNumOnly.i"
+	@echo "... CellNumOnly.s"
+	@echo "... CellNumOnlyTest.o"
+	@echo "... CellNumOnlyTest.i"
+	@echo "... CellNumOnlyTest.s"
+	@echo "... CellNumText.o"
+	@echo "... CellNumText.i"
+	@echo "... CellNumText.s"
+	@echo "... CellNumTextAlternate.o"
+	@echo "... CellNumTextAlternate.i"
+	@echo "... CellNumTextAlternate.s"
+	@echo "... CellNumTextHeap.o"
+	@echo "... CellNumTextHeap.i"
+	@echo "... CellNumTextHeap.s"
+	@echo "... CellNumTextSmartPointer.o"
+	@echo "... CellNumTextSmartPointer.i"
+	@echo "... CellNumTextSmartPointer.s"
+	@echo "... CellNumTextTest.o"
+	@echo "... CellNumTextTest.i"
+	@echo "... CellNumTextTest.s"
+	@echo "... CellUnambiguous.o"
+	@echo "... CellUnambiguous.i"
+	@echo "... CellUnambiguous.s"
+	@echo "... CellUnambiguousTest.o"
+	@echo "... CellUnambiguousTest.i"
+	@echo "... CellUnambiguousTest.s"
+	@echo "... DestructorExamples.o"
+	@echo "... DestructorExamples.i"
+	@echo "... DestructorExamples.s"
+	@echo "... DestructorHeapExamples.o"
+	@echo "... DestructorHeapExamples.i"
+	@echo "... DestructorHeapExamples.s"
+	@echo "... InitializerListCtor.o"
+	@echo "... InitializerListCtor.i"
+	@echo "... InitializerListCtor.s"
+	@echo "... SpreadsheetCell.o"
+	@echo "... SpreadsheetCell.i"
+	@echo "... SpreadsheetCell.s"
 .PHONY : help
 
 

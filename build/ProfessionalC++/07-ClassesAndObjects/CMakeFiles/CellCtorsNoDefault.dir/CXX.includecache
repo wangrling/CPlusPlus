@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/wang/github/CPlusPlus/ProfessionalC++/07-ClassesAndObjects/CellCtors.cpp
+CellCtors.h
+/home/wang/github/CPlusPlus/ProfessionalC++/07-ClassesAndObjects/CellCtors.h
+iostream
+-
+sstream
+-
+
+/home/wang/github/CPlusPlus/ProfessionalC++/07-ClassesAndObjects/CellCtors.h
+string
+-
+
+/home/wang/github/CPlusPlus/ProfessionalC++/07-ClassesAndObjects/CellCtorsNoDefault.cpp
+CellCtors.h
+/home/wang/github/CPlusPlus/ProfessionalC++/07-ClassesAndObjects/CellCtors.h
+

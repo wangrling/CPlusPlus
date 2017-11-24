@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/TestDirection.dir/TestDirection.cpp.o CMakeFiles/TestDirection.dir/direction.cpp.o  -o TestDirection -rdynamic 

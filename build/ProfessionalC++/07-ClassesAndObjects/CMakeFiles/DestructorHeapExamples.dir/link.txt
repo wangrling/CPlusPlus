@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/DestructorHeapExamples.dir/DestructorHeapExamples.cpp.o CMakeFiles/DestructorHeapExamples.dir/SpreadsheetCell.cpp.o  -o DestructorHeapExamples -rdynamic 

@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/wang/github/CPlusPlus/ProfessionalC++/07-ClassesAndObjects/CellCopyCtor.cpp
+CellCopyCtor.h
+/home/wang/github/CPlusPlus/ProfessionalC++/07-ClassesAndObjects/CellCopyCtor.h
+iostream
+-
+sstream
+-
+
+/home/wang/github/CPlusPlus/ProfessionalC++/07-ClassesAndObjects/CellCopyCtor.h
+string
+-
+
+/home/wang/github/CPlusPlus/ProfessionalC++/07-ClassesAndObjects/CellCopyCtorTest.cpp
+CellCopyCtor.h
+/home/wang/github/CPlusPlus/ProfessionalC++/07-ClassesAndObjects/CellCopyCtor.h
+iostream
+-
+

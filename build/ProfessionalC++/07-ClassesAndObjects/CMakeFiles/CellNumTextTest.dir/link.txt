@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/CellNumTextTest.dir/CellNumTextTest.cpp.o CMakeFiles/CellNumTextTest.dir/CellNumText.cpp.o  -o CellNumTextTest -rdynamic 

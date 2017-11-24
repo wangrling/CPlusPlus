@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/wang/github/CPlusPlus/ProfessionalC++/07-ClassesAndObjects/CellNumOnly.cpp
+CellNumOnly.h
+/home/wang/github/CPlusPlus/ProfessionalC++/07-ClassesAndObjects/CellNumOnly.h
+
+/home/wang/github/CPlusPlus/ProfessionalC++/07-ClassesAndObjects/CellNumOnly.h
+
+/home/wang/github/CPlusPlus/ProfessionalC++/07-ClassesAndObjects/CellNumOnlyTest.cpp
+CellNumOnly.h
+/home/wang/github/CPlusPlus/ProfessionalC++/07-ClassesAndObjects/CellNumOnly.h
+iostream
+-
+
