@@ -56,16 +56,27 @@ CMAKE_BINARY_DIR = /home/wang/github/CPlusPlus/build
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/local/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/local/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
 
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
+# Special rule for the target install/local
+install/local/fast: install/local
 
-.PHONY : rebuild_cache/fast
+.PHONY : install/local/fast
+
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/local/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: install/strip
+
+.PHONY : install/strip/fast
 
 # Special rule for the target edit_cache
 edit_cache:
@@ -77,6 +88,39 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+
+.PHONY : list_install_components/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/local/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
+
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/local/bin/cmake -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/local/bin/cmake -P cmake_install.cmake
+.PHONY : install/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,184 +155,19 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-ProfessionalC++/01-ACrashCourse/CMakeFiles/UserInterface.dir/rule:
-	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f CMakeFiles/Makefile2 ProfessionalC++/01-ACrashCourse/CMakeFiles/UserInterface.dir/rule
-.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/UserInterface.dir/rule
+ProfessionalC++/01-ACrashCourse/CMakeFiles/typetest.dir/rule:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f CMakeFiles/Makefile2 ProfessionalC++/01-ACrashCourse/CMakeFiles/typetest.dir/rule
+.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/typetest.dir/rule
 
 # Convenience name for target.
-UserInterface: ProfessionalC++/01-ACrashCourse/CMakeFiles/UserInterface.dir/rule
+typetest: ProfessionalC++/01-ACrashCourse/CMakeFiles/typetest.dir/rule
 
-.PHONY : UserInterface
+.PHONY : typetest
 
 # fast build rule for target.
-UserInterface/fast:
-	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/UserInterface.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/UserInterface.dir/build
-.PHONY : UserInterface/fast
-
-# Convenience name for target.
-ProfessionalC++/01-ACrashCourse/CMakeFiles/DatabaseTest.dir/rule:
-	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f CMakeFiles/Makefile2 ProfessionalC++/01-ACrashCourse/CMakeFiles/DatabaseTest.dir/rule
-.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/DatabaseTest.dir/rule
-
-# Convenience name for target.
-DatabaseTest: ProfessionalC++/01-ACrashCourse/CMakeFiles/DatabaseTest.dir/rule
-
-.PHONY : DatabaseTest
-
-# fast build rule for target.
-DatabaseTest/fast:
-	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/DatabaseTest.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/DatabaseTest.dir/build
-.PHONY : DatabaseTest/fast
-
-# Convenience name for target.
-ProfessionalC++/01-ACrashCourse/CMakeFiles/EmployeeTest.dir/rule:
-	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f CMakeFiles/Makefile2 ProfessionalC++/01-ACrashCourse/CMakeFiles/EmployeeTest.dir/rule
-.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/EmployeeTest.dir/rule
-
-# Convenience name for target.
-EmployeeTest: ProfessionalC++/01-ACrashCourse/CMakeFiles/EmployeeTest.dir/rule
-
-.PHONY : EmployeeTest
-
-# fast build rule for target.
-EmployeeTest/fast:
-	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/EmployeeTest.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/EmployeeTest.dir/build
-.PHONY : EmployeeTest/fast
-
-# Convenience name for target.
-ProfessionalC++/01-ACrashCourse/CMakeFiles/VectorTest.dir/rule:
-	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f CMakeFiles/Makefile2 ProfessionalC++/01-ACrashCourse/CMakeFiles/VectorTest.dir/rule
-.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/VectorTest.dir/rule
-
-# Convenience name for target.
-VectorTest: ProfessionalC++/01-ACrashCourse/CMakeFiles/VectorTest.dir/rule
-
-.PHONY : VectorTest
-
-# fast build rule for target.
-VectorTest/fast:
-	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/VectorTest.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/VectorTest.dir/build
-.PHONY : VectorTest/fast
-
-# Convenience name for target.
-ProfessionalC++/01-ACrashCourse/CMakeFiles/constarg.dir/rule:
-	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f CMakeFiles/Makefile2 ProfessionalC++/01-ACrashCourse/CMakeFiles/constarg.dir/rule
-.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/constarg.dir/rule
-
-# Convenience name for target.
-constarg: ProfessionalC++/01-ACrashCourse/CMakeFiles/constarg.dir/rule
-
-.PHONY : constarg
-
-# fast build rule for target.
-constarg/fast:
-	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/constarg.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/constarg.dir/build
-.PHONY : constarg/fast
-
-# Convenience name for target.
-ProfessionalC++/01-ACrashCourse/CMakeFiles/exceptions.dir/rule:
-	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f CMakeFiles/Makefile2 ProfessionalC++/01-ACrashCourse/CMakeFiles/exceptions.dir/rule
-.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/exceptions.dir/rule
-
-# Convenience name for target.
-exceptions: ProfessionalC++/01-ACrashCourse/CMakeFiles/exceptions.dir/rule
-
-.PHONY : exceptions
-
-# fast build rule for target.
-exceptions/fast:
-	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/exceptions.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/exceptions.dir/build
-.PHONY : exceptions/fast
-
-# Convenience name for target.
-ProfessionalC++/01-ACrashCourse/CMakeFiles/stringtest.dir/rule:
-	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f CMakeFiles/Makefile2 ProfessionalC++/01-ACrashCourse/CMakeFiles/stringtest.dir/rule
-.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/stringtest.dir/rule
-
-# Convenience name for target.
-stringtest: ProfessionalC++/01-ACrashCourse/CMakeFiles/stringtest.dir/rule
-
-.PHONY : stringtest
-
-# fast build rule for target.
-stringtest/fast:
-	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/stringtest.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/stringtest.dir/build
-.PHONY : stringtest/fast
-
-# Convenience name for target.
-ProfessionalC++/01-ACrashCourse/CMakeFiles/main.dir/rule:
-	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f CMakeFiles/Makefile2 ProfessionalC++/01-ACrashCourse/CMakeFiles/main.dir/rule
-.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/main.dir/rule
-
-# Convenience name for target.
-main: ProfessionalC++/01-ACrashCourse/CMakeFiles/main.dir/rule
-
-.PHONY : main
-
-# fast build rule for target.
-main/fast:
-	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/main.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/main.dir/build
-.PHONY : main/fast
-
-# Convenience name for target.
-ProfessionalC++/01-ACrashCourse/CMakeFiles/structtest.dir/rule:
-	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f CMakeFiles/Makefile2 ProfessionalC++/01-ACrashCourse/CMakeFiles/structtest.dir/rule
-.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/structtest.dir/rule
-
-# Convenience name for target.
-structtest: ProfessionalC++/01-ACrashCourse/CMakeFiles/structtest.dir/rule
-
-.PHONY : structtest
-
-# fast build rule for target.
-structtest/fast:
-	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/structtest.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/structtest.dir/build
-.PHONY : structtest/fast
-
-# Convenience name for target.
-ProfessionalC++/01-ACrashCourse/CMakeFiles/helloworld.dir/rule:
-	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f CMakeFiles/Makefile2 ProfessionalC++/01-ACrashCourse/CMakeFiles/helloworld.dir/rule
-.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/helloworld.dir/rule
-
-# Convenience name for target.
-helloworld: ProfessionalC++/01-ACrashCourse/CMakeFiles/helloworld.dir/rule
-
-.PHONY : helloworld
-
-# fast build rule for target.
-helloworld/fast:
-	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/helloworld.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/helloworld.dir/build
-.PHONY : helloworld/fast
-
-# Convenience name for target.
-ProfessionalC++/01-ACrashCourse/CMakeFiles/usingnamespaces.dir/rule:
-	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f CMakeFiles/Makefile2 ProfessionalC++/01-ACrashCourse/CMakeFiles/usingnamespaces.dir/rule
-.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/usingnamespaces.dir/rule
-
-# Convenience name for target.
-usingnamespaces: ProfessionalC++/01-ACrashCourse/CMakeFiles/usingnamespaces.dir/rule
-
-.PHONY : usingnamespaces
-
-# fast build rule for target.
-usingnamespaces/fast:
-	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/usingnamespaces.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/usingnamespaces.dir/build
-.PHONY : usingnamespaces/fast
-
-# Convenience name for target.
-ProfessionalC++/01-ACrashCourse/CMakeFiles/AirlineTicketTest.dir/rule:
-	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f CMakeFiles/Makefile2 ProfessionalC++/01-ACrashCourse/CMakeFiles/AirlineTicketTest.dir/rule
-.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/AirlineTicketTest.dir/rule
-
-# Convenience name for target.
-AirlineTicketTest: ProfessionalC++/01-ACrashCourse/CMakeFiles/AirlineTicketTest.dir/rule
-
-.PHONY : AirlineTicketTest
-
-# fast build rule for target.
-AirlineTicketTest/fast:
-	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/AirlineTicketTest.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/AirlineTicketTest.dir/build
-.PHONY : AirlineTicketTest/fast
+typetest/fast:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/typetest.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/typetest.dir/build
+.PHONY : typetest/fast
 
 # Convenience name for target.
 ProfessionalC++/01-ACrashCourse/CMakeFiles/stdarray.dir/rule:
@@ -306,34 +185,154 @@ stdarray/fast:
 .PHONY : stdarray/fast
 
 # Convenience name for target.
-ProfessionalC++/01-ACrashCourse/CMakeFiles/strongtypedenums.dir/rule:
-	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f CMakeFiles/Makefile2 ProfessionalC++/01-ACrashCourse/CMakeFiles/strongtypedenums.dir/rule
-.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/strongtypedenums.dir/rule
+ProfessionalC++/01-ACrashCourse/CMakeFiles/AirlineTicketTest.dir/rule:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f CMakeFiles/Makefile2 ProfessionalC++/01-ACrashCourse/CMakeFiles/AirlineTicketTest.dir/rule
+.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/AirlineTicketTest.dir/rule
 
 # Convenience name for target.
-strongtypedenums: ProfessionalC++/01-ACrashCourse/CMakeFiles/strongtypedenums.dir/rule
+AirlineTicketTest: ProfessionalC++/01-ACrashCourse/CMakeFiles/AirlineTicketTest.dir/rule
 
-.PHONY : strongtypedenums
+.PHONY : AirlineTicketTest
 
 # fast build rule for target.
-strongtypedenums/fast:
-	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/strongtypedenums.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/strongtypedenums.dir/build
-.PHONY : strongtypedenums/fast
+AirlineTicketTest/fast:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/AirlineTicketTest.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/AirlineTicketTest.dir/build
+.PHONY : AirlineTicketTest/fast
 
 # Convenience name for target.
-ProfessionalC++/01-ACrashCourse/CMakeFiles/typetest.dir/rule:
-	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f CMakeFiles/Makefile2 ProfessionalC++/01-ACrashCourse/CMakeFiles/typetest.dir/rule
-.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/typetest.dir/rule
+ProfessionalC++/01-ACrashCourse/CMakeFiles/usingnamespaces.dir/rule:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f CMakeFiles/Makefile2 ProfessionalC++/01-ACrashCourse/CMakeFiles/usingnamespaces.dir/rule
+.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/usingnamespaces.dir/rule
 
 # Convenience name for target.
-typetest: ProfessionalC++/01-ACrashCourse/CMakeFiles/typetest.dir/rule
+usingnamespaces: ProfessionalC++/01-ACrashCourse/CMakeFiles/usingnamespaces.dir/rule
 
-.PHONY : typetest
+.PHONY : usingnamespaces
 
 # fast build rule for target.
-typetest/fast:
-	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/typetest.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/typetest.dir/build
-.PHONY : typetest/fast
+usingnamespaces/fast:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/usingnamespaces.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/usingnamespaces.dir/build
+.PHONY : usingnamespaces/fast
+
+# Convenience name for target.
+ProfessionalC++/01-ACrashCourse/CMakeFiles/helloworld.dir/rule:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f CMakeFiles/Makefile2 ProfessionalC++/01-ACrashCourse/CMakeFiles/helloworld.dir/rule
+.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/helloworld.dir/rule
+
+# Convenience name for target.
+helloworld: ProfessionalC++/01-ACrashCourse/CMakeFiles/helloworld.dir/rule
+
+.PHONY : helloworld
+
+# fast build rule for target.
+helloworld/fast:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/helloworld.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/helloworld.dir/build
+.PHONY : helloworld/fast
+
+# Convenience name for target.
+ProfessionalC++/01-ACrashCourse/CMakeFiles/structtest.dir/rule:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f CMakeFiles/Makefile2 ProfessionalC++/01-ACrashCourse/CMakeFiles/structtest.dir/rule
+.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/structtest.dir/rule
+
+# Convenience name for target.
+structtest: ProfessionalC++/01-ACrashCourse/CMakeFiles/structtest.dir/rule
+
+.PHONY : structtest
+
+# fast build rule for target.
+structtest/fast:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/structtest.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/structtest.dir/build
+.PHONY : structtest/fast
+
+# Convenience name for target.
+ProfessionalC++/01-ACrashCourse/CMakeFiles/main.dir/rule:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f CMakeFiles/Makefile2 ProfessionalC++/01-ACrashCourse/CMakeFiles/main.dir/rule
+.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/main.dir/rule
+
+# Convenience name for target.
+main: ProfessionalC++/01-ACrashCourse/CMakeFiles/main.dir/rule
+
+.PHONY : main
+
+# fast build rule for target.
+main/fast:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/main.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/main.dir/build
+.PHONY : main/fast
+
+# Convenience name for target.
+ProfessionalC++/01-ACrashCourse/CMakeFiles/stringtest.dir/rule:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f CMakeFiles/Makefile2 ProfessionalC++/01-ACrashCourse/CMakeFiles/stringtest.dir/rule
+.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/stringtest.dir/rule
+
+# Convenience name for target.
+stringtest: ProfessionalC++/01-ACrashCourse/CMakeFiles/stringtest.dir/rule
+
+.PHONY : stringtest
+
+# fast build rule for target.
+stringtest/fast:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/stringtest.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/stringtest.dir/build
+.PHONY : stringtest/fast
+
+# Convenience name for target.
+ProfessionalC++/01-ACrashCourse/CMakeFiles/exceptions.dir/rule:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f CMakeFiles/Makefile2 ProfessionalC++/01-ACrashCourse/CMakeFiles/exceptions.dir/rule
+.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/exceptions.dir/rule
+
+# Convenience name for target.
+exceptions: ProfessionalC++/01-ACrashCourse/CMakeFiles/exceptions.dir/rule
+
+.PHONY : exceptions
+
+# fast build rule for target.
+exceptions/fast:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/exceptions.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/exceptions.dir/build
+.PHONY : exceptions/fast
+
+# Convenience name for target.
+ProfessionalC++/01-ACrashCourse/CMakeFiles/constarg.dir/rule:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f CMakeFiles/Makefile2 ProfessionalC++/01-ACrashCourse/CMakeFiles/constarg.dir/rule
+.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/constarg.dir/rule
+
+# Convenience name for target.
+constarg: ProfessionalC++/01-ACrashCourse/CMakeFiles/constarg.dir/rule
+
+.PHONY : constarg
+
+# fast build rule for target.
+constarg/fast:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/constarg.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/constarg.dir/build
+.PHONY : constarg/fast
+
+# Convenience name for target.
+ProfessionalC++/01-ACrashCourse/CMakeFiles/VectorTest.dir/rule:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f CMakeFiles/Makefile2 ProfessionalC++/01-ACrashCourse/CMakeFiles/VectorTest.dir/rule
+.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/VectorTest.dir/rule
+
+# Convenience name for target.
+VectorTest: ProfessionalC++/01-ACrashCourse/CMakeFiles/VectorTest.dir/rule
+
+.PHONY : VectorTest
+
+# fast build rule for target.
+VectorTest/fast:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/VectorTest.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/VectorTest.dir/build
+.PHONY : VectorTest/fast
+
+# Convenience name for target.
+ProfessionalC++/01-ACrashCourse/CMakeFiles/alternativefunctionsyntax.dir/rule:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f CMakeFiles/Makefile2 ProfessionalC++/01-ACrashCourse/CMakeFiles/alternativefunctionsyntax.dir/rule
+.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/alternativefunctionsyntax.dir/rule
+
+# Convenience name for target.
+alternativefunctionsyntax: ProfessionalC++/01-ACrashCourse/CMakeFiles/alternativefunctionsyntax.dir/rule
+
+.PHONY : alternativefunctionsyntax
+
+# fast build rule for target.
+alternativefunctionsyntax/fast:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/alternativefunctionsyntax.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/alternativefunctionsyntax.dir/build
+.PHONY : alternativefunctionsyntax/fast
 
 # Convenience name for target.
 ProfessionalC++/01-ACrashCourse/CMakeFiles/variables.dir/rule:
@@ -351,19 +350,64 @@ variables/fast:
 .PHONY : variables/fast
 
 # Convenience name for target.
-ProfessionalC++/01-ACrashCourse/CMakeFiles/alternativefunctionsyntax.dir/rule:
-	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f CMakeFiles/Makefile2 ProfessionalC++/01-ACrashCourse/CMakeFiles/alternativefunctionsyntax.dir/rule
-.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/alternativefunctionsyntax.dir/rule
+ProfessionalC++/01-ACrashCourse/CMakeFiles/EmployeeTest.dir/rule:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f CMakeFiles/Makefile2 ProfessionalC++/01-ACrashCourse/CMakeFiles/EmployeeTest.dir/rule
+.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/EmployeeTest.dir/rule
 
 # Convenience name for target.
-alternativefunctionsyntax: ProfessionalC++/01-ACrashCourse/CMakeFiles/alternativefunctionsyntax.dir/rule
+EmployeeTest: ProfessionalC++/01-ACrashCourse/CMakeFiles/EmployeeTest.dir/rule
 
-.PHONY : alternativefunctionsyntax
+.PHONY : EmployeeTest
 
 # fast build rule for target.
-alternativefunctionsyntax/fast:
-	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/alternativefunctionsyntax.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/alternativefunctionsyntax.dir/build
-.PHONY : alternativefunctionsyntax/fast
+EmployeeTest/fast:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/EmployeeTest.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/EmployeeTest.dir/build
+.PHONY : EmployeeTest/fast
+
+# Convenience name for target.
+ProfessionalC++/01-ACrashCourse/CMakeFiles/strongtypedenums.dir/rule:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f CMakeFiles/Makefile2 ProfessionalC++/01-ACrashCourse/CMakeFiles/strongtypedenums.dir/rule
+.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/strongtypedenums.dir/rule
+
+# Convenience name for target.
+strongtypedenums: ProfessionalC++/01-ACrashCourse/CMakeFiles/strongtypedenums.dir/rule
+
+.PHONY : strongtypedenums
+
+# fast build rule for target.
+strongtypedenums/fast:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/strongtypedenums.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/strongtypedenums.dir/build
+.PHONY : strongtypedenums/fast
+
+# Convenience name for target.
+ProfessionalC++/01-ACrashCourse/CMakeFiles/DatabaseTest.dir/rule:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f CMakeFiles/Makefile2 ProfessionalC++/01-ACrashCourse/CMakeFiles/DatabaseTest.dir/rule
+.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/DatabaseTest.dir/rule
+
+# Convenience name for target.
+DatabaseTest: ProfessionalC++/01-ACrashCourse/CMakeFiles/DatabaseTest.dir/rule
+
+.PHONY : DatabaseTest
+
+# fast build rule for target.
+DatabaseTest/fast:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/DatabaseTest.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/DatabaseTest.dir/build
+.PHONY : DatabaseTest/fast
+
+# Convenience name for target.
+ProfessionalC++/01-ACrashCourse/CMakeFiles/UserInterface.dir/rule:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f CMakeFiles/Makefile2 ProfessionalC++/01-ACrashCourse/CMakeFiles/UserInterface.dir/rule
+.PHONY : ProfessionalC++/01-ACrashCourse/CMakeFiles/UserInterface.dir/rule
+
+# Convenience name for target.
+UserInterface: ProfessionalC++/01-ACrashCourse/CMakeFiles/UserInterface.dir/rule
+
+.PHONY : UserInterface
+
+# fast build rule for target.
+UserInterface/fast:
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/UserInterface.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/UserInterface.dir/build
+.PHONY : UserInterface/fast
 
 # Convenience name for target.
 ProfessionalC++/01-ACrashCourse/CMakeFiles/nullpointerconstant.dir/rule:
@@ -440,8 +484,8 @@ Database.o: Database.cpp.o
 
 # target to build an object file
 Database.cpp.o:
-	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/UserInterface.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/UserInterface.dir/Database.cpp.o
 	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/DatabaseTest.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/DatabaseTest.dir/Database.cpp.o
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/UserInterface.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/UserInterface.dir/Database.cpp.o
 .PHONY : Database.cpp.o
 
 Database.i: Database.cpp.i
@@ -450,8 +494,8 @@ Database.i: Database.cpp.i
 
 # target to preprocess a source file
 Database.cpp.i:
-	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/UserInterface.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/UserInterface.dir/Database.cpp.i
 	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/DatabaseTest.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/DatabaseTest.dir/Database.cpp.i
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/UserInterface.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/UserInterface.dir/Database.cpp.i
 .PHONY : Database.cpp.i
 
 Database.s: Database.cpp.s
@@ -460,8 +504,8 @@ Database.s: Database.cpp.s
 
 # target to generate assembly for a file
 Database.cpp.s:
-	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/UserInterface.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/UserInterface.dir/Database.cpp.s
 	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/DatabaseTest.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/DatabaseTest.dir/Database.cpp.s
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/UserInterface.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/UserInterface.dir/Database.cpp.s
 .PHONY : Database.cpp.s
 
 DatabaseTest.o: DatabaseTest.cpp.o
@@ -497,9 +541,9 @@ Employee.o: Employee.cpp.o
 
 # target to build an object file
 Employee.cpp.o:
-	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/UserInterface.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/UserInterface.dir/Employee.cpp.o
-	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/DatabaseTest.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/DatabaseTest.dir/Employee.cpp.o
 	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/EmployeeTest.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/EmployeeTest.dir/Employee.cpp.o
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/DatabaseTest.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/DatabaseTest.dir/Employee.cpp.o
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/UserInterface.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/UserInterface.dir/Employee.cpp.o
 .PHONY : Employee.cpp.o
 
 Employee.i: Employee.cpp.i
@@ -508,9 +552,9 @@ Employee.i: Employee.cpp.i
 
 # target to preprocess a source file
 Employee.cpp.i:
-	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/UserInterface.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/UserInterface.dir/Employee.cpp.i
-	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/DatabaseTest.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/DatabaseTest.dir/Employee.cpp.i
 	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/EmployeeTest.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/EmployeeTest.dir/Employee.cpp.i
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/DatabaseTest.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/DatabaseTest.dir/Employee.cpp.i
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/UserInterface.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/UserInterface.dir/Employee.cpp.i
 .PHONY : Employee.cpp.i
 
 Employee.s: Employee.cpp.s
@@ -519,9 +563,9 @@ Employee.s: Employee.cpp.s
 
 # target to generate assembly for a file
 Employee.cpp.s:
-	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/UserInterface.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/UserInterface.dir/Employee.cpp.s
-	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/DatabaseTest.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/DatabaseTest.dir/Employee.cpp.s
 	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/EmployeeTest.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/EmployeeTest.dir/Employee.cpp.s
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/DatabaseTest.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/DatabaseTest.dir/Employee.cpp.s
+	cd /home/wang/github/CPlusPlus/build && $(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/UserInterface.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/UserInterface.dir/Employee.cpp.s
 .PHONY : Employee.cpp.s
 
 EmployeeTest.o: EmployeeTest.cpp.o
@@ -989,26 +1033,30 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
-	@echo "... UserInterface"
-	@echo "... DatabaseTest"
-	@echo "... EmployeeTest"
-	@echo "... VectorTest"
-	@echo "... constarg"
-	@echo "... exceptions"
-	@echo "... stringtest"
-	@echo "... main"
-	@echo "... structtest"
-	@echo "... helloworld"
-	@echo "... usingnamespaces"
-	@echo "... AirlineTicketTest"
-	@echo "... stdarray"
-	@echo "... strongtypedenums"
+	@echo "... install/local"
 	@echo "... typetest"
-	@echo "... variables"
-	@echo "... alternativefunctionsyntax"
+	@echo "... stdarray"
+	@echo "... AirlineTicketTest"
+	@echo "... install/strip"
+	@echo "... usingnamespaces"
+	@echo "... helloworld"
+	@echo "... structtest"
+	@echo "... main"
+	@echo "... stringtest"
 	@echo "... edit_cache"
+	@echo "... exceptions"
+	@echo "... list_install_components"
+	@echo "... constarg"
+	@echo "... VectorTest"
+	@echo "... alternativefunctionsyntax"
+	@echo "... variables"
+	@echo "... EmployeeTest"
+	@echo "... strongtypedenums"
+	@echo "... DatabaseTest"
+	@echo "... UserInterface"
 	@echo "... nullpointerconstant"
+	@echo "... rebuild_cache"
+	@echo "... install"
 	@echo "... AirlineTicket.o"
 	@echo "... AirlineTicket.i"
 	@echo "... AirlineTicket.s"

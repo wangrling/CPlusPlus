@@ -35,8 +35,11 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/wang/github/CPlusPlus/build/STFlib/cmake_install.cmake")
+  include("/home/wang/github/CPlusPlus/build/Library/cmake_install.cmake")
   include("/home/wang/github/CPlusPlus/build/ProfessionalC++/cmake_install.cmake")
   include("/home/wang/github/CPlusPlus/build/ProgrammingAbstractionsInC++/cmake_install.cmake")
+  include("/home/wang/github/CPlusPlus/build/Scratchapixel/cmake_install.cmake")
+  include("/home/wang/github/CPlusPlus/build/OpenGLEssentials/cmake_install.cmake")
 
 endif()
 

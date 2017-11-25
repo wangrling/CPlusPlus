@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/wang/github/CPlusPlus/Library/Common.cpp
+
+/home/wang/github/CPlusPlus/Library/ServiceContainer.cpp
+ServiceContainer.h
+/home/wang/github/CPlusPlus/Library/ServiceContainer.h
+
+/home/wang/github/CPlusPlus/Library/ServiceContainer.h
+map
+-
+

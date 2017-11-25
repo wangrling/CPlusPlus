@@ -17,6 +17,8 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../STFlib/private"
   "../STFlib/system"
   "../STFlib/util"
+  "../Library"
+  "../Library/glad/include"
   )
 
 # Targets to which this target links.

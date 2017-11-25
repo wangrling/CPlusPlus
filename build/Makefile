@@ -56,6 +56,50 @@ CMAKE_BINARY_DIR = /home/wang/github/CPlusPlus/build
 #=============================================================================
 # Targets provided globally by CMake.
 
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/local/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: install/strip
+
+.PHONY : install/strip/fast
+
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/local/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: install/local
+
+.PHONY : install/local/fast
+
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/local/bin/cmake -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/local/bin/cmake -P cmake_install.cmake
+.PHONY : install/fast
+
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+
+.PHONY : list_install_components/fast
+
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -124,186 +168,43 @@ STFlib/fast:
 .PHONY : STFlib/fast
 
 #=============================================================================
-# Target rules for targets named UserInterface
+# Target rules for targets named Library
 
 # Build rule for target.
-UserInterface: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 UserInterface
-.PHONY : UserInterface
+Library: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Library
+.PHONY : Library
 
 # fast build rule for target.
-UserInterface/fast:
-	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/UserInterface.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/UserInterface.dir/build
-.PHONY : UserInterface/fast
+Library/fast:
+	$(MAKE) -f Library/CMakeFiles/Library.dir/build.make Library/CMakeFiles/Library.dir/build
+.PHONY : Library/fast
 
 #=============================================================================
-# Target rules for targets named DatabaseTest
+# Target rules for targets named glm_dummy
 
 # Build rule for target.
-DatabaseTest: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 DatabaseTest
-.PHONY : DatabaseTest
+glm_dummy: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 glm_dummy
+.PHONY : glm_dummy
 
 # fast build rule for target.
-DatabaseTest/fast:
-	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/DatabaseTest.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/DatabaseTest.dir/build
-.PHONY : DatabaseTest/fast
+glm_dummy/fast:
+	$(MAKE) -f Library/glm-0.9.8.5/glm/CMakeFiles/glm_dummy.dir/build.make Library/glm-0.9.8.5/glm/CMakeFiles/glm_dummy.dir/build
+.PHONY : glm_dummy/fast
 
 #=============================================================================
-# Target rules for targets named EmployeeTest
+# Target rules for targets named glad
 
 # Build rule for target.
-EmployeeTest: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 EmployeeTest
-.PHONY : EmployeeTest
+glad: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 glad
+.PHONY : glad
 
 # fast build rule for target.
-EmployeeTest/fast:
-	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/EmployeeTest.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/EmployeeTest.dir/build
-.PHONY : EmployeeTest/fast
-
-#=============================================================================
-# Target rules for targets named VectorTest
-
-# Build rule for target.
-VectorTest: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 VectorTest
-.PHONY : VectorTest
-
-# fast build rule for target.
-VectorTest/fast:
-	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/VectorTest.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/VectorTest.dir/build
-.PHONY : VectorTest/fast
-
-#=============================================================================
-# Target rules for targets named constarg
-
-# Build rule for target.
-constarg: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 constarg
-.PHONY : constarg
-
-# fast build rule for target.
-constarg/fast:
-	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/constarg.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/constarg.dir/build
-.PHONY : constarg/fast
-
-#=============================================================================
-# Target rules for targets named exceptions
-
-# Build rule for target.
-exceptions: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 exceptions
-.PHONY : exceptions
-
-# fast build rule for target.
-exceptions/fast:
-	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/exceptions.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/exceptions.dir/build
-.PHONY : exceptions/fast
-
-#=============================================================================
-# Target rules for targets named stringtest
-
-# Build rule for target.
-stringtest: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 stringtest
-.PHONY : stringtest
-
-# fast build rule for target.
-stringtest/fast:
-	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/stringtest.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/stringtest.dir/build
-.PHONY : stringtest/fast
-
-#=============================================================================
-# Target rules for targets named main
-
-# Build rule for target.
-main: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 main
-.PHONY : main
-
-# fast build rule for target.
-main/fast:
-	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/main.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/main.dir/build
-.PHONY : main/fast
-
-#=============================================================================
-# Target rules for targets named structtest
-
-# Build rule for target.
-structtest: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 structtest
-.PHONY : structtest
-
-# fast build rule for target.
-structtest/fast:
-	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/structtest.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/structtest.dir/build
-.PHONY : structtest/fast
-
-#=============================================================================
-# Target rules for targets named helloworld
-
-# Build rule for target.
-helloworld: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 helloworld
-.PHONY : helloworld
-
-# fast build rule for target.
-helloworld/fast:
-	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/helloworld.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/helloworld.dir/build
-.PHONY : helloworld/fast
-
-#=============================================================================
-# Target rules for targets named usingnamespaces
-
-# Build rule for target.
-usingnamespaces: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 usingnamespaces
-.PHONY : usingnamespaces
-
-# fast build rule for target.
-usingnamespaces/fast:
-	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/usingnamespaces.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/usingnamespaces.dir/build
-.PHONY : usingnamespaces/fast
-
-#=============================================================================
-# Target rules for targets named AirlineTicketTest
-
-# Build rule for target.
-AirlineTicketTest: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 AirlineTicketTest
-.PHONY : AirlineTicketTest
-
-# fast build rule for target.
-AirlineTicketTest/fast:
-	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/AirlineTicketTest.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/AirlineTicketTest.dir/build
-.PHONY : AirlineTicketTest/fast
-
-#=============================================================================
-# Target rules for targets named stdarray
-
-# Build rule for target.
-stdarray: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 stdarray
-.PHONY : stdarray
-
-# fast build rule for target.
-stdarray/fast:
-	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/stdarray.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/stdarray.dir/build
-.PHONY : stdarray/fast
-
-#=============================================================================
-# Target rules for targets named strongtypedenums
-
-# Build rule for target.
-strongtypedenums: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 strongtypedenums
-.PHONY : strongtypedenums
-
-# fast build rule for target.
-strongtypedenums/fast:
-	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/strongtypedenums.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/strongtypedenums.dir/build
-.PHONY : strongtypedenums/fast
+glad/fast:
+	$(MAKE) -f Library/glad/CMakeFiles/glad.dir/build.make Library/glad/CMakeFiles/glad.dir/build
+.PHONY : glad/fast
 
 #=============================================================================
 # Target rules for targets named typetest
@@ -319,17 +220,134 @@ typetest/fast:
 .PHONY : typetest/fast
 
 #=============================================================================
-# Target rules for targets named variables
+# Target rules for targets named stdarray
 
 # Build rule for target.
-variables: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 variables
-.PHONY : variables
+stdarray: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 stdarray
+.PHONY : stdarray
 
 # fast build rule for target.
-variables/fast:
-	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/variables.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/variables.dir/build
-.PHONY : variables/fast
+stdarray/fast:
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/stdarray.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/stdarray.dir/build
+.PHONY : stdarray/fast
+
+#=============================================================================
+# Target rules for targets named AirlineTicketTest
+
+# Build rule for target.
+AirlineTicketTest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 AirlineTicketTest
+.PHONY : AirlineTicketTest
+
+# fast build rule for target.
+AirlineTicketTest/fast:
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/AirlineTicketTest.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/AirlineTicketTest.dir/build
+.PHONY : AirlineTicketTest/fast
+
+#=============================================================================
+# Target rules for targets named usingnamespaces
+
+# Build rule for target.
+usingnamespaces: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 usingnamespaces
+.PHONY : usingnamespaces
+
+# fast build rule for target.
+usingnamespaces/fast:
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/usingnamespaces.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/usingnamespaces.dir/build
+.PHONY : usingnamespaces/fast
+
+#=============================================================================
+# Target rules for targets named helloworld
+
+# Build rule for target.
+helloworld: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 helloworld
+.PHONY : helloworld
+
+# fast build rule for target.
+helloworld/fast:
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/helloworld.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/helloworld.dir/build
+.PHONY : helloworld/fast
+
+#=============================================================================
+# Target rules for targets named structtest
+
+# Build rule for target.
+structtest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 structtest
+.PHONY : structtest
+
+# fast build rule for target.
+structtest/fast:
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/structtest.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/structtest.dir/build
+.PHONY : structtest/fast
+
+#=============================================================================
+# Target rules for targets named main
+
+# Build rule for target.
+main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 main
+.PHONY : main
+
+# fast build rule for target.
+main/fast:
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/main.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/main.dir/build
+.PHONY : main/fast
+
+#=============================================================================
+# Target rules for targets named stringtest
+
+# Build rule for target.
+stringtest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 stringtest
+.PHONY : stringtest
+
+# fast build rule for target.
+stringtest/fast:
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/stringtest.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/stringtest.dir/build
+.PHONY : stringtest/fast
+
+#=============================================================================
+# Target rules for targets named exceptions
+
+# Build rule for target.
+exceptions: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 exceptions
+.PHONY : exceptions
+
+# fast build rule for target.
+exceptions/fast:
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/exceptions.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/exceptions.dir/build
+.PHONY : exceptions/fast
+
+#=============================================================================
+# Target rules for targets named constarg
+
+# Build rule for target.
+constarg: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 constarg
+.PHONY : constarg
+
+# fast build rule for target.
+constarg/fast:
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/constarg.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/constarg.dir/build
+.PHONY : constarg/fast
+
+#=============================================================================
+# Target rules for targets named VectorTest
+
+# Build rule for target.
+VectorTest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 VectorTest
+.PHONY : VectorTest
+
+# fast build rule for target.
+VectorTest/fast:
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/VectorTest.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/VectorTest.dir/build
+.PHONY : VectorTest/fast
 
 #=============================================================================
 # Target rules for targets named alternativefunctionsyntax
@@ -343,6 +361,71 @@ alternativefunctionsyntax: cmake_check_build_system
 alternativefunctionsyntax/fast:
 	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/alternativefunctionsyntax.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/alternativefunctionsyntax.dir/build
 .PHONY : alternativefunctionsyntax/fast
+
+#=============================================================================
+# Target rules for targets named variables
+
+# Build rule for target.
+variables: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 variables
+.PHONY : variables
+
+# fast build rule for target.
+variables/fast:
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/variables.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/variables.dir/build
+.PHONY : variables/fast
+
+#=============================================================================
+# Target rules for targets named EmployeeTest
+
+# Build rule for target.
+EmployeeTest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 EmployeeTest
+.PHONY : EmployeeTest
+
+# fast build rule for target.
+EmployeeTest/fast:
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/EmployeeTest.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/EmployeeTest.dir/build
+.PHONY : EmployeeTest/fast
+
+#=============================================================================
+# Target rules for targets named strongtypedenums
+
+# Build rule for target.
+strongtypedenums: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 strongtypedenums
+.PHONY : strongtypedenums
+
+# fast build rule for target.
+strongtypedenums/fast:
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/strongtypedenums.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/strongtypedenums.dir/build
+.PHONY : strongtypedenums/fast
+
+#=============================================================================
+# Target rules for targets named DatabaseTest
+
+# Build rule for target.
+DatabaseTest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 DatabaseTest
+.PHONY : DatabaseTest
+
+# fast build rule for target.
+DatabaseTest/fast:
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/DatabaseTest.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/DatabaseTest.dir/build
+.PHONY : DatabaseTest/fast
+
+#=============================================================================
+# Target rules for targets named UserInterface
+
+# Build rule for target.
+UserInterface: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 UserInterface
+.PHONY : UserInterface
+
+# fast build rule for target.
+UserInterface/fast:
+	$(MAKE) -f ProfessionalC++/01-ACrashCourse/CMakeFiles/UserInterface.dir/build.make ProfessionalC++/01-ACrashCourse/CMakeFiles/UserInterface.dir/build
+.PHONY : UserInterface/fast
 
 #=============================================================================
 # Target rules for targets named nullpointerconstant
@@ -1007,32 +1090,65 @@ FloatingModes/fast:
 	$(MAKE) -f ProgrammingAbstractionsInC++/04-Streams/CMakeFiles/FloatingModes.dir/build.make ProgrammingAbstractionsInC++/04-Streams/CMakeFiles/FloatingModes.dir/build
 .PHONY : FloatingModes/fast
 
+#=============================================================================
+# Target rules for targets named geometry
+
+# Build rule for target.
+geometry: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 geometry
+.PHONY : geometry
+
+# fast build rule for target.
+geometry/fast:
+	$(MAKE) -f Scratchapixel/CMakeFiles/geometry.dir/build.make Scratchapixel/CMakeFiles/geometry.dir/build
+.PHONY : geometry/fast
+
+#=============================================================================
+# Target rules for targets named 01CreateAWindow
+
+# Build rule for target.
+01CreateAWindow: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 01CreateAWindow
+.PHONY : 01CreateAWindow
+
+# fast build rule for target.
+01CreateAWindow/fast:
+	$(MAKE) -f OpenGLEssentials/CMakeFiles/01CreateAWindow.dir/build.make OpenGLEssentials/CMakeFiles/01CreateAWindow.dir/build
+.PHONY : 01CreateAWindow/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... install/strip"
+	@echo "... install/local"
+	@echo "... install"
+	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... STFlib"
-	@echo "... UserInterface"
-	@echo "... DatabaseTest"
-	@echo "... EmployeeTest"
-	@echo "... VectorTest"
-	@echo "... constarg"
-	@echo "... exceptions"
-	@echo "... stringtest"
-	@echo "... main"
-	@echo "... structtest"
-	@echo "... helloworld"
-	@echo "... usingnamespaces"
-	@echo "... AirlineTicketTest"
-	@echo "... stdarray"
-	@echo "... strongtypedenums"
+	@echo "... Library"
+	@echo "... glm_dummy"
+	@echo "... glad"
 	@echo "... typetest"
-	@echo "... variables"
+	@echo "... stdarray"
+	@echo "... AirlineTicketTest"
+	@echo "... usingnamespaces"
+	@echo "... helloworld"
+	@echo "... structtest"
+	@echo "... main"
+	@echo "... stringtest"
+	@echo "... exceptions"
+	@echo "... constarg"
+	@echo "... VectorTest"
 	@echo "... alternativefunctionsyntax"
+	@echo "... variables"
+	@echo "... EmployeeTest"
+	@echo "... strongtypedenums"
+	@echo "... DatabaseTest"
+	@echo "... UserInterface"
 	@echo "... nullpointerconstant"
 	@echo "... RawStringLiteral"
 	@echo "... CppStrings"
@@ -1084,6 +1200,8 @@ help:
 	@echo "... PrecisionExample"
 	@echo "... PowersOfTwoTest"
 	@echo "... FloatingModes"
+	@echo "... geometry"
+	@echo "... 01CreateAWindow"
 .PHONY : help
 
 
